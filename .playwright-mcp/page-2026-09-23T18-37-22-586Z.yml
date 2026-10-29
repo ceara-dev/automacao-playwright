@@ -1,0 +1,413 @@
+- generic [active] [ref=e35]:
+  - generic [ref=e37]:
+    - navigation [ref=e38]:
+      - generic [ref=e39]:
+        - img "Logomarca de Apoio" [ref=e41]
+        - 'button "Ano letivo: 2026. Clique para alterar." [ref=e43] [cursor=pointer]':
+          - generic [ref=e44]:
+            - generic [aria-hidden] [ref=e45]: 󰙹
+            - generic [ref=e46]: "2026"
+            - generic [aria-hidden] [ref=e47]: 󰅀
+        - separator [ref=e48]
+        - list [ref=e50]:
+          - generic [ref=e52]:
+            - generic [aria-hidden] [ref=e53]: 󰚡
+            - text: Início
+          - option "Dashboard" [ref=e54] [cursor=pointer]
+          - separator [ref=e57]
+          - generic [ref=e59]:
+            - generic [aria-hidden] [ref=e60]: 󱔟
+            - text: Administração
+          - option "Escolas" [ref=e61] [cursor=pointer]
+          - option "Profissionais" [ref=e64] [cursor=pointer]
+          - option "Circuito de Notas" [ref=e67] [cursor=pointer]
+          - option "Componentes Curriculares" [ref=e70] [cursor=pointer]
+          - option "Processos/Documentos" [ref=e74] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e78]: 󰅀
+          - separator [ref=e79]
+          - generic [ref=e81]:
+            - generic [aria-hidden] [ref=e82]: 󱆀
+            - text: Acadêmico
+          - option "Alunos" [ref=e83] [cursor=pointer]
+          - option "Matrículas" [ref=e86] [cursor=pointer]
+          - option "Turmas" [ref=e89] [cursor=pointer]
+          - option "Prorrogações" [ref=e92] [cursor=pointer]
+          - option "Diários" [ref=e95] [cursor=pointer]
+          - option "Presença Notifiq" [ref=e98] [cursor=pointer]
+          - option "Feriados" [ref=e101] [cursor=pointer]
+          - option "Justificativa de Falta" [ref=e104] [cursor=pointer]
+          - separator [ref=e107]
+          - generic [ref=e109]:
+            - generic [aria-hidden] [ref=e110]: 󱕎
+            - text: Relatórios
+          - option "Relatórios" [ref=e111] [cursor=pointer]
+          - separator [ref=e114]
+          - generic [ref=e116]:
+            - generic [aria-hidden] [ref=e117]: 󰨒
+            - text: Administração do Sistema
+          - generic [ref=e118]:
+            - option "ACL" [ref=e119] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e123]: 󰅃
+            - group "ACL" [ref=e124]:
+              - option "Cargos" [ref=e125] [cursor=pointer]
+              - option "Permissões" [ref=e128] [cursor=pointer]
+              - option "Usuários" [selected] [ref=e131] [cursor=pointer]
+          - option "Configurações Acadêmicas" [ref=e134] [cursor=pointer]
+          - option "Auditoria" [ref=e137] [cursor=pointer]
+      - generic [ref=e140]:
+        - button "Editar perfil de playwright" [ref=e141] [cursor=pointer]:
+          - generic [ref=e142]: p
+          - generic [ref=e145]:
+            - generic [ref=e146]: playwright
+            - generic [ref=e147]: Super Administrador
+        - separator [ref=e148]
+        - generic [ref=e149]:
+          - button "Versão 0.1.0. Clique para ver o changelog." [ref=e150] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e151]: 󰓼
+            - generic [ref=e152]: versão 0.1.0
+          - button "Sair da conta" [ref=e153] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e155]: 󰍃
+    - banner [ref=e157]:
+      - generic [ref=e158]:
+        - button "Fechar menu" [ref=e159] [cursor=pointer]:
+          - generic [aria-hidden] [ref=e161]: 󰍜
+        - generic [ref=e162]: Colégio Apoio
+        - button "Notificações" [ref=e164] [cursor=pointer]:
+          - generic [aria-hidden] [ref=e168]: 󰂜
+        - button "Menu do usuário" [ref=e169] [cursor=pointer]:
+          - generic [ref=e170]: P
+    - main [ref=e172]:
+      - list [ref=e174]:
+        - listitem [ref=e175]:
+          - link "Dashboard" [ref=e176] [cursor=pointer]:
+            - /url: http://veramendes.local/dashboard
+        - listitem [aria-hidden] [ref=e177]: ">"
+        - listitem [ref=e178]:
+          - link "Usuários" [ref=e179] [cursor=pointer]:
+            - /url: http://veramendes.local/usuarios
+        - listitem [aria-hidden] [ref=e180]: ">"
+        - listitem:
+          - generic: Listar
+      - generic [ref=e181]:
+        - heading "Usuários" [level=5] [ref=e182]
+        - generic [ref=e183]:
+          - button "Criar novo usuário" [ref=e185] [cursor=pointer]:
+            - generic [ref=e186]:
+              - generic [aria-hidden] [ref=e187]: 󰐕
+              - text: Novo Usuário
+          - generic [ref=e188]:
+            - generic [ref=e189]: Pesquisar
+            - generic [ref=e190]:
+              - searchbox [ref=e192]:
+                - searchbox "Pesquisar usuários" [ref=e194]
+                - text: 󰅙
+                - generic [aria-hidden] [ref=e196]: 󰍉
+              - alert [ref=e197]
+        - generic [ref=e199]:
+          - generic [ref=e200]: Exibindo de 1 até 15 de 60
+          - button "Ver detalhes de Professor Teste Playwright 01" [ref=e201] [cursor=pointer]:
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: "#"
+                - generic [ref=e206]: "65"
+              - generic [ref=e207]: P
+              - generic [ref=e210]:
+                - generic [ref=e211]: Nome do Usuário
+                - generic [ref=e212]: Professor Teste Playwright 01
+              - generic [ref=e213]:
+                - generic [ref=e214]: Email
+                - generic [ref=e215]: professor.teste01@caju.com.br
+              - generic [ref=e216]:
+                - generic [ref=e217]: Cargos
+                - generic [ref=e218]: "1"
+              - generic [ref=e220]:
+                - generic [ref=e221]: Franquias Vinculadas
+                - generic [ref=e222]: "1"
+              - button "Ações para Professor Teste Playwright 01" [ref=e226]:
+                - generic [aria-hidden] [ref=e228]: 󰇙
+          - button "Ver detalhes de Aluno Teste Playwright 01" [ref=e229] [cursor=pointer]:
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - generic [ref=e233]: "#"
+                - generic [ref=e234]: "64"
+              - generic [ref=e235]: A
+              - generic [ref=e238]:
+                - generic [ref=e239]: Nome do Usuário
+                - generic [ref=e240]: Aluno Teste Playwright 01
+              - generic [ref=e241]:
+                - generic [ref=e242]: Email
+                - generic [ref=e243]: aluno.teste01@caju.com.br
+              - generic [ref=e244]:
+                - generic [ref=e245]: Cargos
+                - generic [ref=e246]: "1"
+              - generic [ref=e248]:
+                - generic [ref=e249]: Franquias Vinculadas
+                - generic [ref=e250]: "1"
+              - button "Ações para Aluno Teste Playwright 01" [ref=e254]:
+                - generic [aria-hidden] [ref=e256]: 󰇙
+          - button "Ver detalhes de playwright" [ref=e257] [cursor=pointer]:
+            - generic [ref=e259]:
+              - generic [ref=e260]:
+                - generic [ref=e261]: "#"
+                - generic [ref=e262]: "63"
+              - generic [ref=e263]: p
+              - generic [ref=e266]:
+                - generic [ref=e267]: Nome do Usuário
+                - generic [ref=e268]: playwright
+              - generic [ref=e269]:
+                - generic [ref=e270]: Email
+                - generic [ref=e271]: playwright@caju.com.br
+              - generic [ref=e272]:
+                - generic [ref=e273]: Cargos
+                - generic [ref=e274]: "1"
+              - generic [ref=e276]:
+                - generic [ref=e277]: Franquias Vinculadas
+                - generic [ref=e278]: "0"
+              - button "Ações para playwright" [ref=e282]:
+                - generic [aria-hidden] [ref=e284]: 󰇙
+          - button "Ver detalhes de Antonio - CajuTec" [ref=e285] [cursor=pointer]:
+            - generic [ref=e287]:
+              - generic [ref=e288]:
+                - generic [ref=e289]: "#"
+                - generic [ref=e290]: "61"
+              - img "Avatar de Antonio - CajuTec" [ref=e293]:
+                - img "Avatar de Antonio - CajuTec" [ref=e294]
+              - generic [ref=e295]:
+                - generic [ref=e296]: Nome do Usuário
+                - generic [ref=e297]: Antonio - CajuTec
+              - generic [ref=e298]:
+                - generic [ref=e299]: Email
+                - generic [ref=e300]: antonio@cajutec.com
+              - generic [ref=e301]:
+                - generic [ref=e302]: Cargos
+                - generic [ref=e303]: "1"
+              - generic [ref=e305]:
+                - generic [ref=e306]: Franquias Vinculadas
+                - generic [ref=e307]: "1"
+              - button "Ações para Antonio - CajuTec" [ref=e311]:
+                - generic [aria-hidden] [ref=e313]: 󰇙
+          - button "Ver detalhes de teste Q.A" [ref=e314] [cursor=pointer]:
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - generic [ref=e318]: "#"
+                - generic [ref=e319]: "60"
+              - generic [ref=e320]: t
+              - generic [ref=e323]:
+                - generic [ref=e324]: Nome do Usuário
+                - generic [ref=e325]: teste Q.A
+              - generic [ref=e326]:
+                - generic [ref=e327]: Email
+                - generic [ref=e328]: qa2@cajutec.com.br
+              - generic [ref=e329]:
+                - generic [ref=e330]: Cargos
+                - generic [ref=e331]: "1"
+              - generic [ref=e333]:
+                - generic [ref=e334]: Franquias Vinculadas
+                - generic [ref=e335]: "1"
+              - button "Ações para teste Q.A" [ref=e339]:
+                - generic [aria-hidden] [ref=e341]: 󰇙
+          - button "Ver detalhes de Hilton" [ref=e342] [cursor=pointer]:
+            - generic [ref=e344]:
+              - generic [ref=e345]:
+                - generic [ref=e346]: "#"
+                - generic [ref=e347]: "59"
+              - generic [ref=e348]: H
+              - generic [ref=e351]:
+                - generic [ref=e352]: Nome do Usuário
+                - generic [ref=e353]: Hilton
+              - generic [ref=e354]:
+                - generic [ref=e355]: Email
+                - generic [ref=e356]: hilton@cajutec.com.br
+              - generic [ref=e357]:
+                - generic [ref=e358]: Cargos
+                - generic [ref=e359]: "1"
+              - generic [ref=e361]:
+                - generic [ref=e362]: Franquias Vinculadas
+                - generic [ref=e363]: "1"
+              - button "Ações para Hilton" [ref=e367]:
+                - generic [aria-hidden] [ref=e369]: 󰇙
+          - button "Ver detalhes de ALUNO MOBILE 01" [ref=e370] [cursor=pointer]:
+            - generic [ref=e372]:
+              - generic [ref=e373]:
+                - generic [ref=e374]: "#"
+                - generic [ref=e375]: "58"
+              - generic [ref=e376]: A
+              - generic [ref=e379]:
+                - generic [ref=e380]: Nome do Usuário
+                - generic [ref=e381]: ALUNO MOBILE 01
+              - generic [ref=e382]:
+                - generic [ref=e383]: Email
+                - generic [ref=e384]: alunomobile01@caju.com.br
+              - generic [ref=e385]:
+                - generic [ref=e386]: Cargos
+                - generic [ref=e387]: "1"
+              - generic [ref=e389]:
+                - generic [ref=e390]: Franquias Vinculadas
+                - generic [ref=e391]: "1"
+              - button "Ações para ALUNO MOBILE 01" [ref=e395]:
+                - generic [aria-hidden] [ref=e397]: 󰇙
+          - button "Ver detalhes de DEV-MOBILE" [ref=e398] [cursor=pointer]:
+            - generic [ref=e400]:
+              - generic [ref=e401]:
+                - generic [ref=e402]: "#"
+                - generic [ref=e403]: "57"
+              - generic [ref=e404]: D
+              - generic [ref=e407]:
+                - generic [ref=e408]: Nome do Usuário
+                - generic [ref=e409]: DEV-MOBILE
+              - generic [ref=e410]:
+                - generic [ref=e411]: Email
+                - generic [ref=e412]: devmobile@caju.com.br
+              - generic [ref=e413]:
+                - generic [ref=e414]: Cargos
+                - generic [ref=e415]: "1"
+              - generic [ref=e417]:
+                - generic [ref=e418]: Franquias Vinculadas
+                - generic [ref=e419]: "1"
+              - button "Ações para DEV-MOBILE" [ref=e423]:
+                - generic [aria-hidden] [ref=e425]: 󰇙
+          - button "Ver detalhes de ALUNO MOBILE" [ref=e426] [cursor=pointer]:
+            - generic [ref=e428]:
+              - generic [ref=e429]:
+                - generic [ref=e430]: "#"
+                - generic [ref=e431]: "56"
+              - generic [ref=e432]: A
+              - generic [ref=e435]:
+                - generic [ref=e436]: Nome do Usuário
+                - generic [ref=e437]: ALUNO MOBILE
+              - generic [ref=e438]:
+                - generic [ref=e439]: Email
+                - generic [ref=e440]: alunomobile@caju.com.br
+              - generic [ref=e441]:
+                - generic [ref=e442]: Cargos
+                - generic [ref=e443]: "1"
+              - generic [ref=e445]:
+                - generic [ref=e446]: Franquias Vinculadas
+                - generic [ref=e447]: "0"
+              - button "Ações para ALUNO MOBILE" [ref=e451]:
+                - generic [aria-hidden] [ref=e453]: 󰇙
+          - button "Ver detalhes de automacao" [ref=e454] [cursor=pointer]:
+            - generic [ref=e456]:
+              - generic [ref=e457]:
+                - generic [ref=e458]: "#"
+                - generic [ref=e459]: "55"
+              - generic [ref=e460]: a
+              - generic [ref=e463]:
+                - generic [ref=e464]: Nome do Usuário
+                - generic [ref=e465]: automacao
+              - generic [ref=e466]:
+                - generic [ref=e467]: Email
+                - generic [ref=e468]: automacao@caju.com.br
+              - generic [ref=e469]:
+                - generic [ref=e470]: Cargos
+                - generic [ref=e471]: "1"
+              - generic [ref=e473]:
+                - generic [ref=e474]: Franquias Vinculadas
+                - generic [ref=e475]: "1"
+              - button "Ações para automacao" [ref=e479]:
+                - generic [aria-hidden] [ref=e481]: 󰇙
+          - button "Ver detalhes de QA" [ref=e482] [cursor=pointer]:
+            - generic [ref=e484]:
+              - generic [ref=e485]:
+                - generic [ref=e486]: "#"
+                - generic [ref=e487]: "52"
+              - generic [ref=e488]: Q
+              - generic [ref=e491]:
+                - generic [ref=e492]: Nome do Usuário
+                - generic [ref=e493]: QA
+              - generic [ref=e494]:
+                - generic [ref=e495]: Email
+                - generic [ref=e496]: clailton@cajutec.com.br
+              - generic [ref=e497]:
+                - generic [ref=e498]: Cargos
+                - generic [ref=e499]: "1"
+              - generic [ref=e501]:
+                - generic [ref=e502]: Franquias Vinculadas
+                - generic [ref=e503]: "0"
+              - button "Ações para QA" [ref=e507]:
+                - generic [aria-hidden] [ref=e509]: 󰇙
+          - button "Ver detalhes de LIAM" [ref=e510] [cursor=pointer]:
+            - generic [ref=e512]:
+              - generic [ref=e513]:
+                - generic [ref=e514]: "#"
+                - generic [ref=e515]: "51"
+              - generic [ref=e516]: L
+              - generic [ref=e519]:
+                - generic [ref=e520]: Nome do Usuário
+                - generic [ref=e521]: LIAM
+              - generic [ref=e522]:
+                - generic [ref=e523]: Email
+                - generic [ref=e524]: liamhoffman@cajutec.com.br
+              - generic [ref=e525]:
+                - generic [ref=e526]: Cargos
+                - generic [ref=e527]: "1"
+              - generic [ref=e529]:
+                - generic [ref=e530]: Franquias Vinculadas
+                - generic [ref=e531]: "1"
+              - button "Ações para LIAM" [ref=e535]:
+                - generic [aria-hidden] [ref=e537]: 󰇙
+          - button "Ver detalhes de Ayslan Enzo Silva do Nascimento" [ref=e538] [cursor=pointer]:
+            - generic [ref=e540]:
+              - generic [ref=e541]:
+                - generic [ref=e542]: "#"
+                - generic [ref=e543]: "48"
+              - generic [ref=e544]: A
+              - generic [ref=e547]:
+                - generic [ref=e548]: Nome do Usuário
+                - generic [ref=e549]: Ayslan Enzo Silva do Nascimento
+              - generic [ref=e550]:
+                - generic [ref=e551]: Email
+                - generic [ref=e552]: alanvwalker007@gmail.com
+              - generic [ref=e553]:
+                - generic [ref=e554]: Cargos
+                - generic [ref=e555]: "1"
+              - generic [ref=e557]:
+                - generic [ref=e558]: Franquias Vinculadas
+                - generic [ref=e559]: "1"
+              - button "Ações para Ayslan Enzo Silva do Nascimento" [ref=e563]:
+                - generic [aria-hidden] [ref=e565]: 󰇙
+          - button "Ver detalhes de Rejane dos santos Silva" [ref=e566] [cursor=pointer]:
+            - generic [ref=e568]:
+              - generic [ref=e569]:
+                - generic [ref=e570]: "#"
+                - generic [ref=e571]: "47"
+              - generic [ref=e572]: R
+              - generic [ref=e575]:
+                - generic [ref=e576]: Nome do Usuário
+                - generic [ref=e577]: Rejane dos santos Silva
+              - generic [ref=e578]:
+                - generic [ref=e579]: Email
+                - generic [ref=e580]: rejanesilvaphb@gmail.com
+              - generic [ref=e581]:
+                - generic [ref=e582]: Cargos
+                - generic [ref=e583]: "1"
+              - generic [ref=e585]:
+                - generic [ref=e586]: Franquias Vinculadas
+                - generic [ref=e587]: "1"
+              - button "Ações para Rejane dos santos Silva" [ref=e591]:
+                - generic [aria-hidden] [ref=e593]: 󰇙
+          - button "Ver detalhes de Fabiana Pinto da Silva" [ref=e594] [cursor=pointer]:
+            - generic [ref=e596]:
+              - generic [ref=e597]:
+                - generic [ref=e598]: "#"
+                - generic [ref=e599]: "46"
+              - generic [ref=e600]: F
+              - generic [ref=e603]:
+                - generic [ref=e604]: Nome do Usuário
+                - generic [ref=e605]: Fabiana Pinto da Silva
+              - generic [ref=e606]:
+                - generic [ref=e607]: Email
+                - generic [ref=e608]: fabiescorcio77@gmail.com
+              - generic [ref=e609]:
+                - generic [ref=e610]: Cargos
+                - generic [ref=e611]: "1"
+              - generic [ref=e613]:
+                - generic [ref=e614]: Franquias Vinculadas
+                - generic [ref=e615]: "1"
+              - button "Ações para Fabiana Pinto da Silva" [ref=e619]:
+                - generic [aria-hidden] [ref=e621]: 󰇙
+        - button "Carregar mais usuários" [ref=e623] [cursor=pointer]:
+          - generic [ref=e624]: Carregar mais Usuários
+  - generic [ref=e627]:
+    - alert [ref=e630]: Login efetuado com sucesso!
+    - button "close" [ref=e631] [cursor=pointer]: ×

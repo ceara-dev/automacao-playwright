@@ -1,0 +1,234 @@
+- generic [ref=f6e3]:
+  - navigation [ref=f6e4]:
+    - generic [ref=f6e5]:
+      - img "Logomarca de Apoio" [ref=f6e7]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f6e9] [cursor=pointer]':
+        - generic [ref=f6e10]:
+          - generic [aria-hidden] [ref=f6e11]: 󰙹
+          - generic [ref=f6e12]: "2026"
+          - generic [aria-hidden] [ref=f6e13]: 󰅀
+      - separator [ref=f6e14]
+      - list [ref=f6e16]:
+        - generic [ref=f6e18]:
+          - generic [aria-hidden] [ref=f6e19]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f6e20] [cursor=pointer]
+        - separator [ref=f6e23]
+        - generic [ref=f6e25]:
+          - generic [aria-hidden] [ref=f6e26]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f6e27] [cursor=pointer]
+        - option "Profissionais" [ref=f6e30] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f6e33] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f6e36] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f6e40] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f6e44]: 󰅀
+        - separator [ref=f6e45]
+        - generic [ref=f6e47]:
+          - generic [aria-hidden] [ref=f6e48]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f6e49] [cursor=pointer]
+        - option "Matrículas" [ref=f6e52] [cursor=pointer]
+        - option "Turmas" [ref=f6e55] [cursor=pointer]
+        - option "Prorrogações" [ref=f6e58] [cursor=pointer]
+        - option "Diários" [selected] [ref=f6e61] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f6e64] [cursor=pointer]
+        - option "Feriados" [ref=f6e67] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f6e70] [cursor=pointer]
+        - separator [ref=f6e73]
+        - generic [ref=f6e75]:
+          - generic [aria-hidden] [ref=f6e76]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f6e77] [cursor=pointer]
+        - separator [ref=f6e80]
+        - generic [ref=f6e82]:
+          - generic [aria-hidden] [ref=f6e83]: 󰨒
+          - text: Administração do Sistema
+        - option "ACL" [ref=f6e85] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f6e89]: 󰅀
+        - option "Auditoria" [ref=f6e90] [cursor=pointer]
+    - generic [ref=f6e93]:
+      - button "Editar perfil de QA T.I 7614" [ref=f6e94] [cursor=pointer]:
+        - generic [ref=f6e95]: Q
+        - generic [ref=f6e98]:
+          - generic [ref=f6e99]: QA T.I 7614
+          - generic [ref=f6e100]: T.I
+      - separator [ref=f6e101]
+      - generic [ref=f6e102]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f6e103] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f6e104]: 󰓼
+          - generic [ref=f6e105]: versão 0.1.0
+        - button "Sair da conta" [ref=f6e106] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f6e108]: 󰍃
+  - banner [ref=f6e109]:
+    - generic [ref=f6e110]:
+      - button "Fechar menu" [ref=f6e111] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f6e113]: 󰍜
+      - generic [ref=f6e114]: Colégio Apoio
+      - button "Notificações" [ref=f6e116] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f6e120]: 󰂜
+      - button "Menu do usuário" [ref=f6e121] [cursor=pointer]:
+        - generic [ref=f6e122]: Q
+  - main [ref=f6e124]:
+    - list [ref=f6e126]:
+      - listitem [ref=f6e127]:
+        - link "Diários" [ref=f6e128] [cursor=pointer]:
+          - /url: http://veramendes.local/diarios
+      - listitem [aria-hidden] [ref=f6e129]: ">"
+      - listitem:
+        - generic: Biologia · 3SER-M-2026
+    - generic [ref=f6e131]:
+      - tablist [ref=f6e132]:
+        - generic [ref=f6e134]:
+          - tab "Diários" [selected] [ref=f6e135] [cursor=pointer]
+          - tab "Agendas" [ref=f6e137] [cursor=pointer]
+      - generic [ref=f6e143]:
+        - generic [ref=f6e144]:
+          - generic [ref=f6e145]:
+            - heading "Biologia" [level=5] [ref=f6e146]
+            - generic [ref=f6e147]: 3SER-M-2026 — 3º Série · Georgia Maria de Oliveira Aragão
+          - generic [ref=f6e148]:
+            - button "Enviar mensagem" [disabled]:
+              - generic:
+                - generic [aria-hidden]: 󰍪
+            - button "Exportar Excel" [disabled]:
+              - generic:
+                - generic [aria-hidden]: 󱀭
+            - button "Opções de impressão do diário" [expanded] [active] [ref=f6e149] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f6e151]: 󱞆
+              - generic [ref=f6e152]: Imprimir
+              - generic [aria-hidden] [ref=f6e154]: 󰍝
+              - list [ref=f6e296]:
+                - link "Relação de alunos" [ref=f6e297]:
+                  - /url: http://veramendes.local/diarios/3/imprimir/alunos
+                - link "Boletim de notas" [ref=f6e300]:
+                  - /url: http://veramendes.local/diarios/3/imprimir/boletim
+                - link "Boletim individual Uma página por aluno" [ref=f6e303]:
+                  - /url: http://veramendes.local/diarios/3/imprimir/boletim-alunos
+                  - generic [ref=f6e304]:
+                    - generic [ref=f6e305]: Boletim individual
+                    - generic [ref=f6e306]: Uma página por aluno
+                - separator [ref=f6e307]
+                - link "Diário — 1º Bimestre" [ref=f6e308]:
+                  - /url: http://veramendes.local/diarios/3/imprimir/etapa?circuito_etapa_id=283
+                - link "Diário — 2º Bimestre" [ref=f6e311]:
+                  - /url: http://veramendes.local/diarios/3/imprimir/etapa?circuito_etapa_id=284
+                - link "Diário — 1º Semestre" [ref=f6e314]:
+                  - /url: http://veramendes.local/diarios/3/imprimir/etapa?circuito_etapa_id=285
+                - link "Diário — 3º Bimestre" [ref=f6e317]:
+                  - /url: http://veramendes.local/diarios/3/imprimir/etapa?circuito_etapa_id=286
+                - link "Diário — 4º Bimestre" [ref=f6e320]:
+                  - /url: http://veramendes.local/diarios/3/imprimir/etapa?circuito_etapa_id=287
+                - link "Diário — 2º Semestre" [ref=f6e323]:
+                  - /url: http://veramendes.local/diarios/3/imprimir/etapa?circuito_etapa_id=288
+                - link "Diário — Etapa Final" [ref=f6e326]:
+                  - /url: http://veramendes.local/diarios/3/imprimir/etapa?circuito_etapa_id=289
+        - generic [ref=f6e155]:
+          - generic [ref=f6e156]: Dados do diário
+          - separator [ref=f6e157]
+          - generic [ref=f6e159]:
+            - generic [ref=f6e160]:
+              - generic [ref=f6e161]: Titular
+              - generic [ref=f6e162]: Georgia Maria de Oliveira Aragão
+            - generic [ref=f6e163]:
+              - generic [ref=f6e164]: Turma
+              - generic [ref=f6e165]: 3SER-M-2026 — 3º Série (Ensino médio - 3ª Série)
+            - generic [ref=f6e166]:
+              - generic [ref=f6e167]: Turno
+              - generic [ref=f6e168]: Manhã (07:00 — 12:00)
+            - generic [ref=f6e169]:
+              - generic [ref=f6e170]: Componente
+              - generic [ref=f6e171]: Biologia
+            - generic [ref=f6e172]:
+              - generic [ref=f6e173]: Carga Horária do Diário
+              - generic [ref=f6e174]: 20h aula / 16.67h relógio
+            - generic [ref=f6e175]:
+              - generic [ref=f6e176]: Carga Horária Cumprida
+              - generic [ref=f6e177]:
+                - progressbar [ref=f6e178]
+                - generic [ref=f6e181]: 5%
+            - generic [ref=f6e182]:
+              - generic [ref=f6e183]: Aulas Ministradas
+              - generic [ref=f6e184]: 1 de 20 aulas
+        - generic [ref=f6e185]:
+          - generic [ref=f6e186]: Etapas
+          - separator [ref=f6e187]
+          - table [ref=f6e191]:
+            - rowgroup [ref=f6e192]:
+              - row [ref=f6e193]:
+                - columnheader "Etapa" [ref=f6e194]
+                - columnheader "Período no calendário" [ref=f6e195]
+                - columnheader "Status" [ref=f6e196]
+                - columnheader "Período da posse" [ref=f6e197]
+                - columnheader "Entregue" [ref=f6e198]
+                - columnheader "Aulas ministradas" [ref=f6e199]
+            - rowgroup [ref=f6e200]:
+              - row [ref=f6e201]:
+                - cell "1º Bimestre" [ref=f6e202]
+                - cell "01/01/2026 — 31/10/2026" [ref=f6e203]
+                - cell "Ativo — Faltam 30 dias" [ref=f6e204]
+                - cell "01/01/2026 — 31/10/2026" [ref=f6e207]
+                - cell "—" [ref=f6e208]
+                - cell "—" [ref=f6e209]
+              - row [ref=f6e210]:
+                - cell "2º Bimestre" [ref=f6e211]
+                - cell "01/04/2026 — 31/10/2026" [ref=f6e212]
+                - cell "Ativo — Faltam 30 dias" [ref=f6e213]
+                - cell "01/04/2026 — 31/10/2026" [ref=f6e216]
+                - cell "—" [ref=f6e217]
+                - cell "—" [ref=f6e218]
+              - row [ref=f6e219]:
+                - cell "1º Semestre" [ref=f6e220]
+                - cell "01/01/2026 — 31/07/2026" [ref=f6e221]
+                - cell "Encerrado" [ref=f6e222]
+                - cell "01/01/2026 — 31/07/2026" [ref=f6e225]
+                - cell "—" [ref=f6e226]
+                - cell "—" [ref=f6e227]
+              - row [ref=f6e228]:
+                - cell "3º Bimestre" [ref=f6e229]
+                - cell "01/08/2026 — 31/10/2026" [ref=f6e230]
+                - cell "Ativo — Faltam 30 dias" [ref=f6e231]
+                - cell "01/08/2026 — 31/10/2026" [ref=f6e234]
+                - cell "—" [ref=f6e235]
+                - cell "—" [ref=f6e236]
+              - row [ref=f6e237]:
+                - cell "4º Bimestre" [ref=f6e238]
+                - cell "01/10/2026 — 16/12/2026" [ref=f6e239]
+                - cell "Ativo — Faltam 76 dias" [ref=f6e240]
+                - cell "01/10/2026 — 16/12/2026" [ref=f6e243]
+                - cell "—" [ref=f6e244]
+                - cell "—" [ref=f6e245]
+              - row [ref=f6e246]:
+                - cell "2º Semestre" [ref=f6e247]
+                - cell "01/08/2026 — 16/12/2026" [ref=f6e248]
+                - cell "Ativo — Faltam 76 dias" [ref=f6e249]
+                - cell "01/08/2026 — 16/12/2026" [ref=f6e252]
+                - cell "—" [ref=f6e253]
+                - cell "—" [ref=f6e254]
+              - row [ref=f6e255]:
+                - cell "Etapa Final" [ref=f6e256]
+                - cell "01/01/2026 — 31/12/2026" [ref=f6e257]
+                - cell "Ativo — Faltam 91 dias" [ref=f6e258]
+                - cell "01/01/2026 — 31/12/2026" [ref=f6e261]
+                - cell "—" [ref=f6e262]
+                - cell "—" [ref=f6e263]
+          - generic [ref=f6e264]: "Circuito: — — v1.5"
+        - combobox [ref=f6e268] [cursor=pointer]:
+          - generic [ref=f6e269]:
+            - generic: Filtro por etapa
+            - generic [ref=f6e270]:
+              - combobox "Filtro por etapa"
+          - generic [aria-hidden] [ref=f6e272]: 󰍝
+        - generic [ref=f6e273]:
+          - tablist [ref=f6e274]:
+            - generic [ref=f6e276]:
+              - tab "Registro de aulas" [selected] [ref=f6e277] [cursor=pointer]
+              - tab "Registro de faltas" [ref=f6e279] [cursor=pointer]
+              - tab "Registro de notas/conceitos" [ref=f6e281] [cursor=pointer]
+              - tab "Material de aula" [ref=f6e283] [cursor=pointer]
+              - tab "Observações" [ref=f6e285] [cursor=pointer]
+              - tab "Estatísticas" [ref=f6e287] [cursor=pointer]
+          - separator [ref=f6e289]
+          - generic [ref=f6e292]:
+            - generic [aria-hidden] [ref=f6e293]: 󰈳
+            - generic [ref=f6e294]: Selecione uma etapa no filtro acima

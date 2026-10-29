@@ -1,0 +1,22 @@
+- generic [ref=f1e1907]:
+  - generic [ref=f1e1909]:
+    - generic [ref=f1e1911]:
+      - generic [aria-hidden] [ref=f1e1913]: 󰀓
+      - generic [ref=f1e1914]:
+        - generic: Login de acesso
+        - textbox "Login de acesso" [ref=f1e1915]: qa.restrito@caju.com.br
+    - alert [ref=f1e1916]
+  - generic [ref=f1e1918]:
+    - generic [ref=f1e1919]:
+      - generic [ref=f1e1921]:
+        - generic [aria-hidden] [ref=f1e1923]: 󰍁
+        - generic [ref=f1e1924]:
+          - generic: Senha
+          - textbox "Senha" [ref=f1e1925]: passwordteste
+        - button "󰈉" [ref=f1e1927] [cursor=pointer]
+      - alert [ref=f1e1928]
+    - link "Esqueceu a senha?" [ref=f1e1931] [cursor=pointer]:
+      - /url: "#"
+    - button "Entrar no sistema" [disabled]:
+      - generic:
+        - progressbar

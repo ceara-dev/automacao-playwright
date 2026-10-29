@@ -1,0 +1,348 @@
+- generic [ref=f7e3]:
+  - navigation [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - img "Logomarca de Apoio" [ref=f7e7]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f7e9] [cursor=pointer]':
+        - generic [ref=f7e10]:
+          - generic [aria-hidden] [ref=f7e11]: 󰙹
+          - generic [ref=f7e12]: "2026"
+          - generic [aria-hidden] [ref=f7e13]: 󰅀
+      - separator [ref=f7e14]
+      - list [ref=f7e16]:
+        - generic [ref=f7e18]:
+          - generic [aria-hidden] [ref=f7e19]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f7e20] [cursor=pointer]
+        - separator [ref=f7e23]
+        - generic [ref=f7e25]:
+          - generic [aria-hidden] [ref=f7e26]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f7e27] [cursor=pointer]
+        - option "Profissionais" [ref=f7e30] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f7e33] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f7e36] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f7e40] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e44]: 󰅀
+        - separator [ref=f7e45]
+        - generic [ref=f7e47]:
+          - generic [aria-hidden] [ref=f7e48]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f7e49] [cursor=pointer]
+        - option "Matrículas" [ref=f7e52] [cursor=pointer]
+        - option "Turmas" [ref=f7e55] [cursor=pointer]
+        - option "Prorrogações" [ref=f7e58] [cursor=pointer]
+        - option "Diários" [ref=f7e61] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f7e64] [cursor=pointer]
+        - option "Feriados" [ref=f7e67] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f7e70] [cursor=pointer]
+        - separator [ref=f7e73]
+        - generic [ref=f7e75]:
+          - generic [aria-hidden] [ref=f7e76]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f7e77] [cursor=pointer]
+        - separator [ref=f7e80]
+        - generic [ref=f7e82]:
+          - generic [aria-hidden] [ref=f7e83]: 󰨒
+          - text: Administração do Sistema
+        - generic [ref=f7e84]:
+          - option "ACL" [ref=f7e85] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f7e89]: 󰅃
+          - group "ACL" [ref=f7e90]:
+            - option "Cargos" [ref=f7e91] [cursor=pointer]
+            - option "Permissões" [selected] [ref=f7e94] [cursor=pointer]
+            - option "Usuários" [ref=f7e97] [cursor=pointer]
+        - option "Configurações Acadêmicas" [ref=f7e100] [cursor=pointer]
+        - option "Auditoria" [ref=f7e103] [cursor=pointer]
+    - generic [ref=f7e106]:
+      - button "Editar perfil de playwright" [ref=f7e107] [cursor=pointer]:
+        - generic [ref=f7e108]: p
+        - generic [ref=f7e111]:
+          - generic [ref=f7e112]: playwright
+          - generic [ref=f7e113]: Super Administrador
+      - separator [ref=f7e114]
+      - generic [ref=f7e115]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f7e116] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e117]: 󰓼
+          - generic [ref=f7e118]: versão 0.1.0
+        - button "Sair da conta" [ref=f7e119] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e121]: 󰍃
+  - banner [ref=f7e122]:
+    - generic [ref=f7e123]:
+      - button "Fechar menu" [ref=f7e124] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f7e126]: 󰍜
+      - generic [ref=f7e127]: Colégio Apoio
+      - button "Notificações" [ref=f7e129] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f7e133]: 󰂜
+      - button "Menu do usuário" [ref=f7e134] [cursor=pointer]:
+        - generic [ref=f7e135]: P
+  - main [ref=f7e137]:
+    - list [ref=f7e139]:
+      - listitem [ref=f7e140]:
+        - link "Dashboard" [ref=f7e141] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f7e142]: ">"
+      - listitem [ref=f7e143]:
+        - link "Permissões" [ref=f7e144] [cursor=pointer]:
+          - /url: http://veramendes.local/permissoes
+      - listitem [aria-hidden] [ref=f7e145]: ">"
+      - listitem:
+        - generic: Listar
+    - generic [ref=f7e146]:
+      - heading "Permissões" [level=5] [ref=f7e147]
+      - generic [ref=f7e148]:
+        - button "Criar nova permissão" [ref=f7e150] [cursor=pointer]:
+          - generic [ref=f7e151]:
+            - generic [aria-hidden] [ref=f7e152]: 󰐕
+            - text: Nova Permissão
+        - generic [ref=f7e153]:
+          - generic [ref=f7e154]: Pesquisar
+          - generic [ref=f7e155]:
+            - searchbox [ref=f7e157]:
+              - searchbox "Pesquisar permissões" [ref=f7e159]
+              - text: 󰅙
+              - generic [aria-hidden] [ref=f7e161]: 󰍉
+            - alert [ref=f7e162]
+      - generic [ref=f7e164]:
+        - generic [ref=f7e165]: Exibindo de 1 até 15 de 183
+        - button "Ver detalhes de alunos.agenda.list" [ref=f7e166] [cursor=pointer]:
+          - generic [ref=f7e168]:
+            - generic [ref=f7e169]:
+              - generic [ref=f7e170]: "#"
+              - generic [ref=f7e171]: "182"
+            - generic [ref=f7e172]:
+              - generic [ref=f7e173]: Nome da Permissão
+              - generic [ref=f7e174]: alunos.agenda.list
+            - generic [ref=f7e175]:
+              - generic [ref=f7e176]: Descrição da Permissão
+              - generic [ref=f7e177]: alunos.agenda.list
+            - generic [ref=f7e178]:
+              - generic [ref=f7e179]: Cargos
+              - generic [ref=f7e180]: "3"
+            - button "Ações para alunos.agenda.list" [ref=f7e184]:
+              - generic [aria-hidden] [ref=f7e186]: 󰇙
+        - button "Ver detalhes de alunos.agenda.arquivo" [ref=f7e187] [cursor=pointer]:
+          - generic [ref=f7e189]:
+            - generic [ref=f7e190]:
+              - generic [ref=f7e191]: "#"
+              - generic [ref=f7e192]: "183"
+            - generic [ref=f7e193]:
+              - generic [ref=f7e194]: Nome da Permissão
+              - generic [ref=f7e195]: alunos.agenda.arquivo
+            - generic [ref=f7e196]:
+              - generic [ref=f7e197]: Descrição da Permissão
+              - generic [ref=f7e198]: alunos.agenda.arquivo
+            - generic [ref=f7e199]:
+              - generic [ref=f7e200]: Cargos
+              - generic [ref=f7e201]: "3"
+            - button "Ações para alunos.agenda.arquivo" [ref=f7e205]:
+              - generic [aria-hidden] [ref=f7e207]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.edit" [ref=f7e208] [cursor=pointer]:
+          - generic [ref=f7e210]:
+            - generic [ref=f7e211]:
+              - generic [ref=f7e212]: "#"
+              - generic [ref=f7e213]: "173"
+            - generic [ref=f7e214]:
+              - generic [ref=f7e215]: Nome da Permissão
+              - generic [ref=f7e216]: turmas.diario.agendas.edit
+            - generic [ref=f7e217]:
+              - generic [ref=f7e218]: Descrição da Permissão
+              - generic [ref=f7e219]: turmas.diario.agendas.edit
+            - generic [ref=f7e220]:
+              - generic [ref=f7e221]: Cargos
+              - generic [ref=f7e222]: "5"
+            - button "Ações para turmas.diario.agendas.edit" [ref=f7e226]:
+              - generic [aria-hidden] [ref=f7e228]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.store" [ref=f7e229] [cursor=pointer]:
+          - generic [ref=f7e231]:
+            - generic [ref=f7e232]:
+              - generic [ref=f7e233]: "#"
+              - generic [ref=f7e234]: "172"
+            - generic [ref=f7e235]:
+              - generic [ref=f7e236]: Nome da Permissão
+              - generic [ref=f7e237]: turmas.diario.agendas.store
+            - generic [ref=f7e238]:
+              - generic [ref=f7e239]: Descrição da Permissão
+              - generic [ref=f7e240]: turmas.diario.agendas.store
+            - generic [ref=f7e241]:
+              - generic [ref=f7e242]: Cargos
+              - generic [ref=f7e243]: "5"
+            - button "Ações para turmas.diario.agendas.store" [ref=f7e247]:
+              - generic [aria-hidden] [ref=f7e249]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.aulas.store" [ref=f7e250] [cursor=pointer]:
+          - generic [ref=f7e252]:
+            - generic [ref=f7e253]:
+              - generic [ref=f7e254]: "#"
+              - generic [ref=f7e255]: "176"
+            - generic [ref=f7e256]:
+              - generic [ref=f7e257]: Nome da Permissão
+              - generic [ref=f7e258]: turmas.diario.agendas.aulas.store
+            - generic [ref=f7e259]:
+              - generic [ref=f7e260]: Descrição da Permissão
+              - generic [ref=f7e261]: turmas.diario.agendas.aulas.store
+            - generic [ref=f7e262]:
+              - generic [ref=f7e263]: Cargos
+              - generic [ref=f7e264]: "5"
+            - button "Ações para turmas.diario.agendas.aulas.store" [ref=f7e268]:
+              - generic [aria-hidden] [ref=f7e270]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.notificar" [ref=f7e271] [cursor=pointer]:
+          - generic [ref=f7e273]:
+            - generic [ref=f7e274]:
+              - generic [ref=f7e275]: "#"
+              - generic [ref=f7e276]: "181"
+            - generic [ref=f7e277]:
+              - generic [ref=f7e278]: Nome da Permissão
+              - generic [ref=f7e279]: turmas.diario.agendas.notificar
+            - generic [ref=f7e280]:
+              - generic [ref=f7e281]: Descrição da Permissão
+              - generic [ref=f7e282]: turmas.diario.agendas.notificar
+            - generic [ref=f7e283]:
+              - generic [ref=f7e284]: Cargos
+              - generic [ref=f7e285]: "5"
+            - button "Ações para turmas.diario.agendas.notificar" [ref=f7e289]:
+              - generic [aria-hidden] [ref=f7e291]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.create" [ref=f7e292] [cursor=pointer]:
+          - generic [ref=f7e294]:
+            - generic [ref=f7e295]:
+              - generic [ref=f7e296]: "#"
+              - generic [ref=f7e297]: "171"
+            - generic [ref=f7e298]:
+              - generic [ref=f7e299]: Nome da Permissão
+              - generic [ref=f7e300]: turmas.diario.agendas.create
+            - generic [ref=f7e301]:
+              - generic [ref=f7e302]: Descrição da Permissão
+              - generic [ref=f7e303]: turmas.diario.agendas.create
+            - generic [ref=f7e304]:
+              - generic [ref=f7e305]: Cargos
+              - generic [ref=f7e306]: "5"
+            - button "Ações para turmas.diario.agendas.create" [ref=f7e310]:
+              - generic [aria-hidden] [ref=f7e312]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.historico" [ref=f7e313] [cursor=pointer]:
+          - generic [ref=f7e315]:
+            - generic [ref=f7e316]:
+              - generic [ref=f7e317]: "#"
+              - generic [ref=f7e318]: "175"
+            - generic [ref=f7e319]:
+              - generic [ref=f7e320]: Nome da Permissão
+              - generic [ref=f7e321]: turmas.diario.agendas.historico
+            - generic [ref=f7e322]:
+              - generic [ref=f7e323]: Descrição da Permissão
+              - generic [ref=f7e324]: turmas.diario.agendas.historico
+            - generic [ref=f7e325]:
+              - generic [ref=f7e326]: Cargos
+              - generic [ref=f7e327]: "5"
+            - button "Ações para turmas.diario.agendas.historico" [ref=f7e331]:
+              - generic [aria-hidden] [ref=f7e333]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.arquivos.store" [ref=f7e334] [cursor=pointer]:
+          - generic [ref=f7e336]:
+            - generic [ref=f7e337]:
+              - generic [ref=f7e338]: "#"
+              - generic [ref=f7e339]: "178"
+            - generic [ref=f7e340]:
+              - generic [ref=f7e341]: Nome da Permissão
+              - generic [ref=f7e342]: turmas.diario.agendas.arquivos.store
+            - generic [ref=f7e343]:
+              - generic [ref=f7e344]: Descrição da Permissão
+              - generic [ref=f7e345]: turmas.diario.agendas.arquivos.store
+            - generic [ref=f7e346]:
+              - generic [ref=f7e347]: Cargos
+              - generic [ref=f7e348]: "5"
+            - button "Ações para turmas.diario.agendas.arquivos.store" [ref=f7e352]:
+              - generic [aria-hidden] [ref=f7e354]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.status" [ref=f7e355] [cursor=pointer]:
+          - generic [ref=f7e357]:
+            - generic [ref=f7e358]:
+              - generic [ref=f7e359]: "#"
+              - generic [ref=f7e360]: "180"
+            - generic [ref=f7e361]:
+              - generic [ref=f7e362]: Nome da Permissão
+              - generic [ref=f7e363]: turmas.diario.agendas.status
+            - generic [ref=f7e364]:
+              - generic [ref=f7e365]: Descrição da Permissão
+              - generic [ref=f7e366]: turmas.diario.agendas.status
+            - generic [ref=f7e367]:
+              - generic [ref=f7e368]: Cargos
+              - generic [ref=f7e369]: "5"
+            - button "Ações para turmas.diario.agendas.status" [ref=f7e373]:
+              - generic [aria-hidden] [ref=f7e375]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.aulas.delete" [ref=f7e376] [cursor=pointer]:
+          - generic [ref=f7e378]:
+            - generic [ref=f7e379]:
+              - generic [ref=f7e380]: "#"
+              - generic [ref=f7e381]: "177"
+            - generic [ref=f7e382]:
+              - generic [ref=f7e383]: Nome da Permissão
+              - generic [ref=f7e384]: turmas.diario.agendas.aulas.delete
+            - generic [ref=f7e385]:
+              - generic [ref=f7e386]: Descrição da Permissão
+              - generic [ref=f7e387]: turmas.diario.agendas.aulas.delete
+            - generic [ref=f7e388]:
+              - generic [ref=f7e389]: Cargos
+              - generic [ref=f7e390]: "5"
+            - button "Ações para turmas.diario.agendas.aulas.delete" [ref=f7e394]:
+              - generic [aria-hidden] [ref=f7e396]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.update" [ref=f7e397] [cursor=pointer]:
+          - generic [ref=f7e399]:
+            - generic [ref=f7e400]:
+              - generic [ref=f7e401]: "#"
+              - generic [ref=f7e402]: "174"
+            - generic [ref=f7e403]:
+              - generic [ref=f7e404]: Nome da Permissão
+              - generic [ref=f7e405]: turmas.diario.agendas.update
+            - generic [ref=f7e406]:
+              - generic [ref=f7e407]: Descrição da Permissão
+              - generic [ref=f7e408]: turmas.diario.agendas.update
+            - generic [ref=f7e409]:
+              - generic [ref=f7e410]: Cargos
+              - generic [ref=f7e411]: "5"
+            - button "Ações para turmas.diario.agendas.update" [ref=f7e415]:
+              - generic [aria-hidden] [ref=f7e417]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas.arquivos.delete" [ref=f7e418] [cursor=pointer]:
+          - generic [ref=f7e420]:
+            - generic [ref=f7e421]:
+              - generic [ref=f7e422]: "#"
+              - generic [ref=f7e423]: "179"
+            - generic [ref=f7e424]:
+              - generic [ref=f7e425]: Nome da Permissão
+              - generic [ref=f7e426]: turmas.diario.agendas.arquivos.delete
+            - generic [ref=f7e427]:
+              - generic [ref=f7e428]: Descrição da Permissão
+              - generic [ref=f7e429]: turmas.diario.agendas.arquivos.delete
+            - generic [ref=f7e430]:
+              - generic [ref=f7e431]: Cargos
+              - generic [ref=f7e432]: "5"
+            - button "Ações para turmas.diario.agendas.arquivos.delete" [ref=f7e436]:
+              - generic [aria-hidden] [ref=f7e438]: 󰇙
+        - button "Ver detalhes de turmas.diario.agendas" [ref=f7e439] [cursor=pointer]:
+          - generic [ref=f7e441]:
+            - generic [ref=f7e442]:
+              - generic [ref=f7e443]: "#"
+              - generic [ref=f7e444]: "170"
+            - generic [ref=f7e445]:
+              - generic [ref=f7e446]: Nome da Permissão
+              - generic [ref=f7e447]: turmas.diario.agendas
+            - generic [ref=f7e448]:
+              - generic [ref=f7e449]: Descrição da Permissão
+              - generic [ref=f7e450]: turmas.diario.agendas
+            - generic [ref=f7e451]:
+              - generic [ref=f7e452]: Cargos
+              - generic [ref=f7e453]: "5"
+            - button "Ações para turmas.diario.agendas" [ref=f7e457]:
+              - generic [aria-hidden] [ref=f7e459]: 󰇙
+        - button "Ver detalhes de justificativas.show" [ref=f7e460] [cursor=pointer]:
+          - generic [ref=f7e462]:
+            - generic [ref=f7e463]:
+              - generic [ref=f7e464]: "#"
+              - generic [ref=f7e465]: "168"
+            - generic [ref=f7e466]:
+              - generic [ref=f7e467]: Nome da Permissão
+              - generic [ref=f7e468]: justificativas.show
+            - generic [ref=f7e469]:
+              - generic [ref=f7e470]: Descrição da Permissão
+              - generic [ref=f7e471]: justificativas.show
+            - generic [ref=f7e472]:
+              - generic [ref=f7e473]: Cargos
+              - generic [ref=f7e474]: "5"
+            - button "Ações para justificativas.show" [ref=f7e478]:
+              - generic [aria-hidden] [ref=f7e480]: 󰇙
+      - button "Carregar mais permissões" [ref=f7e482] [cursor=pointer]:
+        - generic [ref=f7e483]: Carregar mais Permissões

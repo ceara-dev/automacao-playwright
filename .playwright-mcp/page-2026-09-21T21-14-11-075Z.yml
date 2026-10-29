@@ -1,0 +1,161 @@
+- generic [ref=f5e691]:
+  - navigation [ref=f5e692]:
+    - generic [ref=f5e693]:
+      - img "Logomarca de Apoio" [ref=f5e695]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f5e697] [cursor=pointer]':
+        - generic [ref=f5e698]:
+          - generic [aria-hidden] [ref=f5e699]: 󰙹
+          - generic [ref=f5e700]: "2026"
+          - generic [aria-hidden] [ref=f5e701]: 󰅀
+      - separator [ref=f5e702]
+      - list [ref=f5e704]:
+        - generic [ref=f5e706]:
+          - generic [aria-hidden] [ref=f5e707]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f5e708] [cursor=pointer]
+        - separator [ref=f5e711]
+        - generic [ref=f5e713]:
+          - generic [aria-hidden] [ref=f5e714]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f5e715] [cursor=pointer]
+        - option "Profissionais" [ref=f5e718] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f5e721] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f5e724] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f5e728] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f5e732]: 󰅀
+        - separator [ref=f5e733]
+        - generic [ref=f5e735]:
+          - generic [aria-hidden] [ref=f5e736]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f5e737] [cursor=pointer]
+        - option "Matrículas" [selected] [ref=f5e740] [cursor=pointer]
+        - option "Turmas" [ref=f5e743] [cursor=pointer]
+        - option "Prorrogações" [ref=f5e746] [cursor=pointer]
+        - option "Diários" [ref=f5e749] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f5e752] [cursor=pointer]
+        - option "Feriados" [ref=f5e755] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f5e758] [cursor=pointer]
+        - separator [ref=f5e761]
+        - generic [ref=f5e763]:
+          - generic [aria-hidden] [ref=f5e764]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f5e765] [cursor=pointer]
+        - separator [ref=f5e768]
+        - generic [ref=f5e770]:
+          - generic [aria-hidden] [ref=f5e771]: 󰨒
+          - text: Administração do Sistema
+        - option "ACL" [ref=f5e773] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f5e777]: 󰅀
+        - option "Configurações Acadêmicas" [ref=f5e778] [cursor=pointer]
+        - option "Auditoria" [ref=f5e781] [cursor=pointer]
+    - generic [ref=f5e784]:
+      - button "Editar perfil de playwright" [ref=f5e785] [cursor=pointer]:
+        - generic [ref=f5e786]: p
+        - generic [ref=f5e789]:
+          - generic [ref=f5e790]: playwright
+          - generic [ref=f5e791]: Super Administrador
+      - separator [ref=f5e792]
+      - generic [ref=f5e793]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f5e794] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f5e795]: 󰓼
+          - generic [ref=f5e796]: versão 0.1.0
+        - button "Sair da conta" [ref=f5e797] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f5e799]: 󰍃
+  - banner [ref=f5e800]:
+    - generic [ref=f5e801]:
+      - button "Fechar menu" [ref=f5e802] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f5e804]: 󰍜
+      - generic [ref=f5e805]: Colégio Apoio
+      - button "Notificações" [ref=f5e807] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f5e811]: 󰂜
+      - button "Menu do usuário" [ref=f5e812] [cursor=pointer]:
+        - generic [ref=f5e813]: P
+  - main [ref=f5e815]:
+    - list [ref=f5e817]:
+      - listitem [ref=f5e818]:
+        - link "Dashboard" [ref=f5e819] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f5e820]: ">"
+      - listitem [ref=f5e821]:
+        - link "Matrículas" [ref=f5e822] [cursor=pointer]:
+          - /url: http://veramendes.local/matriculas
+      - listitem [aria-hidden] [ref=f5e823]: ">"
+      - listitem:
+        - generic: Criar
+    - generic [ref=f5e824]:
+      - heading [level=5] [ref=f5e825]:
+        - generic [aria-hidden] [ref=f5e827] [cursor=pointer]: 󰁍
+        - text: Matrículas
+      - generic [ref=f5e829]:
+        - generic [ref=f5e832]:
+          - tablist [ref=f5e833]:
+            - generic [ref=f5e835]:
+              - tab "Vínculo" [selected] [ref=f5e836] [cursor=pointer]
+              - tab "Transporte" [ref=f5e838] [cursor=pointer]
+              - tab "AEE" [ref=f5e840] [cursor=pointer]
+              - tab "Parcelas" [ref=f5e842] [cursor=pointer]
+              - tab "Contrato" [ref=f5e844] [cursor=pointer]
+          - generic [ref=f5e849]:
+            - generic [ref=f5e850]:
+              - generic [ref=f5e852]:
+                - combobox [ref=f5e854]:
+                  - generic [ref=f5e855]:
+                    - generic: Aluno
+                    - combobox "Aluno" [ref=f5e857]
+                  - button [aria-hidden] [ref=f5e859] [cursor=pointer]: 󰍝
+                - alert [ref=f5e860]
+              - generic [ref=f5e863]:
+                - combobox [ref=f5e865] [cursor=pointer]:
+                  - generic [ref=f5e866]:
+                    - generic: Turma
+                    - generic [ref=f5e867]:
+                      - combobox "Turma"
+                  - generic [aria-hidden] [ref=f5e869]: 󰍝
+                - alert [ref=f5e870]
+            - generic [ref=f5e872]:
+              - generic [ref=f5e874]:
+                - generic [ref=f5e877]:
+                  - generic: Código INEP
+                  - textbox "Código INEP" [ref=f5e878]
+                - alert [ref=f5e879]
+              - generic [ref=f5e882]:
+                - generic [ref=f5e885]:
+                  - generic: Turma Multi (cód. etapa)
+                  - spinbutton "Turma Multi (cód. etapa)" [ref=f5e886]
+                - alert [ref=f5e887]
+              - generic [ref=f5e890]:
+                - generic [ref=f5e893]:
+                  - generic: Carga Horária (horas)
+                  - spinbutton "Carga Horária (horas)" [ref=f5e894]
+                - alert [ref=f5e895]
+            - generic [ref=f5e899]:
+              - combobox [ref=f5e901] [cursor=pointer]:
+                - generic [ref=f5e902]:
+                  - generic: Recebe escolarização em outro espaço
+                  - generic [ref=f5e903]:
+                    - combobox "Recebe escolarização em outro espaço"
+                - generic [aria-hidden] [ref=f5e905]: 󰍝
+              - alert [ref=f5e906]
+            - generic [ref=f5e910]:
+              - generic [ref=f5e911]:
+                - combobox [ref=f5e913]:
+                  - generic [ref=f5e914]:
+                    - generic: Responsável Financeiro
+                    - combobox "Responsável Financeiro" [ref=f5e916]
+                  - text: 󰅙
+                  - button [aria-hidden] [ref=f5e918] [cursor=pointer]: 󰍝
+                - alert [ref=f5e919]
+              - button "Cadastrar novo responsável financeiro" [ref=f5e921] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f5e923]: 󰐕
+            - generic [ref=f5e926]:
+              - generic [ref=f5e927]:
+                - combobox [ref=f5e929]:
+                  - generic [ref=f5e930]:
+                    - generic: Responsável Pedagógico
+                    - combobox "Responsável Pedagógico" [ref=f5e932]
+                  - text: 󰅙
+                  - button [aria-hidden] [ref=f5e934] [cursor=pointer]: 󰍝
+                - alert [ref=f5e935]
+              - button "Cadastrar novo responsável pedagógico" [ref=f5e937] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f5e939]: 󰐕
+        - button "Salvar" [ref=f5e940] [cursor=pointer]

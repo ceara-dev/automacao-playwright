@@ -1,0 +1,20 @@
+- generic [ref=f1e8]:
+  - generic [ref=f1e10]:
+    - generic [ref=f1e12]:
+      - generic [aria-hidden] [ref=f1e14]: 󰀓
+      - generic [ref=f1e15]:
+        - generic: Login de acesso
+        - textbox "Login de acesso" [ref=f1e16]
+    - alert [ref=f1e17]
+  - generic [ref=f1e19]:
+    - generic [ref=f1e20]:
+      - generic [ref=f1e22]:
+        - generic [aria-hidden] [ref=f1e24]: 󰍁
+        - generic [ref=f1e25]:
+          - generic: Senha
+          - textbox "Senha" [ref=f1e26]
+        - button "󰈉" [ref=f1e28] [cursor=pointer]
+      - alert [ref=f1e29]
+    - link "Esqueceu a senha?" [ref=f1e32] [cursor=pointer]:
+      - /url: "#"
+    - button "Entrar no sistema" [ref=f1e33] [cursor=pointer]

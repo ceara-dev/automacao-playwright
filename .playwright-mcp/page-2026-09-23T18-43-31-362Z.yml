@@ -1,0 +1,18 @@
+- generic [ref=f3e5]:
+  - generic [aria-hidden] [ref=f3e7]: 󰜺
+  - heading "403 Acesso Negado" [level=1] [ref=f3e8]:
+    - generic [ref=f3e9]: "403"
+    - text: Acesso Negado
+  - paragraph [ref=f3e10]: Você não tem permissão para acessar esta página.
+  - link [ref=f3e12] [cursor=pointer]:
+    - /url: http://veramendes.local/dashboard
+    - button "Página Inicial" [ref=f3e13]:
+      - generic [aria-hidden] [ref=f3e15]: 󰋜
+  - generic [ref=f3e17]:
+    - paragraph [ref=f3e18]:
+      - text: Precisa de ajuda?
+      - link "Contate nosso suporte" [ref=f3e19] [cursor=pointer]:
+        - /url: https://wa.me/5586999880525?text=Olá,%20venho%20direto%20do%20sistema%20pedir%20uma%20ajuda!
+    - generic [ref=f3e20]:
+      - generic [aria-hidden] [ref=f3e21]: 󰑴
+      - generic [ref=f3e22]: Sistema Educacional - CAJUTEC

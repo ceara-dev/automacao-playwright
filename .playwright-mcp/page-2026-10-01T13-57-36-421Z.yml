@@ -1,0 +1,31 @@
+- generic [ref=f4e36]:
+  - generic [ref=f4e38]:
+    - generic [ref=f4e39]: Alterar senha
+    - generic [ref=f4e40]: Por segurança, você precisa alterar sua senha antes de acessar o sistema.
+  - generic [ref=f4e42]:
+    - generic [ref=f4e44]:
+      - generic [ref=f4e46]:
+        - generic [aria-hidden] [ref=f4e48]: 󰍁
+        - generic [ref=f4e49]:
+          - generic: Senha atual
+          - textbox "Senha atual" [ref=f4e50]: Qa@7614teste
+      - alert [ref=f4e51]
+    - generic [ref=f4e54]:
+      - generic [ref=f4e56]:
+        - generic [aria-hidden] [ref=f4e58]: 󰗻
+        - generic [ref=f4e59]:
+          - generic: Nova senha
+          - textbox "Nova senha" [ref=f4e60]: Qa@7614final
+        - button "󰈉" [ref=f4e62] [cursor=pointer]
+      - alert [ref=f4e63]
+    - generic [ref=f4e66]:
+      - generic [ref=f4e68]:
+        - generic [aria-hidden] [ref=f4e70]: 󱎚
+        - generic [ref=f4e71]:
+          - generic: Confirmar nova senha
+          - textbox "Confirmar nova senha" [ref=f4e72]: Qa@7614final
+      - alert [ref=f4e73]
+    - generic [ref=f4e75]:
+      - button "Alterar senha" [disabled]:
+        - generic:
+          - progressbar

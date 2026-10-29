@@ -1,0 +1,628 @@
+- generic [ref=f7e3]:
+  - navigation [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - img "Logomarca de Apoio" [ref=f7e7]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f7e9] [cursor=pointer]':
+        - generic [ref=f7e10]:
+          - generic [aria-hidden] [ref=f7e11]: 󰙹
+          - generic [ref=f7e12]: "2026"
+          - generic [aria-hidden] [ref=f7e13]: 󰅀
+      - separator [ref=f7e14]
+      - list [ref=f7e16]:
+        - generic [ref=f7e18]:
+          - generic [aria-hidden] [ref=f7e19]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f7e20] [cursor=pointer]
+        - separator [ref=f7e23]
+        - generic [ref=f7e25]:
+          - generic [aria-hidden] [ref=f7e26]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f7e27] [cursor=pointer]
+        - option "Profissionais" [ref=f7e30] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f7e33] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f7e36] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f7e40] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e44]: 󰅀
+        - separator [ref=f7e45]
+        - generic [ref=f7e47]:
+          - generic [aria-hidden] [ref=f7e48]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f7e49] [cursor=pointer]
+        - option "Matrículas" [ref=f7e52] [cursor=pointer]
+        - option "Turmas" [ref=f7e55] [cursor=pointer]
+        - option "Prorrogações" [ref=f7e58] [cursor=pointer]
+        - option "Diários" [selected] [ref=f7e61] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f7e64] [cursor=pointer]
+        - option "Feriados" [ref=f7e67] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f7e70] [cursor=pointer]
+        - separator [ref=f7e73]
+        - generic [ref=f7e75]:
+          - generic [aria-hidden] [ref=f7e76]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f7e77] [cursor=pointer]
+        - separator [ref=f7e80]
+        - generic [ref=f7e82]:
+          - generic [aria-hidden] [ref=f7e83]: 󰨒
+          - text: Administração do Sistema
+        - option "ACL" [ref=f7e85] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e89]: 󰅀
+        - option "Auditoria" [ref=f7e90] [cursor=pointer]
+    - generic [ref=f7e93]:
+      - button "Editar perfil de QA T.I 7614" [ref=f7e94] [cursor=pointer]:
+        - generic [ref=f7e95]: Q
+        - generic [ref=f7e98]:
+          - generic [ref=f7e99]: QA T.I 7614
+          - generic [ref=f7e100]: T.I
+      - separator [ref=f7e101]
+      - generic [ref=f7e102]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f7e103] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e104]: 󰓼
+          - generic [ref=f7e105]: versão 0.1.0
+        - button "Sair da conta" [active] [ref=f7e106] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e108]: 󰍃
+  - banner [ref=f7e109]:
+    - generic [ref=f7e110]:
+      - button "Fechar menu" [ref=f7e111] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f7e113]: 󰍜
+      - generic [ref=f7e114]: Colégio Apoio
+      - button "Notificações" [ref=f7e116] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f7e120]: 󰂜
+      - button "Menu do usuário" [ref=f7e121] [cursor=pointer]:
+        - generic [ref=f7e122]: Q
+  - main [ref=f7e124]:
+    - list [ref=f7e126]:
+      - listitem [ref=f7e127]:
+        - link "Dashboard" [ref=f7e128] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f7e129]: ">"
+      - listitem:
+        - generic: Diários
+    - generic [ref=f7e130]:
+      - heading "Diários" [level=5] [ref=f7e131]
+      - generic [ref=f7e132]:
+        - generic [ref=f7e133]: Um diário por turma, professor e componente curricular.
+        - generic [ref=f7e135]:
+          - generic [ref=f7e136]: Pesquisar
+          - generic [ref=f7e137]:
+            - searchbox [ref=f7e139]:
+              - searchbox "Pesquisar diários" [ref=f7e141]
+              - text: 󰅙
+              - generic [aria-hidden] [ref=f7e143]: 󰍉
+            - alert [ref=f7e144]
+      - generic [ref=f7e146]: Exibindo de 1 até 15 de 35
+      - generic [ref=f7e147]:
+        - generic [ref=f7e148]:
+          - generic [ref=f7e149]:
+            - generic [ref=f7e150]: Educação Física
+            - generic [ref=f7e152]: EF
+          - generic [ref=f7e153]: 6ANO-M-2026—6º Ano
+          - separator [ref=f7e154]
+          - generic [ref=f7e155]:
+            - generic [ref=f7e156]:
+              - generic [ref=f7e157]: Dados do diário
+              - generic [ref=f7e158]:
+                - generic [ref=f7e159]: "Titular:"
+                - generic [ref=f7e160]: Jueslen Carlos Ferreira da Silva
+              - generic [ref=f7e161]:
+                - generic [ref=f7e162]: "Carga horária:"
+                - generic [ref=f7e163]: 20.00h aula
+                - generic [ref=f7e164]: / 16.67h relógio
+              - generic [ref=f7e165]:
+                - generic [ref=f7e166]: "Ano letivo:"
+                - generic [ref=f7e167]: "2026"
+            - generic [ref=f7e168]:
+              - generic [ref=f7e169]: Lançamentos
+              - generic [ref=f7e170]:
+                - generic [ref=f7e171]: "Etapas:"
+                - generic [ref=f7e172]: "7"
+              - generic [ref=f7e173]:
+                - generic [ref=f7e174]: "Aulas:"
+                - generic [ref=f7e175]: "1"
+            - generic [ref=f7e177]:
+              - button "Abrir diário de Educação Física da turma 6º Ano" [ref=f7e178] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e180]: 󱗖
+                - generic [ref=f7e181]: Abrir
+              - button "Opções de impressão do diário de Educação Física da turma 6º Ano" [ref=f7e182] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e184]: 󱞆
+                - generic [ref=f7e185]: Imprimir
+                - generic [aria-hidden] [ref=f7e187]: 󰍝
+        - generic [ref=f7e188]:
+          - generic [ref=f7e189]:
+            - generic [ref=f7e190]: Ensino religioso
+            - generic [ref=f7e192]: ER
+          - generic [ref=f7e193]: 6ANO-M-2026—6º Ano
+          - separator [ref=f7e194]
+          - generic [ref=f7e195]:
+            - generic [ref=f7e196]:
+              - generic [ref=f7e197]: Dados do diário
+              - generic [ref=f7e198]:
+                - generic [ref=f7e199]: "Titular:"
+                - generic [ref=f7e200]: Francisco Muniz Maranguape
+              - generic [ref=f7e201]:
+                - generic [ref=f7e202]: "Carga horária:"
+                - generic [ref=f7e203]: 20.00h aula
+                - generic [ref=f7e204]: / 16.67h relógio
+              - generic [ref=f7e205]:
+                - generic [ref=f7e206]: "Ano letivo:"
+                - generic [ref=f7e207]: "2026"
+            - generic [ref=f7e208]:
+              - generic [ref=f7e209]: Lançamentos
+              - generic [ref=f7e210]:
+                - generic [ref=f7e211]: "Etapas:"
+                - generic [ref=f7e212]: "0"
+              - generic [ref=f7e213]:
+                - generic [ref=f7e214]: "Aulas:"
+                - generic [ref=f7e215]: "0"
+              - generic [ref=f7e216]: Ainda sem etapa materializada
+            - generic [ref=f7e219]:
+              - button "Abrir diário de Ensino religioso da turma 6º Ano" [ref=f7e220] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e222]: 󱗖
+                - generic [ref=f7e223]: Abrir
+              - button "Opções de impressão do diário de Ensino religioso da turma 6º Ano" [ref=f7e224] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e226]: 󱞆
+                - generic [ref=f7e227]: Imprimir
+                - generic [aria-hidden] [ref=f7e229]: 󰍝
+        - generic [ref=f7e230]:
+          - generic [ref=f7e231]:
+            - generic [ref=f7e232]: Língua /Literatura estrangeira - Espanhol
+            - generic [ref=f7e234]: LLEE
+          - generic [ref=f7e235]: 6ANO-M-2026—6º Ano
+          - separator [ref=f7e236]
+          - generic [ref=f7e237]:
+            - generic [ref=f7e238]:
+              - generic [ref=f7e239]: Dados do diário
+              - generic [ref=f7e240]:
+                - generic [ref=f7e241]: "Titular:"
+                - generic [ref=f7e242]: Maria da Conceicao E Silva Ferrreira
+              - generic [ref=f7e243]:
+                - generic [ref=f7e244]: "Carga horária:"
+                - generic [ref=f7e245]: 20.00h aula
+                - generic [ref=f7e246]: / 16.67h relógio
+              - generic [ref=f7e247]:
+                - generic [ref=f7e248]: "Ano letivo:"
+                - generic [ref=f7e249]: "2026"
+            - generic [ref=f7e250]:
+              - generic [ref=f7e251]: Lançamentos
+              - generic [ref=f7e252]:
+                - generic [ref=f7e253]: "Etapas:"
+                - generic [ref=f7e254]: "0"
+              - generic [ref=f7e255]:
+                - generic [ref=f7e256]: "Aulas:"
+                - generic [ref=f7e257]: "0"
+              - generic [ref=f7e258]: Ainda sem etapa materializada
+            - generic [ref=f7e261]:
+              - button "Abrir diário de Língua /Literatura estrangeira - Espanhol da turma 6º Ano" [ref=f7e262] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e264]: 󱗖
+                - generic [ref=f7e265]: Abrir
+              - button "Opções de impressão do diário de Língua /Literatura estrangeira - Espanhol da turma 6º Ano" [ref=f7e266] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e268]: 󱞆
+                - generic [ref=f7e269]: Imprimir
+                - generic [aria-hidden] [ref=f7e271]: 󰍝
+        - generic [ref=f7e272]:
+          - generic [ref=f7e273]:
+            - generic [ref=f7e274]: Ensino religioso
+            - generic [ref=f7e276]: ER
+          - generic [ref=f7e277]: 7ANO-M-2026—7º Ano
+          - separator [ref=f7e278]
+          - generic [ref=f7e279]:
+            - generic [ref=f7e280]:
+              - generic [ref=f7e281]: Dados do diário
+              - generic [ref=f7e282]:
+                - generic [ref=f7e283]: "Titular:"
+                - generic [ref=f7e284]: Francisco Muniz Maranguape
+              - generic [ref=f7e285]:
+                - generic [ref=f7e286]: "Carga horária:"
+                - generic [ref=f7e287]: 20.00h aula
+                - generic [ref=f7e288]: / 16.67h relógio
+              - generic [ref=f7e289]:
+                - generic [ref=f7e290]: "Ano letivo:"
+                - generic [ref=f7e291]: "2026"
+            - generic [ref=f7e292]:
+              - generic [ref=f7e293]: Lançamentos
+              - generic [ref=f7e294]:
+                - generic [ref=f7e295]: "Etapas:"
+                - generic [ref=f7e296]: "0"
+              - generic [ref=f7e297]:
+                - generic [ref=f7e298]: "Aulas:"
+                - generic [ref=f7e299]: "0"
+              - generic [ref=f7e300]: Ainda sem etapa materializada
+            - generic [ref=f7e303]:
+              - button "Abrir diário de Ensino religioso da turma 7º Ano" [ref=f7e304] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e306]: 󱗖
+                - generic [ref=f7e307]: Abrir
+              - button "Opções de impressão do diário de Ensino religioso da turma 7º Ano" [ref=f7e308] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e310]: 󱞆
+                - generic [ref=f7e311]: Imprimir
+                - generic [aria-hidden] [ref=f7e313]: 󰍝
+        - generic [ref=f7e314]:
+          - generic [ref=f7e315]:
+            - generic [ref=f7e316]: Língua /Literatura estrangeira - Espanhol
+            - generic [ref=f7e318]: LLEE
+          - generic [ref=f7e319]: 7ANO-M-2026—7º Ano
+          - separator [ref=f7e320]
+          - generic [ref=f7e321]:
+            - generic [ref=f7e322]:
+              - generic [ref=f7e323]: Dados do diário
+              - generic [ref=f7e324]:
+                - generic [ref=f7e325]: "Titular:"
+                - generic [ref=f7e326]: Maria da Conceicao E Silva Ferrreira
+              - generic [ref=f7e327]:
+                - generic [ref=f7e328]: "Carga horária:"
+                - generic [ref=f7e329]: 20.00h aula
+                - generic [ref=f7e330]: / 16.67h relógio
+              - generic [ref=f7e331]:
+                - generic [ref=f7e332]: "Ano letivo:"
+                - generic [ref=f7e333]: "2026"
+            - generic [ref=f7e334]:
+              - generic [ref=f7e335]: Lançamentos
+              - generic [ref=f7e336]:
+                - generic [ref=f7e337]: "Etapas:"
+                - generic [ref=f7e338]: "0"
+              - generic [ref=f7e339]:
+                - generic [ref=f7e340]: "Aulas:"
+                - generic [ref=f7e341]: "0"
+              - generic [ref=f7e342]: Ainda sem etapa materializada
+            - generic [ref=f7e345]:
+              - button "Abrir diário de Língua /Literatura estrangeira - Espanhol da turma 7º Ano" [ref=f7e346] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e348]: 󱗖
+                - generic [ref=f7e349]: Abrir
+              - button "Opções de impressão do diário de Língua /Literatura estrangeira - Espanhol da turma 7º Ano" [ref=f7e350] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e352]: 󱞆
+                - generic [ref=f7e353]: Imprimir
+                - generic [aria-hidden] [ref=f7e355]: 󰍝
+        - generic [ref=f7e356]:
+          - generic [ref=f7e357]:
+            - generic [ref=f7e358]: Ensino religioso
+            - generic [ref=f7e360]: ER
+          - generic [ref=f7e361]: 8ANO-M-2026—8º Ano
+          - separator [ref=f7e362]
+          - generic [ref=f7e363]:
+            - generic [ref=f7e364]:
+              - generic [ref=f7e365]: Dados do diário
+              - generic [ref=f7e366]:
+                - generic [ref=f7e367]: "Titular:"
+                - generic [ref=f7e368]: Francisco Muniz Maranguape
+              - generic [ref=f7e369]:
+                - generic [ref=f7e370]: "Carga horária:"
+                - generic [ref=f7e371]: —
+              - generic [ref=f7e372]:
+                - generic [ref=f7e373]: "Ano letivo:"
+                - generic [ref=f7e374]: "2026"
+            - generic [ref=f7e375]:
+              - generic [ref=f7e376]: Lançamentos
+              - generic [ref=f7e377]:
+                - generic [ref=f7e378]: "Etapas:"
+                - generic [ref=f7e379]: "0"
+              - generic [ref=f7e380]:
+                - generic [ref=f7e381]: "Aulas:"
+                - generic [ref=f7e382]: "0"
+              - generic [ref=f7e383]: Ainda sem etapa materializada
+            - generic [ref=f7e386]:
+              - button "Abrir diário de Ensino religioso da turma 8º Ano" [ref=f7e387] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e389]: 󱗖
+                - generic [ref=f7e390]: Abrir
+              - button "Opções de impressão do diário de Ensino religioso da turma 8º Ano" [ref=f7e391] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e393]: 󱞆
+                - generic [ref=f7e394]: Imprimir
+                - generic [aria-hidden] [ref=f7e396]: 󰍝
+        - generic [ref=f7e397]:
+          - generic [ref=f7e398]:
+            - generic [ref=f7e399]: Geografia
+            - generic [ref=f7e401]: GEO
+          - generic [ref=f7e402]: 8ANO-M-2026—8º Ano
+          - separator [ref=f7e403]
+          - generic [ref=f7e404]:
+            - generic [ref=f7e405]:
+              - generic [ref=f7e406]: Dados do diário
+              - generic [ref=f7e407]:
+                - generic [ref=f7e408]: "Titular:"
+                - generic [ref=f7e409]: Giovani Silva Seixas
+              - generic [ref=f7e410]:
+                - generic [ref=f7e411]: "Carga horária:"
+                - generic [ref=f7e412]: 20.00h aula
+                - generic [ref=f7e413]: / 16.67h relógio
+              - generic [ref=f7e414]:
+                - generic [ref=f7e415]: "Ano letivo:"
+                - generic [ref=f7e416]: "2026"
+            - generic [ref=f7e417]:
+              - generic [ref=f7e418]: Lançamentos
+              - generic [ref=f7e419]:
+                - generic [ref=f7e420]: "Etapas:"
+                - generic [ref=f7e421]: "0"
+              - generic [ref=f7e422]:
+                - generic [ref=f7e423]: "Aulas:"
+                - generic [ref=f7e424]: "0"
+              - generic [ref=f7e425]: Ainda sem etapa materializada
+            - generic [ref=f7e428]:
+              - button "Abrir diário de Geografia da turma 8º Ano" [ref=f7e429] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e431]: 󱗖
+                - generic [ref=f7e432]: Abrir
+              - button "Opções de impressão do diário de Geografia da turma 8º Ano" [ref=f7e433] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e435]: 󱞆
+                - generic [ref=f7e436]: Imprimir
+                - generic [aria-hidden] [ref=f7e438]: 󰍝
+        - generic [ref=f7e439]:
+          - generic [ref=f7e440]:
+            - generic [ref=f7e441]: Língua /Literatura estrangeira - Espanhol
+            - generic [ref=f7e443]: LLEE
+          - generic [ref=f7e444]: 8ANO-M-2026—8º Ano
+          - separator [ref=f7e445]
+          - generic [ref=f7e446]:
+            - generic [ref=f7e447]:
+              - generic [ref=f7e448]: Dados do diário
+              - generic [ref=f7e449]:
+                - generic [ref=f7e450]: "Titular:"
+                - generic [ref=f7e451]: Maria da Conceicao E Silva Ferrreira
+              - generic [ref=f7e452]:
+                - generic [ref=f7e453]: "Carga horária:"
+                - generic [ref=f7e454]: 20.00h aula
+                - generic [ref=f7e455]: / 16.67h relógio
+              - generic [ref=f7e456]:
+                - generic [ref=f7e457]: "Ano letivo:"
+                - generic [ref=f7e458]: "2026"
+            - generic [ref=f7e459]:
+              - generic [ref=f7e460]: Lançamentos
+              - generic [ref=f7e461]:
+                - generic [ref=f7e462]: "Etapas:"
+                - generic [ref=f7e463]: "0"
+              - generic [ref=f7e464]:
+                - generic [ref=f7e465]: "Aulas:"
+                - generic [ref=f7e466]: "0"
+              - generic [ref=f7e467]: Ainda sem etapa materializada
+            - generic [ref=f7e470]:
+              - button "Abrir diário de Língua /Literatura estrangeira - Espanhol da turma 8º Ano" [ref=f7e471] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e473]: 󱗖
+                - generic [ref=f7e474]: Abrir
+              - button "Opções de impressão do diário de Língua /Literatura estrangeira - Espanhol da turma 8º Ano" [ref=f7e475] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e477]: 󱞆
+                - generic [ref=f7e478]: Imprimir
+                - generic [aria-hidden] [ref=f7e480]: 󰍝
+        - generic [ref=f7e481]:
+          - generic [ref=f7e482]:
+            - generic [ref=f7e483]: Ensino religioso
+            - generic [ref=f7e485]: ER
+          - generic [ref=f7e486]: 9ANO-M-2026—9º Ano
+          - separator [ref=f7e487]
+          - generic [ref=f7e488]:
+            - generic [ref=f7e489]:
+              - generic [ref=f7e490]: Dados do diário
+              - generic [ref=f7e491]:
+                - generic [ref=f7e492]: "Titular:"
+                - generic [ref=f7e493]: Francisco Muniz Maranguape
+              - generic [ref=f7e494]:
+                - generic [ref=f7e495]: "Carga horária:"
+                - generic [ref=f7e496]: —
+              - generic [ref=f7e497]:
+                - generic [ref=f7e498]: "Ano letivo:"
+                - generic [ref=f7e499]: "2026"
+            - generic [ref=f7e500]:
+              - generic [ref=f7e501]: Lançamentos
+              - generic [ref=f7e502]:
+                - generic [ref=f7e503]: "Etapas:"
+                - generic [ref=f7e504]: "7"
+              - generic [ref=f7e505]:
+                - generic [ref=f7e506]: "Aulas:"
+                - generic [ref=f7e507]: "0"
+            - generic [ref=f7e509]:
+              - button "Abrir diário de Ensino religioso da turma 9º Ano" [ref=f7e510] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e512]: 󱗖
+                - generic [ref=f7e513]: Abrir
+              - button "Opções de impressão do diário de Ensino religioso da turma 9º Ano" [ref=f7e514] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e516]: 󱞆
+                - generic [ref=f7e517]: Imprimir
+                - generic [aria-hidden] [ref=f7e519]: 󰍝
+        - generic [ref=f7e520]:
+          - generic [ref=f7e521]:
+            - generic [ref=f7e522]: Geografia
+            - generic [ref=f7e524]: GEO
+          - generic [ref=f7e525]: 9ANO-M-2026—9º Ano
+          - separator [ref=f7e526]
+          - generic [ref=f7e527]:
+            - generic [ref=f7e528]:
+              - generic [ref=f7e529]: Dados do diário
+              - generic [ref=f7e530]:
+                - generic [ref=f7e531]: "Titular:"
+                - generic [ref=f7e532]: Giovani Silva Seixas
+              - generic [ref=f7e533]:
+                - generic [ref=f7e534]: "Carga horária:"
+                - generic [ref=f7e535]: 20.00h aula
+                - generic [ref=f7e536]: / 16.67h relógio
+              - generic [ref=f7e537]:
+                - generic [ref=f7e538]: "Ano letivo:"
+                - generic [ref=f7e539]: "2026"
+            - generic [ref=f7e540]:
+              - generic [ref=f7e541]: Lançamentos
+              - generic [ref=f7e542]:
+                - generic [ref=f7e543]: "Etapas:"
+                - generic [ref=f7e544]: "7"
+              - generic [ref=f7e545]:
+                - generic [ref=f7e546]: "Aulas:"
+                - generic [ref=f7e547]: "0"
+            - generic [ref=f7e549]:
+              - button "Abrir diário de Geografia da turma 9º Ano" [ref=f7e550] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e552]: 󱗖
+                - generic [ref=f7e553]: Abrir
+              - button "Opções de impressão do diário de Geografia da turma 9º Ano" [ref=f7e554] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e556]: 󱞆
+                - generic [ref=f7e557]: Imprimir
+                - generic [aria-hidden] [ref=f7e559]: 󰍝
+        - generic [ref=f7e560]:
+          - generic [ref=f7e561]:
+            - generic [ref=f7e562]: Língua /Literatura estrangeira - Espanhol
+            - generic [ref=f7e564]: LLEE
+          - generic [ref=f7e565]: 9ANO-M-2026—9º Ano
+          - separator [ref=f7e566]
+          - generic [ref=f7e567]:
+            - generic [ref=f7e568]:
+              - generic [ref=f7e569]: Dados do diário
+              - generic [ref=f7e570]:
+                - generic [ref=f7e571]: "Titular:"
+                - generic [ref=f7e572]: Maria da Conceicao E Silva Ferrreira
+              - generic [ref=f7e573]:
+                - generic [ref=f7e574]: "Carga horária:"
+                - generic [ref=f7e575]: 20.00h aula
+                - generic [ref=f7e576]: / 16.67h relógio
+              - generic [ref=f7e577]:
+                - generic [ref=f7e578]: "Ano letivo:"
+                - generic [ref=f7e579]: "2026"
+            - generic [ref=f7e580]:
+              - generic [ref=f7e581]: Lançamentos
+              - generic [ref=f7e582]:
+                - generic [ref=f7e583]: "Etapas:"
+                - generic [ref=f7e584]: "7"
+              - generic [ref=f7e585]:
+                - generic [ref=f7e586]: "Aulas:"
+                - generic [ref=f7e587]: "0"
+            - generic [ref=f7e589]:
+              - button "Abrir diário de Língua /Literatura estrangeira - Espanhol da turma 9º Ano" [ref=f7e590] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e592]: 󱗖
+                - generic [ref=f7e593]: Abrir
+              - button "Opções de impressão do diário de Língua /Literatura estrangeira - Espanhol da turma 9º Ano" [ref=f7e594] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e596]: 󱞆
+                - generic [ref=f7e597]: Imprimir
+                - generic [aria-hidden] [ref=f7e599]: 󰍝
+        - generic [ref=f7e600]:
+          - generic [ref=f7e601]:
+            - generic [ref=f7e602]: Química
+            - generic [ref=f7e604]: QUÍ
+          - generic [ref=f7e605]: 9ANO-M-2026—9º Ano
+          - separator [ref=f7e606]
+          - generic [ref=f7e607]:
+            - generic [ref=f7e608]:
+              - generic [ref=f7e609]: Dados do diário
+              - generic [ref=f7e610]:
+                - generic [ref=f7e611]: "Titular:"
+                - generic [ref=f7e612]: Arquimedes Portinari de Sousa e Silva
+              - generic [ref=f7e613]:
+                - generic [ref=f7e614]: "Carga horária:"
+                - generic [ref=f7e615]: 20.00h aula
+                - generic [ref=f7e616]: / 16.67h relógio
+              - generic [ref=f7e617]:
+                - generic [ref=f7e618]: "Ano letivo:"
+                - generic [ref=f7e619]: "2026"
+            - generic [ref=f7e620]:
+              - generic [ref=f7e621]: Lançamentos
+              - generic [ref=f7e622]:
+                - generic [ref=f7e623]: "Etapas:"
+                - generic [ref=f7e624]: "7"
+              - generic [ref=f7e625]:
+                - generic [ref=f7e626]: "Aulas:"
+                - generic [ref=f7e627]: "0"
+            - generic [ref=f7e629]:
+              - button "Abrir diário de Química da turma 9º Ano" [ref=f7e630] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e632]: 󱗖
+                - generic [ref=f7e633]: Abrir
+              - button "Opções de impressão do diário de Química da turma 9º Ano" [ref=f7e634] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e636]: 󱞆
+                - generic [ref=f7e637]: Imprimir
+                - generic [aria-hidden] [ref=f7e639]: 󰍝
+        - generic [ref=f7e640]:
+          - generic [ref=f7e641]:
+            - generic [ref=f7e642]: Filosofia
+            - generic [ref=f7e644]: FIL
+          - generic [ref=f7e645]: 1SER-M-2026—1º Série
+          - separator [ref=f7e646]
+          - generic [ref=f7e647]:
+            - generic [ref=f7e648]:
+              - generic [ref=f7e649]: Dados do diário
+              - generic [ref=f7e650]:
+                - generic [ref=f7e651]: "Titular:"
+                - generic [ref=f7e652]: Antônio Italo de Lima Machado
+              - generic [ref=f7e653]:
+                - generic [ref=f7e654]: "Carga horária:"
+                - generic [ref=f7e655]: 10.00h aula
+                - generic [ref=f7e656]: / 8.33h relógio
+              - generic [ref=f7e657]:
+                - generic [ref=f7e658]: "Ano letivo:"
+                - generic [ref=f7e659]: "2026"
+            - generic [ref=f7e660]:
+              - generic [ref=f7e661]: Lançamentos
+              - generic [ref=f7e662]:
+                - generic [ref=f7e663]: "Etapas:"
+                - generic [ref=f7e664]: "0"
+              - generic [ref=f7e665]:
+                - generic [ref=f7e666]: "Aulas:"
+                - generic [ref=f7e667]: "0"
+              - generic [ref=f7e668]: Ainda sem etapa materializada
+            - generic [ref=f7e671]:
+              - button "Abrir diário de Filosofia da turma 1º Série" [ref=f7e672] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e674]: 󱗖
+                - generic [ref=f7e675]: Abrir
+              - button "Opções de impressão do diário de Filosofia da turma 1º Série" [ref=f7e676] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e678]: 󱞆
+                - generic [ref=f7e679]: Imprimir
+                - generic [aria-hidden] [ref=f7e681]: 󰍝
+        - generic [ref=f7e682]:
+          - generic [ref=f7e683]:
+            - generic [ref=f7e684]: Física
+            - generic [ref=f7e686]: FÍS
+          - generic [ref=f7e687]: 1SER-M-2026—1º Série
+          - separator [ref=f7e688]
+          - generic [ref=f7e689]:
+            - generic [ref=f7e690]:
+              - generic [ref=f7e691]: Dados do diário
+              - generic [ref=f7e692]:
+                - generic [ref=f7e693]: "Titular:"
+                - generic [ref=f7e694]: David da Silva Costa
+              - generic [ref=f7e695]:
+                - generic [ref=f7e696]: "Carga horária:"
+                - generic [ref=f7e697]: 20.00h aula
+                - generic [ref=f7e698]: / 16.67h relógio
+              - generic [ref=f7e699]:
+                - generic [ref=f7e700]: "Ano letivo:"
+                - generic [ref=f7e701]: "2026"
+            - generic [ref=f7e702]:
+              - generic [ref=f7e703]: Lançamentos
+              - generic [ref=f7e704]:
+                - generic [ref=f7e705]: "Etapas:"
+                - generic [ref=f7e706]: "0"
+              - generic [ref=f7e707]:
+                - generic [ref=f7e708]: "Aulas:"
+                - generic [ref=f7e709]: "0"
+              - generic [ref=f7e710]: Ainda sem etapa materializada
+            - generic [ref=f7e713]:
+              - button "Abrir diário de Física da turma 1º Série" [ref=f7e714] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e716]: 󱗖
+                - generic [ref=f7e717]: Abrir
+              - button "Opções de impressão do diário de Física da turma 1º Série" [ref=f7e718] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e720]: 󱞆
+                - generic [ref=f7e721]: Imprimir
+                - generic [aria-hidden] [ref=f7e723]: 󰍝
+        - generic [ref=f7e724]:
+          - generic [ref=f7e725]:
+            - generic [ref=f7e726]: Geografia
+            - generic [ref=f7e728]: GEO
+          - generic [ref=f7e729]: 1SER-M-2026—1º Série
+          - separator [ref=f7e730]
+          - generic [ref=f7e731]:
+            - generic [ref=f7e732]:
+              - generic [ref=f7e733]: Dados do diário
+              - generic [ref=f7e734]:
+                - generic [ref=f7e735]: "Titular:"
+                - generic [ref=f7e736]: Giovani Silva Seixas
+              - generic [ref=f7e737]:
+                - generic [ref=f7e738]: "Carga horária:"
+                - generic [ref=f7e739]: 20.00h aula
+                - generic [ref=f7e740]: / 16.67h relógio
+              - generic [ref=f7e741]:
+                - generic [ref=f7e742]: "Ano letivo:"
+                - generic [ref=f7e743]: "2026"
+            - generic [ref=f7e744]:
+              - generic [ref=f7e745]: Lançamentos
+              - generic [ref=f7e746]:
+                - generic [ref=f7e747]: "Etapas:"
+                - generic [ref=f7e748]: "0"
+              - generic [ref=f7e749]:
+                - generic [ref=f7e750]: "Aulas:"
+                - generic [ref=f7e751]: "0"
+              - generic [ref=f7e752]: Ainda sem etapa materializada
+            - generic [ref=f7e755]:
+              - button "Abrir diário de Geografia da turma 1º Série" [ref=f7e756] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e758]: 󱗖
+                - generic [ref=f7e759]: Abrir
+              - button "Opções de impressão do diário de Geografia da turma 1º Série" [ref=f7e760] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f7e762]: 󱞆
+                - generic [ref=f7e763]: Imprimir
+                - generic [aria-hidden] [ref=f7e765]: 󰍝
+      - button "Carregar mais diários" [ref=f7e767] [cursor=pointer]:
+        - generic [ref=f7e768]: Carregar mais Diários

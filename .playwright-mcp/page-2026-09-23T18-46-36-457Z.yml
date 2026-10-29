@@ -1,0 +1,713 @@
+- generic [ref=f8e320]:
+  - navigation [ref=f8e321]:
+    - generic [ref=f8e322]:
+      - img "Logomarca de Apoio" [ref=f8e324]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f8e326] [cursor=pointer]':
+        - generic [ref=f8e327]:
+          - generic [aria-hidden] [ref=f8e328]: 󰙹
+          - generic [ref=f8e329]: "2026"
+          - generic [aria-hidden] [ref=f8e330]: 󰅀
+      - separator [ref=f8e331]
+      - list [ref=f8e333]:
+        - generic [ref=f8e335]:
+          - generic [aria-hidden] [ref=f8e336]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f8e337] [cursor=pointer]
+        - separator [ref=f8e340]
+        - generic [ref=f8e342]:
+          - generic [aria-hidden] [ref=f8e343]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f8e344] [cursor=pointer]
+        - option "Profissionais" [ref=f8e347] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f8e350] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f8e353] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f8e357] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e361]: 󰅀
+        - separator [ref=f8e362]
+        - generic [ref=f8e364]:
+          - generic [aria-hidden] [ref=f8e365]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f8e366] [cursor=pointer]
+        - option "Matrículas" [ref=f8e369] [cursor=pointer]
+        - option "Turmas" [ref=f8e372] [cursor=pointer]
+        - option "Prorrogações" [ref=f8e375] [cursor=pointer]
+        - option "Diários" [ref=f8e378] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f8e381] [cursor=pointer]
+        - option "Feriados" [ref=f8e384] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f8e387] [cursor=pointer]
+        - separator [ref=f8e390]
+        - generic [ref=f8e392]:
+          - generic [aria-hidden] [ref=f8e393]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f8e394] [cursor=pointer]
+        - separator [ref=f8e397]
+        - generic [ref=f8e399]:
+          - generic [aria-hidden] [ref=f8e400]: 󰨒
+          - text: Administração do Sistema
+        - generic [ref=f8e401]:
+          - option "ACL" [ref=f8e402] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f8e406]: 󰅃
+          - group "ACL" [ref=f8e407]:
+            - option "Cargos" [selected] [ref=f8e408] [cursor=pointer]
+            - option "Permissões" [ref=f8e411] [cursor=pointer]
+            - option "Usuários" [ref=f8e414] [cursor=pointer]
+        - option "Configurações Acadêmicas" [ref=f8e417] [cursor=pointer]
+        - option "Auditoria" [ref=f8e420] [cursor=pointer]
+    - generic [ref=f8e423]:
+      - button "Editar perfil de playwright" [ref=f8e424] [cursor=pointer]:
+        - generic [ref=f8e425]: p
+        - generic [ref=f8e428]:
+          - generic [ref=f8e429]: playwright
+          - generic [ref=f8e430]: Super Administrador
+      - separator [ref=f8e431]
+      - generic [ref=f8e432]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f8e433] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e434]: 󰓼
+          - generic [ref=f8e435]: versão 0.1.0
+        - button "Sair da conta" [ref=f8e436] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e438]: 󰍃
+  - banner [ref=f8e439]:
+    - generic [ref=f8e440]:
+      - button "Fechar menu" [ref=f8e441] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f8e443]: 󰍜
+      - generic [ref=f8e444]: Colégio Apoio
+      - button "Notificações" [ref=f8e446] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f8e450]: 󰂜
+      - button "Menu do usuário" [ref=f8e451] [cursor=pointer]:
+        - generic [ref=f8e452]: P
+  - main [ref=f8e454]:
+    - list [ref=f8e456]:
+      - listitem [ref=f8e457]:
+        - link "Dashboard" [ref=f8e458] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f8e459]: ">"
+      - listitem [ref=f8e460]:
+        - link "ACL" [ref=f8e461] [cursor=pointer]:
+          - /url: http://veramendes.local/cargos
+      - listitem [aria-hidden] [ref=f8e462]: ">"
+      - listitem [ref=f8e463]:
+        - link "Cargos" [ref=f8e464] [cursor=pointer]:
+          - /url: http://veramendes.local/cargos
+      - listitem [aria-hidden] [ref=f8e465]: ">"
+      - listitem:
+        - generic: Editar
+    - generic [ref=f8e466]:
+      - heading [level=5] [ref=f8e467]:
+        - generic [aria-hidden] [ref=f8e469] [cursor=pointer]: 󰁍
+        - text: Cargos
+      - generic [ref=f8e471]:
+        - generic [ref=f8e474]:
+          - tablist [ref=f8e475]:
+            - generic [ref=f8e477]:
+              - tab "Dados" [ref=f8e478] [cursor=pointer]
+              - tab "Permissões 37" [active] [selected] [ref=f8e480] [cursor=pointer]:
+                - generic [ref=f8e481]:
+                  - generic [aria-hidden] [ref=f8e482]: 󰍁
+                  - text: Permissões
+                  - generic [ref=f8e483]: "37"
+          - generic [ref=f8e487]:
+            - text: 󰌁 󰍝
+            - generic [ref=f8e531]:
+              - generic [ref=f8e532]: Selecione as permissões vinculadas a este cargo.
+              - generic [ref=f8e533]:
+                - generic [ref=f8e534]:
+                  - generic [ref=f8e539]:
+                    - generic [aria-hidden] [ref=f8e540]: 󰄱
+                    - checkbox [ref=f8e541] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e542]: 󰩦
+                  - generic [ref=f8e543]: alunos.agenda
+                  - generic [ref=f8e544]: 0/2
+                - generic [ref=f8e546]:
+                  - generic [ref=f8e547] [cursor=pointer]: arquivo
+                  - generic [ref=f8e549] [cursor=pointer]: list
+              - generic [ref=f8e551]:
+                - generic [ref=f8e552]:
+                  - generic [ref=f8e557]:
+                    - generic [aria-hidden] [ref=f8e558]: 󰄱
+                    - checkbox [ref=f8e559] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e560]: 󱆀
+                  - generic [ref=f8e561]: alunos
+                  - generic [ref=f8e562]: 0/8
+                - generic [ref=f8e564]:
+                  - generic [ref=f8e565] [cursor=pointer]: create
+                  - generic [ref=f8e567] [cursor=pointer]: delete
+                  - generic [ref=f8e569] [cursor=pointer]: edit
+                  - generic [ref=f8e571] [cursor=pointer]: list
+                  - generic [ref=f8e573] [cursor=pointer]: restore
+                  - generic [ref=f8e575] [cursor=pointer]: store
+                  - generic [ref=f8e577] [cursor=pointer]: update
+                  - generic [ref=f8e579] [cursor=pointer]: verificar-cpf
+              - generic [ref=f8e581]:
+                - generic [ref=f8e582]:
+                  - generic [ref=f8e587]:
+                    - generic [aria-hidden] [ref=f8e588]: 󰄱
+                    - checkbox [ref=f8e589] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e590]: 󰩦
+                  - generic [ref=f8e591]: auditoria
+                  - generic [ref=f8e592]: 0/1
+                - generic [ref=f8e594]: list
+              - generic [ref=f8e597]:
+                - generic [ref=f8e598]:
+                  - generic [ref=f8e603]:
+                    - generic [aria-hidden] [ref=f8e604]: 󰄱
+                    - checkbox [ref=f8e605] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e606]: 󰶪
+                  - generic [ref=f8e607]: cargos
+                  - generic [ref=f8e608]: 0/6
+                - generic [ref=f8e610]:
+                  - generic [ref=f8e611] [cursor=pointer]: create
+                  - generic [ref=f8e613] [cursor=pointer]: delete
+                  - generic [ref=f8e615] [cursor=pointer]: edit
+                  - generic [ref=f8e617] [cursor=pointer]: list
+                  - generic [ref=f8e619] [cursor=pointer]: store
+                  - generic [ref=f8e621] [cursor=pointer]: update
+              - generic [ref=f8e623]:
+                - generic [ref=f8e624]:
+                  - generic [ref=f8e629]:
+                    - generic [aria-hidden] [ref=f8e630]: 󰄱
+                    - checkbox [ref=f8e631] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e632]: 󰩦
+                  - generic [ref=f8e633]: circuito-notas
+                  - generic [ref=f8e634]: 0/11
+                - generic [ref=f8e636]:
+                  - generic [ref=f8e637] [cursor=pointer]: create
+                  - generic [ref=f8e639] [cursor=pointer]: delete
+                  - generic [ref=f8e641] [cursor=pointer]: edit
+                  - generic [ref=f8e643] [cursor=pointer]: export
+                  - generic [ref=f8e645] [cursor=pointer]: historico
+                  - generic [ref=f8e647] [cursor=pointer]: import
+                  - generic [ref=f8e649] [cursor=pointer]: list
+                  - generic [ref=f8e651] [cursor=pointer]: show
+                  - generic [ref=f8e653] [cursor=pointer]: store
+                  - generic [ref=f8e655] [cursor=pointer]: toggle-ativo
+                  - generic [ref=f8e657] [cursor=pointer]: update
+              - generic [ref=f8e659]:
+                - generic [ref=f8e660]:
+                  - generic [ref=f8e665]:
+                    - generic [aria-hidden] [ref=f8e666]: 󰄱
+                    - checkbox [ref=f8e667] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e668]: 󰩦
+                  - generic [ref=f8e669]: circuito-notas.importar
+                  - generic [ref=f8e670]: 0/1
+                - generic [ref=f8e672]: store
+              - generic [ref=f8e675]:
+                - generic [ref=f8e676]:
+                  - generic [ref=f8e681]:
+                    - generic [aria-hidden] [ref=f8e682]: 󰄱
+                    - checkbox [ref=f8e683] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e684]: 󰩦
+                  - generic [ref=f8e685]: circuito-notas.modelos-exportados
+                  - generic [ref=f8e686]: 0/1
+                - generic [ref=f8e688]: delete
+              - generic [ref=f8e691]:
+                - generic [ref=f8e692]:
+                  - generic [ref=f8e697]:
+                    - generic [aria-hidden] [ref=f8e698]: 󰄱
+                    - checkbox [ref=f8e699] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e700]: 󰩦
+                  - generic [ref=f8e701]: componentes-curriculares
+                  - generic [ref=f8e702]: 0/8
+                - generic [ref=f8e704]:
+                  - generic [ref=f8e705] [cursor=pointer]: copiar-ano
+                  - generic [ref=f8e707] [cursor=pointer]: create
+                  - generic [ref=f8e709] [cursor=pointer]: delete
+                  - generic [ref=f8e711] [cursor=pointer]: edit
+                  - generic [ref=f8e713] [cursor=pointer]: importar-ibge
+                  - generic [ref=f8e715] [cursor=pointer]: list
+                  - generic [ref=f8e717] [cursor=pointer]: store
+                  - generic [ref=f8e719] [cursor=pointer]: update
+              - generic [ref=f8e721]:
+                - generic [ref=f8e722]:
+                  - generic [ref=f8e727]:
+                    - generic [aria-hidden] [ref=f8e728]: 󰄱
+                    - checkbox [ref=f8e729] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e730]: 󰩦
+                  - generic [ref=f8e731]: configuracoes-academicas
+                  - generic [ref=f8e732]: 0/2
+                - generic [ref=f8e734]:
+                  - generic [ref=f8e735] [cursor=pointer]: edit
+                  - generic [ref=f8e737] [cursor=pointer]: update
+              - generic [ref=f8e739]:
+                - generic [ref=f8e740]:
+                  - generic [ref=f8e745]:
+                    - generic [aria-hidden] [ref=f8e746]: 󰄱
+                    - checkbox [ref=f8e747] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e748]: 󰧮
+                  - generic [ref=f8e749]: contratos
+                  - generic [ref=f8e750]: 0/9
+                - generic [ref=f8e752]:
+                  - generic [ref=f8e753] [cursor=pointer]: create
+                  - generic [ref=f8e755] [cursor=pointer]: delete
+                  - generic [ref=f8e757] [cursor=pointer]: duplicate
+                  - generic [ref=f8e759] [cursor=pointer]: edit
+                  - generic [ref=f8e761] [cursor=pointer]: historico
+                  - generic [ref=f8e763] [cursor=pointer]: list
+                  - generic [ref=f8e765] [cursor=pointer]: show
+                  - generic [ref=f8e767] [cursor=pointer]: store
+                  - generic [ref=f8e769] [cursor=pointer]: update
+              - generic [ref=f8e771]:
+                - generic [ref=f8e772]:
+                  - generic [ref=f8e777]:
+                    - generic [aria-hidden] [ref=f8e778]: 󰄱
+                    - checkbox [ref=f8e779] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e780]: 󰩦
+                  - generic [ref=f8e781]: declaracoes-emitidas
+                  - generic [ref=f8e782]: 0/2
+                - generic [ref=f8e784]:
+                  - generic [ref=f8e785] [cursor=pointer]: emitir
+                  - generic [ref=f8e787] [cursor=pointer]: pdf
+              - generic [ref=f8e789]:
+                - generic [ref=f8e790]:
+                  - generic [ref=f8e795]:
+                    - generic [aria-hidden] [ref=f8e796]: 󰄱
+                    - checkbox [ref=f8e797] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e798]: 󱆈
+                  - generic [ref=f8e799]: declaracoes
+                  - generic [ref=f8e800]: 0/7
+                - generic [ref=f8e802]:
+                  - generic [ref=f8e803] [cursor=pointer]: create
+                  - generic [ref=f8e805] [cursor=pointer]: delete
+                  - generic [ref=f8e807] [cursor=pointer]: edit
+                  - generic [ref=f8e809] [cursor=pointer]: list
+                  - generic [ref=f8e811] [cursor=pointer]: show
+                  - generic [ref=f8e813] [cursor=pointer]: store
+                  - generic [ref=f8e815] [cursor=pointer]: update
+              - generic [ref=f8e817]:
+                - generic [ref=f8e818]:
+                  - generic [ref=f8e823]:
+                    - generic [aria-hidden] [ref=f8e824]: 󰄲
+                    - checkbox [checked] [ref=f8e825] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e826]: 󰩦
+                  - generic [ref=f8e827]: diarios
+                  - generic [ref=f8e828]: 1/1
+                - generic [ref=f8e832] [cursor=pointer]:
+                  - text: list
+                  - generic [aria-hidden] [ref=f8e833]: 󰄬
+              - generic [ref=f8e834]:
+                - generic [ref=f8e835]:
+                  - generic [ref=f8e840]:
+                    - generic [aria-hidden] [ref=f8e841]: 󰄱
+                    - checkbox [ref=f8e842] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e843]: 󰩦
+                  - generic [ref=f8e844]: feriados
+                  - generic [ref=f8e845]: 0/3
+                - generic [ref=f8e847]:
+                  - generic [ref=f8e848] [cursor=pointer]: delete
+                  - generic [ref=f8e850] [cursor=pointer]: list
+                  - generic [ref=f8e852] [cursor=pointer]: store
+              - generic [ref=f8e854]:
+                - generic [ref=f8e855]:
+                  - generic [ref=f8e860]:
+                    - generic [aria-hidden] [ref=f8e861]: 󰄱
+                    - checkbox [ref=f8e862] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e863]: 󱔟
+                  - generic [ref=f8e864]: franquias
+                  - generic [ref=f8e865]: 0/6
+                - generic [ref=f8e867]:
+                  - generic [ref=f8e868] [cursor=pointer]: create
+                  - generic [ref=f8e870] [cursor=pointer]: delete
+                  - generic [ref=f8e872] [cursor=pointer]: edit
+                  - generic [ref=f8e874] [cursor=pointer]: list
+                  - generic [ref=f8e876] [cursor=pointer]: store
+                  - generic [ref=f8e878] [cursor=pointer]: update
+              - generic [ref=f8e880]:
+                - generic [ref=f8e881]:
+                  - generic [ref=f8e886]:
+                    - generic [aria-hidden] [ref=f8e887]: 󰄱
+                    - checkbox [ref=f8e888] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e889]: 󰩦
+                  - generic [ref=f8e890]: justificativas
+                  - generic [ref=f8e891]: 0/11
+                - generic [ref=f8e893]:
+                  - generic [ref=f8e894] [cursor=pointer]: anexo
+                  - generic [ref=f8e896] [cursor=pointer]: create
+                  - generic [ref=f8e898] [cursor=pointer]: decidir
+                  - generic [ref=f8e900] [cursor=pointer]: delete
+                  - generic [ref=f8e902] [cursor=pointer]: edit
+                  - generic [ref=f8e904] [cursor=pointer]: historico
+                  - generic [ref=f8e906] [cursor=pointer]: list
+                  - generic [ref=f8e908] [cursor=pointer]: revogar
+                  - generic [ref=f8e910] [cursor=pointer]: show
+                  - generic [ref=f8e912] [cursor=pointer]: store
+                  - generic [ref=f8e914] [cursor=pointer]: update
+              - generic [ref=f8e916]:
+                - generic [ref=f8e917]:
+                  - generic [ref=f8e922]:
+                    - generic [aria-hidden] [ref=f8e923]: 󰄱
+                    - checkbox [ref=f8e924] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e925]: 󰩦
+                  - generic [ref=f8e926]: justificativas.matriculas
+                  - generic [ref=f8e927]: 0/1
+                - generic [ref=f8e929]: buscar
+              - generic [ref=f8e932]:
+                - generic [ref=f8e933]:
+                  - generic [ref=f8e938]:
+                    - generic [aria-hidden] [ref=f8e939]: 󰄱
+                    - checkbox [ref=f8e940] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e941]: 󰢨
+                  - generic [ref=f8e942]: matriculas
+                  - generic [ref=f8e943]: 0/11
+                - generic [ref=f8e945]:
+                  - generic [ref=f8e946] [cursor=pointer]: create
+                  - generic [ref=f8e948] [cursor=pointer]: delete
+                  - generic [ref=f8e950] [cursor=pointer]: edit
+                  - generic [ref=f8e952] [cursor=pointer]: list
+                  - generic [ref=f8e954] [cursor=pointer]: reorder
+                  - generic [ref=f8e956] [cursor=pointer]: reorder-alfabetica
+                  - generic [ref=f8e958] [cursor=pointer]: restore
+                  - generic [ref=f8e960] [cursor=pointer]: show
+                  - generic [ref=f8e962] [cursor=pointer]: store
+                  - generic [ref=f8e964] [cursor=pointer]: update
+                  - generic [ref=f8e966] [cursor=pointer]: update-situacao
+              - generic [ref=f8e968]:
+                - generic [ref=f8e969]:
+                  - generic [ref=f8e974]:
+                    - generic [aria-hidden] [ref=f8e975]: 󰄲
+                    - checkbox [checked] [ref=f8e976] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e977]: 󰩦
+                  - generic [ref=f8e978]: notifiq.presencas
+                  - generic [ref=f8e979]: 3/3
+                - generic [ref=f8e981]:
+                  - generic [ref=f8e983] [cursor=pointer]:
+                    - text: data
+                    - generic [aria-hidden] [ref=f8e984]: 󰄬
+                  - generic [ref=f8e986] [cursor=pointer]:
+                    - text: delete
+                    - generic [aria-hidden] [ref=f8e987]: 󰄬
+                  - generic [ref=f8e989] [cursor=pointer]:
+                    - text: index
+                    - generic [aria-hidden] [ref=f8e990]: 󰄬
+              - generic [ref=f8e991]:
+                - generic [ref=f8e992]:
+                  - generic [ref=f8e997]:
+                    - generic [aria-hidden] [ref=f8e998]: 󰄱
+                    - checkbox [ref=f8e999] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1000]: 󰄖
+                  - generic [ref=f8e1001]: parcelas
+                  - generic [ref=f8e1002]: 0/7
+                - generic [ref=f8e1004]:
+                  - generic [ref=f8e1005] [cursor=pointer]: delete
+                  - generic [ref=f8e1007] [cursor=pointer]: estornar
+                  - generic [ref=f8e1009] [cursor=pointer]: gerar
+                  - generic [ref=f8e1011] [cursor=pointer]: pagar
+                  - generic [ref=f8e1013] [cursor=pointer]: restore
+                  - generic [ref=f8e1015] [cursor=pointer]: store
+                  - generic [ref=f8e1017] [cursor=pointer]: update
+              - generic [ref=f8e1019]:
+                - generic [ref=f8e1020]:
+                  - generic [ref=f8e1025]:
+                    - generic [aria-hidden] [ref=f8e1026]: 󰄱
+                    - checkbox [ref=f8e1027] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1028]: 󰍁
+                  - generic [ref=f8e1029]: permissoes
+                  - generic [ref=f8e1030]: 0/6
+                - generic [ref=f8e1032]:
+                  - generic [ref=f8e1033] [cursor=pointer]: create
+                  - generic [ref=f8e1035] [cursor=pointer]: delete
+                  - generic [ref=f8e1037] [cursor=pointer]: edit
+                  - generic [ref=f8e1039] [cursor=pointer]: list
+                  - generic [ref=f8e1041] [cursor=pointer]: store
+                  - generic [ref=f8e1043] [cursor=pointer]: update
+              - generic [ref=f8e1045]:
+                - generic [ref=f8e1046]:
+                  - generic [ref=f8e1051]:
+                    - generic [aria-hidden] [ref=f8e1052]: 󰄱
+                    - checkbox [ref=f8e1053] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1054]: 󱃊
+                  - generic [ref=f8e1055]: profissionais
+                  - generic [ref=f8e1056]: 0/7
+                - generic [ref=f8e1058]:
+                  - generic [ref=f8e1059] [cursor=pointer]: create
+                  - generic [ref=f8e1061] [cursor=pointer]: delete
+                  - generic [ref=f8e1063] [cursor=pointer]: edit
+                  - generic [ref=f8e1065] [cursor=pointer]: list
+                  - generic [ref=f8e1067] [cursor=pointer]: restore
+                  - generic [ref=f8e1069] [cursor=pointer]: store
+                  - generic [ref=f8e1071] [cursor=pointer]: update
+              - generic [ref=f8e1073]:
+                - generic [ref=f8e1074]:
+                  - generic [ref=f8e1079]:
+                    - generic [aria-hidden] [ref=f8e1080]: 󰄲
+                    - checkbox [checked] [ref=f8e1081] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1082]: 󰩦
+                  - generic [ref=f8e1083]: relatorios
+                  - generic [ref=f8e1084]: 1/1
+                - generic [ref=f8e1088] [cursor=pointer]:
+                  - text: list
+                  - generic [aria-hidden] [ref=f8e1089]: 󰄬
+              - generic [ref=f8e1090]:
+                - generic [ref=f8e1091]:
+                  - generic [ref=f8e1096]:
+                    - generic [aria-hidden] [ref=f8e1097]: 󰄲
+                    - checkbox [checked] [ref=f8e1098] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1099]: 󰩦
+                  - generic [ref=f8e1100]: relatorios.notifiq
+                  - generic [ref=f8e1101]: 4/4
+                - generic [ref=f8e1103]:
+                  - generic [ref=f8e1105] [cursor=pointer]:
+                    - text: alunos
+                    - generic [aria-hidden] [ref=f8e1106]: 󰄬
+                  - generic [ref=f8e1108] [cursor=pointer]:
+                    - text: data
+                    - generic [aria-hidden] [ref=f8e1109]: 󰄬
+                  - generic [ref=f8e1111] [cursor=pointer]:
+                    - text: export
+                    - generic [aria-hidden] [ref=f8e1112]: 󰄬
+                  - generic [ref=f8e1114] [cursor=pointer]:
+                    - text: index
+                    - generic [aria-hidden] [ref=f8e1115]: 󰄬
+              - generic [ref=f8e1116]:
+                - generic [ref=f8e1117]:
+                  - generic [ref=f8e1122]:
+                    - generic [aria-hidden] [ref=f8e1123]: 󰄱
+                    - checkbox [ref=f8e1124] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1125]: 󰩦
+                  - generic [ref=f8e1126]: responsaveis_pedagogicos
+                  - generic [ref=f8e1127]: 0/3
+                - generic [ref=f8e1129]:
+                  - generic [ref=f8e1130] [cursor=pointer]: buscar
+                  - generic [ref=f8e1132] [cursor=pointer]: store
+                  - generic [ref=f8e1134] [cursor=pointer]: update
+              - generic [ref=f8e1136]:
+                - generic [ref=f8e1137]:
+                  - generic [ref=f8e1142]:
+                    - generic [aria-hidden] [ref=f8e1143]: 󰄱
+                    - checkbox [ref=f8e1144] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1145]: 󰭘
+                  - generic [ref=f8e1146]: responsaveis
+                  - generic [ref=f8e1147]: 0/3
+                - generic [ref=f8e1149]:
+                  - generic [ref=f8e1150] [cursor=pointer]: buscar
+                  - generic [ref=f8e1152] [cursor=pointer]: store
+                  - generic [ref=f8e1154] [cursor=pointer]: update
+              - generic [ref=f8e1156]:
+                - generic [ref=f8e1157]:
+                  - generic [ref=f8e1162]:
+                    - generic [aria-hidden] [ref=f8e1163]: 󰄱
+                    - checkbox [ref=f8e1164] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1165]: 󰩦
+                  - generic [ref=f8e1166]: tipos-declaracao
+                  - generic [ref=f8e1167]: 0/6
+                - generic [ref=f8e1169]:
+                  - generic [ref=f8e1170] [cursor=pointer]: create
+                  - generic [ref=f8e1172] [cursor=pointer]: delete
+                  - generic [ref=f8e1174] [cursor=pointer]: edit
+                  - generic [ref=f8e1176] [cursor=pointer]: list
+                  - generic [ref=f8e1178] [cursor=pointer]: store
+                  - generic [ref=f8e1180] [cursor=pointer]: update
+              - generic [ref=f8e1182]:
+                - generic [ref=f8e1183]:
+                  - generic [ref=f8e1188]:
+                    - generic [aria-hidden] [ref=f8e1189]: 󰄱
+                    - checkbox [ref=f8e1190] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1191]: 󰩦
+                  - generic [ref=f8e1192]: tipos-desconto
+                  - generic [ref=f8e1193]: 0/6
+                - generic [ref=f8e1195]:
+                  - generic [ref=f8e1196] [cursor=pointer]: create
+                  - generic [ref=f8e1198] [cursor=pointer]: delete
+                  - generic [ref=f8e1200] [cursor=pointer]: edit
+                  - generic [ref=f8e1202] [cursor=pointer]: list
+                  - generic [ref=f8e1204] [cursor=pointer]: store
+                  - generic [ref=f8e1206] [cursor=pointer]: update
+              - generic [ref=f8e1208]:
+                - generic [ref=f8e1209]:
+                  - generic [ref=f8e1214]:
+                    - generic [aria-hidden] [ref=f8e1215]: 󰍵
+                    - checkbox [ref=f8e1216] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1217]: 󰋀
+                  - generic [ref=f8e1218]: turmas
+                  - generic [ref=f8e1219]: 3/11
+                - generic [ref=f8e1221]:
+                  - generic [ref=f8e1222] [cursor=pointer]: create
+                  - generic [ref=f8e1224] [cursor=pointer]: delete
+                  - generic [ref=f8e1227] [cursor=pointer]:
+                    - text: diario
+                    - generic [aria-hidden] [ref=f8e1228]: 󰄬
+                  - generic [ref=f8e1229] [cursor=pointer]: edit
+                  - generic [ref=f8e1232] [cursor=pointer]:
+                    - text: list
+                    - generic [aria-hidden] [ref=f8e1233]: 󰄬
+                  - generic [ref=f8e1234] [cursor=pointer]: print
+                  - generic [ref=f8e1236] [cursor=pointer]: restore
+                  - generic [ref=f8e1239] [cursor=pointer]:
+                    - text: show
+                    - generic [aria-hidden] [ref=f8e1240]: 󰄬
+                  - generic [ref=f8e1241] [cursor=pointer]: store
+                  - generic [ref=f8e1243] [cursor=pointer]: toggle-situacao
+                  - generic [ref=f8e1245] [cursor=pointer]: update
+              - generic [ref=f8e1247]:
+                - generic [ref=f8e1248]:
+                  - generic [ref=f8e1253]:
+                    - generic [aria-hidden] [ref=f8e1254]: 󰄲
+                    - checkbox [checked] [ref=f8e1255] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1256]: 󰩦
+                  - generic [ref=f8e1257]: turmas.diario
+                  - generic [ref=f8e1258]: 5/5
+                - generic [ref=f8e1260]:
+                  - generic [ref=f8e1262] [cursor=pointer]:
+                    - text: agendas
+                    - generic [aria-hidden] [ref=f8e1263]: 󰄬
+                  - generic [ref=f8e1265] [cursor=pointer]:
+                    - text: aulas
+                    - generic [aria-hidden] [ref=f8e1266]: 󰄬
+                  - generic [ref=f8e1268] [cursor=pointer]:
+                    - text: faltas
+                    - generic [aria-hidden] [ref=f8e1269]: 󰄬
+                  - generic [ref=f8e1271] [cursor=pointer]:
+                    - text: notas
+                    - generic [aria-hidden] [ref=f8e1272]: 󰄬
+                  - generic [ref=f8e1274] [cursor=pointer]:
+                    - text: posse
+                    - generic [aria-hidden] [ref=f8e1275]: 󰄬
+              - generic [ref=f8e1276]:
+                - generic [ref=f8e1277]:
+                  - generic [ref=f8e1282]:
+                    - generic [aria-hidden] [ref=f8e1283]: 󰄲
+                    - checkbox [checked] [ref=f8e1284] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1285]: 󰩦
+                  - generic [ref=f8e1286]: turmas.diario.agendas.arquivos
+                  - generic [ref=f8e1287]: 2/2
+                - generic [ref=f8e1289]:
+                  - generic [ref=f8e1291] [cursor=pointer]:
+                    - text: delete
+                    - generic [aria-hidden] [ref=f8e1292]: 󰄬
+                  - generic [ref=f8e1294] [cursor=pointer]:
+                    - text: store
+                    - generic [aria-hidden] [ref=f8e1295]: 󰄬
+              - generic [ref=f8e1296]:
+                - generic [ref=f8e1297]:
+                  - generic [ref=f8e1302]:
+                    - generic [aria-hidden] [ref=f8e1303]: 󰄲
+                    - checkbox [checked] [ref=f8e1304] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1305]: 󰩦
+                  - generic [ref=f8e1306]: turmas.diario.agendas.aulas
+                  - generic [ref=f8e1307]: 2/2
+                - generic [ref=f8e1309]:
+                  - generic [ref=f8e1311] [cursor=pointer]:
+                    - text: delete
+                    - generic [aria-hidden] [ref=f8e1312]: 󰄬
+                  - generic [ref=f8e1314] [cursor=pointer]:
+                    - text: store
+                    - generic [aria-hidden] [ref=f8e1315]: 󰄬
+              - generic [ref=f8e1316]:
+                - generic [ref=f8e1317]:
+                  - generic [ref=f8e1322]:
+                    - generic [aria-hidden] [ref=f8e1323]: 󰄲
+                    - checkbox [checked] [ref=f8e1324] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1325]: 󰩦
+                  - generic [ref=f8e1326]: turmas.diario.agendas
+                  - generic [ref=f8e1327]: 7/7
+                - generic [ref=f8e1329]:
+                  - generic [ref=f8e1331] [cursor=pointer]:
+                    - text: create
+                    - generic [aria-hidden] [ref=f8e1332]: 󰄬
+                  - generic [ref=f8e1334] [cursor=pointer]:
+                    - text: edit
+                    - generic [aria-hidden] [ref=f8e1335]: 󰄬
+                  - generic [ref=f8e1337] [cursor=pointer]:
+                    - text: historico
+                    - generic [aria-hidden] [ref=f8e1338]: 󰄬
+                  - generic [ref=f8e1340] [cursor=pointer]:
+                    - text: notificar
+                    - generic [aria-hidden] [ref=f8e1341]: 󰄬
+                  - generic [ref=f8e1343] [cursor=pointer]:
+                    - text: status
+                    - generic [aria-hidden] [ref=f8e1344]: 󰄬
+                  - generic [ref=f8e1346] [cursor=pointer]:
+                    - text: store
+                    - generic [aria-hidden] [ref=f8e1347]: 󰄬
+                  - generic [ref=f8e1349] [cursor=pointer]:
+                    - text: update
+                    - generic [aria-hidden] [ref=f8e1350]: 󰄬
+              - generic [ref=f8e1351]:
+                - generic [ref=f8e1352]:
+                  - generic [ref=f8e1357]:
+                    - generic [aria-hidden] [ref=f8e1358]: 󰄲
+                    - checkbox [checked] [ref=f8e1359] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1360]: 󰩦
+                  - generic [ref=f8e1361]: turmas.diario.aulas
+                  - generic [ref=f8e1362]: 3/3
+                - generic [ref=f8e1364]:
+                  - generic [ref=f8e1366] [cursor=pointer]:
+                    - text: delete
+                    - generic [aria-hidden] [ref=f8e1367]: 󰄬
+                  - generic [ref=f8e1369] [cursor=pointer]:
+                    - text: store
+                    - generic [aria-hidden] [ref=f8e1370]: 󰄬
+                  - generic [ref=f8e1372] [cursor=pointer]:
+                    - text: update
+                    - generic [aria-hidden] [ref=f8e1373]: 󰄬
+              - generic [ref=f8e1374]:
+                - generic [ref=f8e1375]:
+                  - generic [ref=f8e1380]:
+                    - generic [aria-hidden] [ref=f8e1381]: 󰄲
+                    - checkbox [checked] [ref=f8e1382] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1383]: 󰩦
+                  - generic [ref=f8e1384]: turmas.diario.faltas
+                  - generic [ref=f8e1385]: 1/1
+                - generic [ref=f8e1389] [cursor=pointer]:
+                  - text: store
+                  - generic [aria-hidden] [ref=f8e1390]: 󰄬
+              - generic [ref=f8e1391]:
+                - generic [ref=f8e1392]:
+                  - generic [ref=f8e1397]:
+                    - generic [aria-hidden] [ref=f8e1398]: 󰄲
+                    - checkbox [checked] [ref=f8e1399] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1400]: 󰩦
+                  - generic [ref=f8e1401]: turmas.diario.notas
+                  - generic [ref=f8e1402]: 2/2
+                - generic [ref=f8e1404]:
+                  - generic [ref=f8e1406] [cursor=pointer]:
+                    - text: delete
+                    - generic [aria-hidden] [ref=f8e1407]: 󰄬
+                  - generic [ref=f8e1409] [cursor=pointer]:
+                    - text: store
+                    - generic [aria-hidden] [ref=f8e1410]: 󰄬
+              - generic [ref=f8e1411]:
+                - generic [ref=f8e1412]:
+                  - generic [ref=f8e1417]:
+                    - generic [aria-hidden] [ref=f8e1418]: 󰍵
+                    - checkbox [ref=f8e1419] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1420]: 󰩦
+                  - generic [ref=f8e1421]: turmas.diario.posse
+                  - generic [ref=f8e1422]: 1/4
+                - generic [ref=f8e1424]:
+                  - generic [ref=f8e1425] [cursor=pointer]: deferir
+                  - generic [ref=f8e1427] [cursor=pointer]: fila
+                  - generic [ref=f8e1429] [cursor=pointer]: lote
+                  - generic [ref=f8e1432] [cursor=pointer]:
+                    - text: solicitar
+                    - generic [aria-hidden] [ref=f8e1433]: 󰄬
+              - generic [ref=f8e1434]:
+                - generic [ref=f8e1435]:
+                  - generic [ref=f8e1440]:
+                    - generic [aria-hidden] [ref=f8e1441]: 󰄲
+                    - checkbox [checked] [ref=f8e1442] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1443]: 󰩦
+                  - generic [ref=f8e1444]: turmas.diario.print
+                  - generic [ref=f8e1445]: 2/2
+                - generic [ref=f8e1447]:
+                  - generic [ref=f8e1449] [cursor=pointer]:
+                    - text: alunos
+                    - generic [aria-hidden] [ref=f8e1450]: 󰄬
+                  - generic [ref=f8e1452] [cursor=pointer]:
+                    - text: etapa
+                    - generic [aria-hidden] [ref=f8e1453]: 󰄬
+              - generic [ref=f8e1454]:
+                - generic [ref=f8e1455]:
+                  - generic [ref=f8e1460]:
+                    - generic [aria-hidden] [ref=f8e1461]: 󰄱
+                    - checkbox [ref=f8e1462] [cursor=pointer]
+                  - generic [aria-hidden] [ref=f8e1463]: 󰨒
+                  - generic [ref=f8e1464]: usuarios
+                  - generic [ref=f8e1465]: 0/7
+                - generic [ref=f8e1467]:
+                  - generic [ref=f8e1468] [cursor=pointer]: avatar
+                  - generic [ref=f8e1470] [cursor=pointer]: create
+                  - generic [ref=f8e1472] [cursor=pointer]: delete
+                  - generic [ref=f8e1474] [cursor=pointer]: edit
+                  - generic [ref=f8e1476] [cursor=pointer]: list
+                  - generic [ref=f8e1478] [cursor=pointer]: store
+                  - generic [ref=f8e1480] [cursor=pointer]: update
+        - button "Enviar" [ref=f8e529] [cursor=pointer]

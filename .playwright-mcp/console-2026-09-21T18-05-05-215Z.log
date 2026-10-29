@@ -1,0 +1,6 @@
+[    4905ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://servidorcaju.com.br/login:0
+[   78759ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://servidorcaju.com.br/login:0
+[   91419ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://servidorcaju.com.br/login:0
+[   98611ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://hmg.servidorcaju.com.br/login:0
+[  113479ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://hmg.servidorcaju.com.br/imagens/2:0
+[  179066ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://hmg.servidorcaju.com.br/imagens/2:0

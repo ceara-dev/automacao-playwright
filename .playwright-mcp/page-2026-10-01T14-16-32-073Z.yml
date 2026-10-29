@@ -1,0 +1,438 @@
+- generic [ref=f6e1]:
+  - generic [ref=f6e3]:
+    - navigation [ref=f6e4]:
+      - generic [ref=f6e5]:
+        - img "Logomarca de Apoio" [ref=f6e7]
+        - 'button "Ano letivo: 2026. Clique para alterar." [ref=f6e9] [cursor=pointer]':
+          - generic [ref=f6e10]:
+            - generic [aria-hidden] [ref=f6e11]: 󰙹
+            - generic [ref=f6e12]: "2026"
+            - generic [aria-hidden] [ref=f6e13]: 󰅀
+        - separator [ref=f6e14]
+        - list [ref=f6e16]:
+          - generic [ref=f6e18]:
+            - generic [aria-hidden] [ref=f6e19]: 󰚡
+            - text: Início
+          - option "Dashboard" [ref=f6e20] [cursor=pointer]
+          - separator [ref=f6e23]
+          - generic [ref=f6e25]:
+            - generic [aria-hidden] [ref=f6e26]: 󱔟
+            - text: Administração
+          - option "Escolas" [ref=f6e27] [cursor=pointer]
+          - option "Profissionais" [ref=f6e30] [cursor=pointer]
+          - option "Circuito de Notas" [ref=f6e33] [cursor=pointer]
+          - option "Componentes Curriculares" [ref=f6e36] [cursor=pointer]
+          - option "Processos/Documentos" [ref=f6e40] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f6e44]: 󰅀
+          - separator [ref=f6e45]
+          - generic [ref=f6e47]:
+            - generic [aria-hidden] [ref=f6e48]: 󱆀
+            - text: Acadêmico
+          - option "Alunos" [ref=f6e49] [cursor=pointer]
+          - option "Matrículas" [ref=f6e52] [cursor=pointer]
+          - option "Turmas" [ref=f6e55] [cursor=pointer]
+          - option "Prorrogações" [ref=f6e58] [cursor=pointer]
+          - option "Diários" [selected] [ref=f6e61] [cursor=pointer]
+          - option "Presença Notifiq" [ref=f6e64] [cursor=pointer]
+          - option "Feriados" [ref=f6e67] [cursor=pointer]
+          - option "Justificativa de Falta" [ref=f6e70] [cursor=pointer]
+          - separator [ref=f6e73]
+          - generic [ref=f6e75]:
+            - generic [aria-hidden] [ref=f6e76]: 󱕎
+            - text: Relatórios
+          - option "Relatórios" [ref=f6e77] [cursor=pointer]
+          - separator [ref=f6e80]
+          - generic [ref=f6e82]:
+            - generic [aria-hidden] [ref=f6e83]: 󰨒
+            - text: Administração do Sistema
+          - option "ACL" [ref=f6e85] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f6e89]: 󰅀
+          - option "Auditoria" [ref=f6e90] [cursor=pointer]
+      - generic [ref=f6e93]:
+        - button "Editar perfil de QA T.I 7614" [ref=f6e94] [cursor=pointer]:
+          - generic [ref=f6e95]: Q
+          - generic [ref=f6e98]:
+            - generic [ref=f6e99]: QA T.I 7614
+            - generic [ref=f6e100]: T.I
+        - separator [ref=f6e101]
+        - generic [ref=f6e102]:
+          - button "Versão 0.1.0. Clique para ver o changelog." [ref=f6e103] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f6e104]: 󰓼
+            - generic [ref=f6e105]: versão 0.1.0
+          - button "Sair da conta" [ref=f6e106] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f6e108]: 󰍃
+    - banner [ref=f6e109]:
+      - generic [ref=f6e110]:
+        - button "Fechar menu" [ref=f6e111] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f6e113]: 󰍜
+        - generic [ref=f6e114]: Colégio Apoio
+        - button "Notificações" [ref=f6e116] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f6e120]: 󰂜
+        - button "Menu do usuário" [ref=f6e121] [cursor=pointer]:
+          - generic [ref=f6e122]: Q
+    - main [ref=f6e124]:
+      - list [ref=f6e126]:
+        - listitem [ref=f6e127]:
+          - link "Diários" [ref=f6e128] [cursor=pointer]:
+            - /url: http://veramendes.local/diarios
+        - listitem [aria-hidden] [ref=f6e129]: ">"
+        - listitem:
+          - generic: Biologia · 3SER-M-2026
+      - generic [ref=f6e131]:
+        - tablist [ref=f6e132]:
+          - generic [ref=f6e134]:
+            - tab "Diários" [selected] [ref=f6e135] [cursor=pointer]
+            - tab "Agendas" [ref=f6e137] [cursor=pointer]
+        - generic [ref=f6e143]:
+          - generic [ref=f6e144]:
+            - generic [ref=f6e145]:
+              - heading "Biologia" [level=5] [ref=f6e146]
+              - generic [ref=f6e147]: 3SER-M-2026 — 3º Série · Georgia Maria de Oliveira Aragão
+            - generic [ref=f6e148]:
+              - button "Enviar mensagem" [disabled]:
+                - generic:
+                  - generic [aria-hidden]: 󰍪
+              - button "Exportar Excel" [disabled]:
+                - generic:
+                  - generic [aria-hidden]: 󱀭
+              - button "Opções de impressão do diário" [ref=f6e149] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f6e151]: 󱞆
+                - generic [ref=f6e152]: Imprimir
+                - generic [aria-hidden] [ref=f6e154]: 󰍝
+          - generic [ref=f6e155]:
+            - generic [ref=f6e156]: Dados do diário
+            - separator [ref=f6e157]
+            - generic [ref=f6e159]:
+              - generic [ref=f6e160]:
+                - generic [ref=f6e161]: Titular
+                - generic [ref=f6e162]: Georgia Maria de Oliveira Aragão
+              - generic [ref=f6e163]:
+                - generic [ref=f6e164]: Turma
+                - generic [ref=f6e165]: 3SER-M-2026 — 3º Série (Ensino médio - 3ª Série)
+              - generic [ref=f6e166]:
+                - generic [ref=f6e167]: Turno
+                - generic [ref=f6e168]: Manhã (07:00 — 12:00)
+              - generic [ref=f6e169]:
+                - generic [ref=f6e170]: Componente
+                - generic [ref=f6e171]: Biologia
+              - generic [ref=f6e172]:
+                - generic [ref=f6e173]: Carga Horária do Diário
+                - generic [ref=f6e174]: 20h aula / 16.67h relógio
+              - generic [ref=f6e175]:
+                - generic [ref=f6e176]: Carga Horária Cumprida
+                - generic [ref=f6e177]:
+                  - progressbar [ref=f6e178]
+                  - generic [ref=f6e181]: 5%
+              - generic [ref=f6e182]:
+                - generic [ref=f6e183]: Aulas Ministradas
+                - generic [ref=f6e184]: 1 de 20 aulas
+          - generic [ref=f6e185]:
+            - generic [ref=f6e186]: Etapas
+            - separator [ref=f6e187]
+            - table [ref=f6e191]:
+              - rowgroup [ref=f6e192]:
+                - row [ref=f6e193]:
+                  - columnheader "Etapa" [ref=f6e194]
+                  - columnheader "Período no calendário" [ref=f6e195]
+                  - columnheader "Status" [ref=f6e196]
+                  - columnheader "Período da posse" [ref=f6e197]
+                  - columnheader "Entregue" [ref=f6e198]
+                  - columnheader "Aulas ministradas" [ref=f6e199]
+              - rowgroup [ref=f6e200]:
+                - row [ref=f6e201]:
+                  - cell "1º Bimestre" [ref=f6e202]
+                  - cell "01/01/2026 — 31/10/2026" [ref=f6e203]
+                  - cell "Ativo — Faltam 30 dias" [ref=f6e204]
+                  - cell "01/01/2026 — 31/10/2026" [ref=f6e207]
+                  - cell "—" [ref=f6e208]
+                  - cell "—" [ref=f6e209]
+                - row [ref=f6e210]:
+                  - cell "2º Bimestre" [ref=f6e211]
+                  - cell "01/04/2026 — 31/10/2026" [ref=f6e212]
+                  - cell "Ativo — Faltam 30 dias" [ref=f6e213]
+                  - cell "01/04/2026 — 31/10/2026" [ref=f6e216]
+                  - cell "—" [ref=f6e217]
+                  - cell "—" [ref=f6e218]
+                - row [ref=f6e219]:
+                  - cell "1º Semestre" [ref=f6e220]
+                  - cell "01/01/2026 — 31/07/2026" [ref=f6e221]
+                  - cell "Encerrado" [ref=f6e222]
+                  - cell "01/01/2026 — 31/07/2026" [ref=f6e225]
+                  - cell "—" [ref=f6e226]
+                  - cell "—" [ref=f6e227]
+                - row [ref=f6e228]:
+                  - cell "3º Bimestre" [ref=f6e229]
+                  - cell "01/08/2026 — 31/10/2026" [ref=f6e230]
+                  - cell "Ativo — Faltam 30 dias" [ref=f6e231]
+                  - cell "01/08/2026 — 31/10/2026" [ref=f6e234]
+                  - cell "—" [ref=f6e235]
+                  - cell "—" [ref=f6e236]
+                - row [ref=f6e237]:
+                  - cell "4º Bimestre" [ref=f6e238]
+                  - cell "01/10/2026 — 16/12/2026" [ref=f6e239]
+                  - cell "Ativo — Faltam 76 dias" [ref=f6e240]
+                  - cell "01/10/2026 — 16/12/2026" [ref=f6e243]
+                  - cell "—" [ref=f6e244]
+                  - cell "—" [ref=f6e245]
+                - row [ref=f6e246]:
+                  - cell "2º Semestre" [ref=f6e247]
+                  - cell "01/08/2026 — 16/12/2026" [ref=f6e248]
+                  - cell "Ativo — Faltam 76 dias" [ref=f6e249]
+                  - cell "01/08/2026 — 16/12/2026" [ref=f6e252]
+                  - cell "—" [ref=f6e253]
+                  - cell "—" [ref=f6e254]
+                - row [ref=f6e255]:
+                  - cell "Etapa Final" [ref=f6e256]
+                  - cell "01/01/2026 — 31/12/2026" [ref=f6e257]
+                  - cell "Ativo — Faltam 91 dias" [ref=f6e258]
+                  - cell "01/01/2026 — 31/12/2026" [ref=f6e261]
+                  - cell "—" [ref=f6e262]
+                  - cell "—" [ref=f6e263]
+            - generic [ref=f6e264]: "Circuito: — — v1.5"
+          - combobox [ref=f6e268] [cursor=pointer]:
+            - generic [ref=f6e269]:
+              - generic: Filtro por etapa
+              - generic [ref=f6e270]:
+                - combobox "Filtro por etapa"
+            - generic [aria-hidden] [ref=f6e272]: 󰍝
+          - generic [ref=f6e273]:
+            - tablist [ref=f6e274]:
+              - generic [ref=f6e276]:
+                - tab "Registro de aulas" [selected] [ref=f6e277] [cursor=pointer]
+                - tab "Registro de faltas" [ref=f6e279] [cursor=pointer]
+                - tab "Registro de notas/conceitos" [ref=f6e281] [cursor=pointer]
+                - tab "Material de aula" [ref=f6e283] [cursor=pointer]
+                - tab "Observações" [ref=f6e285] [cursor=pointer]
+                - tab "Estatísticas" [ref=f6e287] [cursor=pointer]
+            - separator [ref=f6e289]
+            - generic [ref=f6e292]:
+              - generic [aria-hidden] [ref=f6e293]: 󰈳
+              - generic [ref=f6e294]: Selecione uma etapa no filtro acima
+  - generic:
+    - dialog:
+      - generic [ref=f6e704]:
+        - generic [ref=f6e705]:
+          - generic [ref=f6e706]:
+            - heading "Boletim de notas (24 alunos)" [level=2] [ref=f6e707]
+            - button "Fechar" [ref=f6e708] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f6e710]: 󰅖
+          - paragraph [ref=f6e711]: Escolha as disciplinas e os alunos do boletim.
+        - generic [ref=f6e713]:
+          - region [ref=f6e1011]:
+            - generic [ref=f6e715]:
+              - heading "Disciplinas · 2 de 8" [level=3] [ref=f6e1012]
+              - generic "Quais disciplinas mostrar" [ref=f6e717]:
+                - button "Todas" [ref=f6e718] [cursor=pointer]
+                - button "Individual" [ref=f6e720] [cursor=pointer]
+            - generic "Disciplinas do boletim" [ref=f6e986]:
+              - generic [ref=f6e988]:
+                - 'generic "Professor(a): Georgia Maria de Oliveira Aragão" [ref=f6e989] [cursor=pointer]':
+                  - text: 󰄬
+                  - generic [ref=f6e990]: Biologia
+                - 'generic "Professor(a): Antônio Italo de Lima Machado" [ref=f6e991] [cursor=pointer]':
+                  - text: 󰄬
+                  - generic [ref=f6e992]: Filosofia
+                - 'generic "Professor(a): Joel de Brito Silva" [ref=f6e993] [cursor=pointer]':
+                  - generic [aria-hidden] [ref=f6e1009]: 󰄬
+                  - generic [ref=f6e994]: Física
+                - 'generic "Professor(a): Giovani Silva Seixas" [ref=f6e995] [cursor=pointer]':
+                  - text: 󰄬
+                  - generic [ref=f6e996]: Geografia
+                - 'generic "Professor(a): Maria da Conceicao E Silva Ferrreira" [ref=f6e997] [cursor=pointer]':
+                  - text: 󰄬
+                  - generic [ref=f6e998]: Língua /Literatura estrangeira - Espanhol
+                - 'generic "Professor(a): Elaine do Nascimento Sousa" [ref=f6e999] [cursor=pointer]':
+                  - text: 󰄬
+                  - generic [ref=f6e1000]: Língua /Literatura estrangeira - Inglês
+                - 'generic "Professor(a): Arquimedes Portinari de Sousa e Silva" [active] [ref=f6e1001] [cursor=pointer]':
+                  - generic [aria-hidden] [ref=f6e1014]: 󰄬
+                  - generic [ref=f6e1002]: Química
+                - 'generic "Professor(a): Antônio Italo de Lima Machado" [ref=f6e1003] [cursor=pointer]':
+                  - text: 󰄬
+                  - generic [ref=f6e1004]: Sociologia
+          - heading "Alunos" [level=3] [ref=f6e722]
+          - generic [ref=f6e725]:
+            - generic [aria-hidden] [ref=f6e727]: 󰍉
+            - generic [ref=f6e728]:
+              - generic: Buscar por nome do aluno ou nº da matrícula
+              - textbox "Buscar por nome do aluno ou nº da matrícula" [ref=f6e729]:
+                - /placeholder: "Ex.: Ana ou 1024"
+            - text: 󰅙
+          - generic [ref=f6e730]:
+            - generic [ref=f6e731]:
+              - strong [ref=f6e732]: "2"
+              - text: de 24 selecionado(s)
+            - generic [ref=f6e733]:
+              - button "Marcar todos" [ref=f6e734] [cursor=pointer]
+              - button "Desmarcar todos" [ref=f6e736] [cursor=pointer]
+          - list "Matrículas do diário" [ref=f6e738]:
+            - checkbox "Alberto do Nascimento Ferreira Neto Matrícula nº 162 · Chamada 1 · Cursando" [ref=f6e739] [cursor=pointer]:
+              - generic [ref=f6e743]:
+                - generic [aria-hidden] [ref=f6e744]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e745]
+              - generic [ref=f6e746]:
+                - generic [ref=f6e747]: Alberto do Nascimento Ferreira Neto
+                - generic [ref=f6e748]: Matrícula nº 162 · Chamada 1 · Cursando
+            - checkbox "Ana Beatriz dos Santos Souza Matrícula nº 163 · Chamada 2 · Cursando" [ref=f6e749] [cursor=pointer]:
+              - generic [ref=f6e753]:
+                - generic [aria-hidden] [ref=f6e754]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e755]
+              - generic [ref=f6e756]:
+                - generic [ref=f6e757]: Ana Beatriz dos Santos Souza
+                - generic [ref=f6e758]: Matrícula nº 163 · Chamada 2 · Cursando
+            - checkbox "Ana Maria Veras Brito Melo Matrícula nº 164 · Chamada 3 · Cursando" [checked] [ref=f6e759] [cursor=pointer]:
+              - generic [ref=f6e763]:
+                - generic [aria-hidden] [ref=f6e764]: 󰄲
+                - checkbox [checked] [aria-hidden] [ref=f6e765]
+              - generic [ref=f6e766]:
+                - generic [ref=f6e767]: Ana Maria Veras Brito Melo
+                - generic [ref=f6e768]: Matrícula nº 164 · Chamada 3 · Cursando
+            - checkbox "Anne Sophia Tavares Pires Matrícula nº 165 · Chamada 4 · Cursando" [ref=f6e769] [cursor=pointer]:
+              - generic [ref=f6e773]:
+                - generic [aria-hidden] [ref=f6e774]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e775]
+              - generic [ref=f6e776]:
+                - generic [ref=f6e777]: Anne Sophia Tavares Pires
+                - generic [ref=f6e778]: Matrícula nº 165 · Chamada 4 · Cursando
+            - checkbox "Antonio Anderson dos Santos Brito Matrícula nº 166 · Chamada 5 · Cursando" [ref=f6e779] [cursor=pointer]:
+              - generic [ref=f6e783]:
+                - generic [aria-hidden] [ref=f6e784]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e785]
+              - generic [ref=f6e786]:
+                - generic [ref=f6e787]: Antonio Anderson dos Santos Brito
+                - generic [ref=f6e788]: Matrícula nº 166 · Chamada 5 · Cursando
+            - checkbox "Bruno Gabriel Luna Monteiro Matrícula nº 167 · Chamada 6 · Cursando" [ref=f6e789] [cursor=pointer]:
+              - generic [ref=f6e793]:
+                - generic [aria-hidden] [ref=f6e794]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e795]
+              - generic [ref=f6e796]:
+                - generic [ref=f6e797]: Bruno Gabriel Luna Monteiro
+                - generic [ref=f6e798]: Matrícula nº 167 · Chamada 6 · Cursando
+            - checkbox "Carlos Alexandre Cardozo da Silva Fonseca Matrícula nº 168 · Chamada 7 · Cursando" [ref=f6e799] [cursor=pointer]:
+              - generic [ref=f6e803]:
+                - generic [aria-hidden] [ref=f6e804]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e805]
+              - generic [ref=f6e806]:
+                - generic [ref=f6e807]: Carlos Alexandre Cardozo da Silva Fonseca
+                - generic [ref=f6e808]: Matrícula nº 168 · Chamada 7 · Cursando
+            - checkbox "Carlos Henrique Cirqueira Costa Matrícula nº 169 · Chamada 8 · Cursando" [ref=f6e809] [cursor=pointer]:
+              - generic [ref=f6e813]:
+                - generic [aria-hidden] [ref=f6e814]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e815]
+              - generic [ref=f6e816]:
+                - generic [ref=f6e817]: Carlos Henrique Cirqueira Costa
+                - generic [ref=f6e818]: Matrícula nº 169 · Chamada 8 · Cursando
+            - checkbox "Carlos Vinícius Bezerra de Araujo Matrícula nº 170 · Chamada 9 · Cursando" [ref=f6e819] [cursor=pointer]:
+              - generic [ref=f6e823]:
+                - generic [aria-hidden] [ref=f6e824]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e825]
+              - generic [ref=f6e826]:
+                - generic [ref=f6e827]: Carlos Vinícius Bezerra de Araujo
+                - generic [ref=f6e828]: Matrícula nº 170 · Chamada 9 · Cursando
+            - checkbox "Davi Araujo Amaral Cunha Matrícula nº 171 · Chamada 10 · Cursando" [ref=f6e829] [cursor=pointer]:
+              - generic [ref=f6e833]:
+                - generic [aria-hidden] [ref=f6e834]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e835]
+              - generic [ref=f6e836]:
+                - generic [ref=f6e837]: Davi Araujo Amaral Cunha
+                - generic [ref=f6e838]: Matrícula nº 171 · Chamada 10 · Cursando
+            - checkbox "Davi Silva Lima Matrícula nº 172 · Chamada 11 · Cursando" [ref=f6e839] [cursor=pointer]:
+              - generic [ref=f6e843]:
+                - generic [aria-hidden] [ref=f6e844]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e845]
+              - generic [ref=f6e846]:
+                - generic [ref=f6e847]: Davi Silva Lima
+                - generic [ref=f6e848]: Matrícula nº 172 · Chamada 11 · Cursando
+            - checkbox "Florenço Ferreira da Silva Junior Matrícula nº 173 · Chamada 12 · Cursando" [ref=f6e849] [cursor=pointer]:
+              - generic [ref=f6e853]:
+                - generic [aria-hidden] [ref=f6e854]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e855]
+              - generic [ref=f6e856]:
+                - generic [ref=f6e857]: Florenço Ferreira da Silva Junior
+                - generic [ref=f6e858]: Matrícula nº 173 · Chamada 12 · Cursando
+            - checkbox "Giovanna dos Santos Teixeira Matrícula nº 174 · Chamada 13 · Cursando" [ref=f6e859] [cursor=pointer]:
+              - generic [ref=f6e863]:
+                - generic [aria-hidden] [ref=f6e864]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e865]
+              - generic [ref=f6e866]:
+                - generic [ref=f6e867]: Giovanna dos Santos Teixeira
+                - generic [ref=f6e868]: Matrícula nº 174 · Chamada 13 · Cursando
+            - checkbox "Hemilly Sousa Araujo Matrícula nº 175 · Chamada 14 · Cursando" [ref=f6e869] [cursor=pointer]:
+              - generic [ref=f6e873]:
+                - generic [aria-hidden] [ref=f6e874]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e875]
+              - generic [ref=f6e876]:
+                - generic [ref=f6e877]: Hemilly Sousa Araujo
+                - generic [ref=f6e878]: Matrícula nº 175 · Chamada 14 · Cursando
+            - checkbox "Ingrid Maria do Nascimento dos Santos Matrícula nº 176 · Chamada 15 · Cursando" [ref=f6e879] [cursor=pointer]:
+              - generic [ref=f6e883]:
+                - generic [aria-hidden] [ref=f6e884]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e885]
+              - generic [ref=f6e886]:
+                - generic [ref=f6e887]: Ingrid Maria do Nascimento dos Santos
+                - generic [ref=f6e888]: Matrícula nº 176 · Chamada 15 · Cursando
+            - checkbox "Isaac dos Santos de Sousa Filho Matrícula nº 177 · Chamada 16 · Cursando" [checked] [ref=f6e889] [cursor=pointer]:
+              - generic [ref=f6e893]:
+                - generic [aria-hidden] [ref=f6e894]: 󰄲
+                - checkbox [checked] [aria-hidden] [ref=f6e895]
+              - generic [ref=f6e896]:
+                - generic [ref=f6e897]: Isaac dos Santos de Sousa Filho
+                - generic [ref=f6e898]: Matrícula nº 177 · Chamada 16 · Cursando
+            - checkbox "Lara Liberalina Rodrigues Carvalho Matrícula nº 178 · Chamada 17 · Cursando" [ref=f6e899] [cursor=pointer]:
+              - generic [ref=f6e903]:
+                - generic [aria-hidden] [ref=f6e904]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e905]
+              - generic [ref=f6e906]:
+                - generic [ref=f6e907]: Lara Liberalina Rodrigues Carvalho
+                - generic [ref=f6e908]: Matrícula nº 178 · Chamada 17 · Cursando
+            - checkbox "Luna Vitória Fontenele da Silva Matrícula nº 179 · Chamada 18 · Cursando" [ref=f6e909] [cursor=pointer]:
+              - generic [ref=f6e913]:
+                - generic [aria-hidden] [ref=f6e914]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e915]
+              - generic [ref=f6e916]:
+                - generic [ref=f6e917]: Luna Vitória Fontenele da Silva
+                - generic [ref=f6e918]: Matrícula nº 179 · Chamada 18 · Cursando
+            - checkbox "Marcus Vinicius Rocha dos Santos Matrícula nº 180 · Chamada 19 · Cursando" [ref=f6e919] [cursor=pointer]:
+              - generic [ref=f6e923]:
+                - generic [aria-hidden] [ref=f6e924]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e925]
+              - generic [ref=f6e926]:
+                - generic [ref=f6e927]: Marcus Vinicius Rocha dos Santos
+                - generic [ref=f6e928]: Matrícula nº 180 · Chamada 19 · Cursando
+            - checkbox "Maria Eduarda Caldas Silva Matrícula nº 181 · Chamada 20 · Cursando" [ref=f6e929] [cursor=pointer]:
+              - generic [ref=f6e933]:
+                - generic [aria-hidden] [ref=f6e934]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e935]
+              - generic [ref=f6e936]:
+                - generic [ref=f6e937]: Maria Eduarda Caldas Silva
+                - generic [ref=f6e938]: Matrícula nº 181 · Chamada 20 · Cursando
+            - checkbox "Maria Luíza de Alcântara Moura Costa Matrícula nº 182 · Chamada 21 · Cursando" [ref=f6e939] [cursor=pointer]:
+              - generic [ref=f6e943]:
+                - generic [aria-hidden] [ref=f6e944]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e945]
+              - generic [ref=f6e946]:
+                - generic [ref=f6e947]: Maria Luíza de Alcântara Moura Costa
+                - generic [ref=f6e948]: Matrícula nº 182 · Chamada 21 · Cursando
+            - checkbox "Maria Vitória Carvalho Sousa Silva Matrícula nº 183 · Chamada 22 · Cursando" [ref=f6e949] [cursor=pointer]:
+              - generic [ref=f6e953]:
+                - generic [aria-hidden] [ref=f6e954]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e955]
+              - generic [ref=f6e956]:
+                - generic [ref=f6e957]: Maria Vitória Carvalho Sousa Silva
+                - generic [ref=f6e958]: Matrícula nº 183 · Chamada 22 · Cursando
+            - checkbox "Marina Azevedo dos Santos Fiuza Matrícula nº 184 · Chamada 23 · Cursando" [ref=f6e959] [cursor=pointer]:
+              - generic [ref=f6e963]:
+                - generic [aria-hidden] [ref=f6e964]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e965]
+              - generic [ref=f6e966]:
+                - generic [ref=f6e967]: Marina Azevedo dos Santos Fiuza
+                - generic [ref=f6e968]: Matrícula nº 184 · Chamada 23 · Cursando
+            - checkbox "Yasmim da Silva Rocha Matrícula nº 185 · Chamada 24 · Cursando" [ref=f6e969] [cursor=pointer]:
+              - generic [ref=f6e973]:
+                - generic [aria-hidden] [ref=f6e974]: 󰄱
+                - checkbox [aria-hidden] [ref=f6e975]
+              - generic [ref=f6e976]:
+                - generic [ref=f6e977]: Yasmim da Silva Rocha
+                - generic [ref=f6e978]: Matrícula nº 185 · Chamada 24 · Cursando
+        - button "Gerar para 2 alunos" [ref=f6e1010] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f6e982]: 󰈦

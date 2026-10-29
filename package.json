@@ -1,0 +1,24 @@
+{
+  "name": "saas_privados_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "@types/pngjs": "^6.0.5",
+    "pdf-parse": "^2.4.5",
+    "pngjs": "^7.0.0",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,284 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e670]:
+    - navigation [ref=f7e671]:
+      - generic [ref=f7e672]:
+        - img "Logomarca de Apoio" [ref=f7e674]
+        - 'button "Ano letivo: 2026. Clique para alterar." [ref=f7e676] [cursor=pointer]':
+          - generic [ref=f7e677]:
+            - generic [aria-hidden] [ref=f7e678]: 󰙹
+            - generic [ref=f7e679]: "2026"
+            - generic [aria-hidden] [ref=f7e680]: 󰅀
+        - separator [ref=f7e681]
+        - list [ref=f7e683]:
+          - generic [ref=f7e685]:
+            - generic [aria-hidden] [ref=f7e686]: 󰚡
+            - text: Início
+          - option "Dashboard" [ref=f7e687] [cursor=pointer]
+          - separator [ref=f7e690]
+          - generic [ref=f7e692]:
+            - generic [aria-hidden] [ref=f7e693]: 󱔟
+            - text: Administração
+          - option "Escolas" [ref=f7e694] [cursor=pointer]
+          - option "Profissionais" [ref=f7e697] [cursor=pointer]
+          - option "Circuito de Notas" [ref=f7e700] [cursor=pointer]
+          - option "Componentes Curriculares" [ref=f7e703] [cursor=pointer]
+          - option "Processos/Documentos" [ref=f7e707] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f7e711]: 󰅀
+          - separator [ref=f7e712]
+          - generic [ref=f7e714]:
+            - generic [aria-hidden] [ref=f7e715]: 󱆀
+            - text: Acadêmico
+          - option "Alunos" [ref=f7e716] [cursor=pointer]
+          - option "Matrículas" [ref=f7e719] [cursor=pointer]
+          - option "Turmas" [ref=f7e722] [cursor=pointer]
+          - option "Prorrogações" [ref=f7e725] [cursor=pointer]
+          - option "Diários" [ref=f7e728] [cursor=pointer]
+          - option "Presença Notifiq" [ref=f7e731] [cursor=pointer]
+          - option "Feriados" [ref=f7e734] [cursor=pointer]
+          - option "Justificativa de Falta" [ref=f7e737] [cursor=pointer]
+          - separator [ref=f7e740]
+          - generic [ref=f7e742]:
+            - generic [aria-hidden] [ref=f7e743]: 󱕎
+            - text: Relatórios
+          - option "Relatórios" [selected] [ref=f7e744] [cursor=pointer]
+          - separator [ref=f7e747]
+          - generic [ref=f7e749]:
+            - generic [aria-hidden] [ref=f7e750]: 󰨒
+            - text: Administração do Sistema
+          - option "ACL" [ref=f7e752] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f7e756]: 󰅀
+          - option "Configurações Acadêmicas" [ref=f7e757] [cursor=pointer]
+          - option "Auditoria" [ref=f7e760] [cursor=pointer]
+      - generic [ref=f7e763]:
+        - button "Editar perfil de playwright" [ref=f7e764] [cursor=pointer]:
+          - generic [ref=f7e765]: p
+          - generic [ref=f7e768]:
+            - generic [ref=f7e769]: playwright
+            - generic [ref=f7e770]: Super Administrador
+        - separator [ref=f7e771]
+        - generic [ref=f7e772]:
+          - button "Versão 0.1.0. Clique para ver o changelog." [ref=f7e773] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f7e774]: 󰓼
+            - generic [ref=f7e775]: versão 0.1.0
+          - button "Sair da conta" [ref=f7e776] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f7e778]: 󰍃
+    - banner [ref=f7e779]:
+      - generic [ref=f7e780]:
+        - button "Fechar menu" [ref=f7e781] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e783]: 󰍜
+        - generic [ref=f7e784]: Colégio Apoio
+        - button "Notificações" [ref=f7e786] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e790]: 󰂜
+        - button "Menu do usuário" [ref=f7e791] [cursor=pointer]:
+          - generic [ref=f7e792]: P
+    - main [ref=f7e794]:
+      - list [ref=f7e796]:
+        - listitem [ref=f7e797]:
+          - link "Dashboard" [ref=f7e798] [cursor=pointer]:
+            - /url: http://veramendes.local/dashboard
+        - listitem [aria-hidden] [ref=f7e799]: ">"
+        - listitem:
+          - generic: Relatórios
+      - generic [ref=f7e800]:
+        - heading "Relatórios" [level=5] [ref=f7e801]
+        - generic [ref=f7e802]: Consulte e gere relatórios personalizados do sistema
+        - tablist [ref=f7e804]:
+          - generic [ref=f7e806]:
+            - tab "Todos os relatórios" [selected] [ref=f7e807] [cursor=pointer]
+            - tab "Notifiq" [ref=f7e809] [cursor=pointer]
+        - generic [ref=f7e812]:
+          - generic [ref=f7e813]: Relatórios disponíveis
+          - generic [ref=f7e814]: Selecione o relatório desejado para gerar ou visualizar.
+        - generic [ref=f7e818]:
+          - generic [ref=f7e819]:
+            - generic [aria-hidden] [ref=f7e821]: 󰶫
+            - generic [ref=f7e822]:
+              - generic [ref=f7e823]: Notifiq
+              - generic [ref=f7e824]: 5 relatórios
+          - paragraph [ref=f7e825]: Relatórios de registros e presenças coletadas pelo sistema Notifiq.
+          - generic [ref=f7e826]:
+            - button "Ver relatório Registros por Período" [ref=f7e827] [cursor=pointer]:
+              - generic [ref=f7e828]:
+                - generic [ref=f7e829]:
+                  - generic [aria-hidden] [ref=f7e830]: 󰭨
+                  - generic [ref=f7e831]: Registros por Período
+                - generic [ref=f7e832]: Registros de presença por período
+            - button "Ver relatório Presença por Escola" [ref=f7e833] [cursor=pointer]:
+              - generic [ref=f7e834]:
+                - generic [ref=f7e835]:
+                  - generic [aria-hidden] [ref=f7e836]: 󱆀
+                  - generic [ref=f7e837]: Presença por Escola
+                - generic [ref=f7e838]: Taxa de presença por escola
+            - button "Ver relatório Presença por Turma" [ref=f7e839] [cursor=pointer]:
+              - generic [ref=f7e840]:
+                - generic [ref=f7e841]:
+                  - generic [aria-hidden] [ref=f7e842]: 󰋀
+                  - generic [ref=f7e843]: Presença por Turma
+                - generic [ref=f7e844]: Taxa de presença por turma
+            - button "Ver relatório Registros por Aluno" [ref=f7e845] [cursor=pointer]:
+              - generic [ref=f7e846]:
+                - generic [ref=f7e847]:
+                  - generic [aria-hidden] [ref=f7e848]: 󱍲
+                  - generic [ref=f7e849]: Registros por Aluno
+                - generic [ref=f7e850]: Histórico de registros por aluno
+            - button "Ver relatório Registro de Entrada e Saída" [ref=f7e851] [cursor=pointer]:
+              - generic [ref=f7e852]:
+                - generic [ref=f7e853]:
+                  - generic [aria-hidden] [ref=f7e854]: 󱛡
+                  - generic [ref=f7e855]: Registro de Entrada e Saída
+                - generic [ref=f7e856]: Entrada e saída diária dos alunos, consolidada por matrícula
+          - button "Ver todos os relatórios de Notifiq" [ref=f7e858] [cursor=pointer]:
+            - generic [ref=f7e859]: Ver todos
+        - region [ref=f7e860]:
+          - heading "Relatórios recentes" [level=2] [ref=f7e861]
+          - text: 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏
+          - table [ref=f7e866]:
+            - rowgroup [ref=f7e867]:
+              - row [ref=f7e868]:
+                - columnheader "Relatório" [ref=f7e869]
+                - columnheader "Tipo" [ref=f7e870]
+                - columnheader "Gerado por" [ref=f7e871]
+                - columnheader "Data/Hora" [ref=f7e872]
+                - columnheader "Ações" [ref=f7e873]
+            - rowgroup [ref=f7e874]:
+              - row [ref=f7e875]:
+                - cell "Registros por Período 22/08/2026 a 21/09/2026" [ref=f7e876]:
+                  - generic [ref=f7e877]: Registros por Período
+                  - generic [ref=f7e878]: 22/08/2026 a 21/09/2026
+                - cell "CSV" [ref=f7e879]
+                - cell "playwright" [ref=f7e882]
+                - cell "21/09/2026 18:26" [ref=f7e883]
+                - cell [ref=f7e884]:
+                  - button "Visualizar relatório Registros por Período" [ref=f7e885] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e887]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=f7e888] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e890]: 󰮏
+              - row [ref=f7e891]:
+                - cell "Registros por Período 22/08/2026 a 21/09/2026" [ref=f7e892]:
+                  - generic [ref=f7e893]: Registros por Período
+                  - generic [ref=f7e894]: 22/08/2026 a 21/09/2026
+                - cell "CSV" [ref=f7e895]
+                - cell "playwright" [ref=f7e898]
+                - cell "21/09/2026 18:26" [ref=f7e899]
+                - cell [ref=f7e900]:
+                  - button "Visualizar relatório Registros por Período" [ref=f7e901] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e903]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=f7e904] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e906]: 󰮏
+              - row [ref=f7e907]:
+                - cell "Registros por Período 22/08/2026 a 21/09/2026" [ref=f7e908]:
+                  - generic [ref=f7e909]: Registros por Período
+                  - generic [ref=f7e910]: 22/08/2026 a 21/09/2026
+                - cell "CSV" [ref=f7e911]
+                - cell "playwright" [ref=f7e914]
+                - cell "21/09/2026 18:26" [ref=f7e915]
+                - cell [ref=f7e916]:
+                  - button "Visualizar relatório Registros por Período" [ref=f7e917] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e919]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=f7e920] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e922]: 󰮏
+              - row [ref=f7e923]:
+                - cell "Registros por Período 22/08/2026 a 21/09/2026" [ref=f7e924]:
+                  - generic [ref=f7e925]: Registros por Período
+                  - generic [ref=f7e926]: 22/08/2026 a 21/09/2026
+                - cell "CSV" [ref=f7e927]
+                - cell "playwright" [ref=f7e930]
+                - cell "21/09/2026 18:26" [ref=f7e931]
+                - cell [ref=f7e932]:
+                  - button "Visualizar relatório Registros por Período" [ref=f7e933] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e935]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=f7e936] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e938]: 󰮏
+              - row [ref=f7e939]:
+                - cell "Registros por Período 22/08/2026 a 21/09/2026" [ref=f7e940]:
+                  - generic [ref=f7e941]: Registros por Período
+                  - generic [ref=f7e942]: 22/08/2026 a 21/09/2026
+                - cell "CSV" [ref=f7e943]
+                - cell "playwright" [ref=f7e946]
+                - cell "21/09/2026 18:25" [ref=f7e947]
+                - cell [ref=f7e948]:
+                  - button "Visualizar relatório Registros por Período" [ref=f7e949] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e951]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=f7e952] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e954]: 󰮏
+              - row [ref=f7e955]:
+                - cell "Registros por Período 22/08/2026 a 21/09/2026" [ref=f7e956]:
+                  - generic [ref=f7e957]: Registros por Período
+                  - generic [ref=f7e958]: 22/08/2026 a 21/09/2026
+                - cell "CSV" [ref=f7e959]
+                - cell "playwright" [ref=f7e962]
+                - cell "21/09/2026 18:25" [ref=f7e963]
+                - cell [ref=f7e964]:
+                  - button "Visualizar relatório Registros por Período" [ref=f7e965] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e967]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=f7e968] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e970]: 󰮏
+              - row [ref=f7e971]:
+                - cell "Registros por Período 22/08/2026 a 21/09/2026" [ref=f7e972]:
+                  - generic [ref=f7e973]: Registros por Período
+                  - generic [ref=f7e974]: 22/08/2026 a 21/09/2026
+                - cell "CSV" [ref=f7e975]
+                - cell "playwright" [ref=f7e978]
+                - cell "21/09/2026 18:25" [ref=f7e979]
+                - cell [ref=f7e980]:
+                  - button "Visualizar relatório Registros por Período" [ref=f7e981] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e983]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=f7e984] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e986]: 󰮏
+              - row [ref=f7e987]:
+                - cell "Registros por Período 22/08/2026 a 21/09/2026" [ref=f7e988]:
+                  - generic [ref=f7e989]: Registros por Período
+                  - generic [ref=f7e990]: 22/08/2026 a 21/09/2026
+                - cell "CSV" [ref=f7e991]
+                - cell "playwright" [ref=f7e994]
+                - cell "21/09/2026 18:25" [ref=f7e995]
+                - cell [ref=f7e996]:
+                  - button "Visualizar relatório Registros por Período" [ref=f7e997] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e999]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=f7e1000] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e1002]: 󰮏
+              - row [ref=f7e1003]:
+                - cell "Registros por Período 22/08/2026 a 21/09/2026" [ref=f7e1004]:
+                  - generic [ref=f7e1005]: Registros por Período
+                  - generic [ref=f7e1006]: 22/08/2026 a 21/09/2026
+                - cell "CSV" [ref=f7e1007]
+                - cell "playwright" [ref=f7e1010]
+                - cell "21/09/2026 18:25" [ref=f7e1011]
+                - cell [ref=f7e1012]:
+                  - button "Visualizar relatório Registros por Período" [ref=f7e1013] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e1015]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=f7e1016] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e1018]: 󰮏
+              - row [ref=f7e1019]:
+                - cell "Registro de Entrada e Saída 22/08/2026" [ref=f7e1020]:
+                  - generic [ref=f7e1021]: Registro de Entrada e Saída
+                  - generic [ref=f7e1022]: 22/08/2026
+                - cell "PDF" [ref=f7e1023]
+                - cell "playwright" [ref=f7e1026]
+                - cell "21/09/2026 18:08" [ref=f7e1027]
+                - cell [ref=f7e1028]:
+                  - button "Visualizar relatório Registro de Entrada e Saída" [ref=f7e1029] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e1031]: 󰛐
+                  - button "Baixar relatório Registro de Entrada e Saída" [ref=f7e1032] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f7e1034]: 󰮏
+  - generic:
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip

@@ -1,0 +1,620 @@
+- generic [ref=f4e3]:
+  - navigation [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - img "Logomarca de Apoio" [ref=f4e7]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f4e9] [cursor=pointer]':
+        - generic [ref=f4e10]:
+          - generic [aria-hidden] [ref=f4e11]: 󰙹
+          - generic [ref=f4e12]: "2026"
+          - generic [aria-hidden] [ref=f4e13]: 󰅀
+      - separator [ref=f4e14]
+      - list [ref=f4e16]:
+        - generic [ref=f4e18]:
+          - generic [aria-hidden] [ref=f4e19]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f4e20] [cursor=pointer]
+        - separator [ref=f4e23]
+        - generic [ref=f4e25]:
+          - generic [aria-hidden] [ref=f4e26]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f4e27] [cursor=pointer]
+        - option "Profissionais" [ref=f4e30] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f4e33] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f4e36] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f4e40] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f4e44]: 󰅀
+        - separator [ref=f4e45]
+        - generic [ref=f4e47]:
+          - generic [aria-hidden] [ref=f4e48]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [selected] [ref=f4e49] [cursor=pointer]
+        - option "Matrículas" [ref=f4e52] [cursor=pointer]
+        - option "Turmas" [ref=f4e55] [cursor=pointer]
+        - option "Prorrogações" [ref=f4e58] [cursor=pointer]
+        - option "Diários" [ref=f4e61] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f4e64] [cursor=pointer]
+        - option "Feriados" [ref=f4e67] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f4e70] [cursor=pointer]
+        - separator [ref=f4e73]
+        - generic [ref=f4e75]:
+          - generic [aria-hidden] [ref=f4e76]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f4e77] [cursor=pointer]
+        - separator [ref=f4e80]
+        - generic [ref=f4e82]:
+          - generic [aria-hidden] [ref=f4e83]: 󰨒
+          - text: Administração do Sistema
+        - option "ACL" [ref=f4e85] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f4e89]: 󰅀
+        - option "Configurações Acadêmicas" [ref=f4e90] [cursor=pointer]
+        - option "Auditoria" [ref=f4e93] [cursor=pointer]
+    - generic [ref=f4e96]:
+      - button "Editar perfil de playwright" [ref=f4e97] [cursor=pointer]:
+        - generic [ref=f4e98]: p
+        - generic [ref=f4e101]:
+          - generic [ref=f4e102]: playwright
+          - generic [ref=f4e103]: Super Administrador
+      - separator [ref=f4e104]
+      - generic [ref=f4e105]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f4e106] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f4e107]: 󰓼
+          - generic [ref=f4e108]: versão 0.1.0
+        - button "Sair da conta" [ref=f4e109] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f4e111]: 󰍃
+  - banner [ref=f4e112]:
+    - generic [ref=f4e113]:
+      - button "Fechar menu" [ref=f4e114] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f4e116]: 󰍜
+      - generic [ref=f4e117]: Colégio Apoio
+      - button "Notificações" [ref=f4e119] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f4e123]: 󰂜
+      - button "Menu do usuário" [ref=f4e124] [cursor=pointer]:
+        - generic [ref=f4e125]: P
+  - main [ref=f4e127]:
+    - list [ref=f4e129]:
+      - listitem [ref=f4e130]:
+        - link "Dashboard" [ref=f4e131] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f4e132]: ">"
+      - listitem [ref=f4e133]:
+        - link "Alunos" [ref=f4e134] [cursor=pointer]:
+          - /url: http://veramendes.local/alunos
+      - listitem [aria-hidden] [ref=f4e135]: ">"
+      - listitem:
+        - generic: Listar
+    - generic [ref=f4e136]:
+      - heading "Alunos" [level=5] [ref=f4e137]
+      - generic [ref=f4e138]:
+        - generic [ref=f4e140]:
+          - button "Criar novo aluno" [ref=f4e141] [cursor=pointer]:
+            - generic [ref=f4e142]:
+              - generic [aria-hidden] [ref=f4e143]: 󰐕
+              - text: Novo Aluno
+          - generic [ref=f4e145]:
+            - button "Ver lixeira de alunos" [ref=f4e146] [cursor=pointer]:
+              - generic [ref=f4e147]:
+                - generic [aria-hidden] [ref=f4e148]: 󰧧
+                - text: Lixeira
+            - status "Distintivo" [ref=f4e149]
+        - generic [ref=f4e150]:
+          - generic [ref=f4e151]: Pesquisar
+          - generic [ref=f4e152]:
+            - searchbox [ref=f4e154]:
+              - searchbox "Pesquisar alunos" [ref=f4e156]
+              - text: 󰅙
+              - generic [aria-hidden] [ref=f4e158]: 󰍉
+            - alert [ref=f4e159]
+      - generic [ref=f4e161]:
+        - generic [ref=f4e162]: Exibindo de 1 até 15 de 244
+        - button "Ver detalhes de Davi Araujo Amaral Cunha" [ref=f4e163] [cursor=pointer]:
+          - generic [ref=f4e165]:
+            - generic [ref=f4e166]:
+              - generic [ref=f4e167]: "#"
+              - generic [ref=f4e168]: "785"
+            - generic [ref=f4e169]: D
+            - generic [ref=f4e172]:
+              - generic [ref=f4e173]: Nome do Aluno
+              - generic [ref=f4e174]: Davi Araujo Amaral Cunha
+            - generic [ref=f4e175]:
+              - generic [ref=f4e176]: CPF
+              - generic [ref=f4e177]: 081.***.***-83
+            - generic [ref=f4e178]:
+              - generic [ref=f4e179]: Data Nasc.
+              - generic [ref=f4e180]: 15/08/2008
+            - generic [ref=f4e181]:
+              - generic [ref=f4e182]: Sexo
+              - generic [ref=f4e183]: M
+            - generic [ref=f4e185]:
+              - generic [ref=f4e186]: Cor/Raça
+              - generic [ref=f4e187]: Não Declarada
+            - generic [ref=f4e188]:
+              - generic [ref=f4e189]: Inclusão
+              - text: "-"
+            - generic [ref=f4e190]:
+              - generic [ref=f4e191]: Usuário
+              - generic [aria-hidden] [ref=f4e194]: 󰀈
+            - generic [ref=f4e195]:
+              - generic [ref=f4e196]: Matrículas
+              - generic [ref=f4e198]:
+                - generic [aria-hidden] [ref=f4e199]: 󱎭
+                - text: "1"
+            - button "Ações para Davi Araujo Amaral Cunha" [ref=f4e202]:
+              - generic [aria-hidden] [ref=f4e204]: 󰇙
+        - button "Ver detalhes de Davi Santos Carvalho" [ref=f4e205] [cursor=pointer]:
+          - generic [ref=f4e207]:
+            - generic [ref=f4e208]:
+              - generic [ref=f4e209]: "#"
+              - generic [ref=f4e210]: "794"
+            - generic [ref=f4e211]: D
+            - generic [ref=f4e214]:
+              - generic [ref=f4e215]: Nome do Aluno
+              - generic [ref=f4e216]: Davi Santos Carvalho
+            - generic [ref=f4e217]:
+              - generic [ref=f4e218]: CPF
+              - generic [ref=f4e219]: 075.***.***-05
+            - generic [ref=f4e220]:
+              - generic [ref=f4e221]: Data Nasc.
+              - generic [ref=f4e222]: 27/08/2013
+            - generic [ref=f4e223]:
+              - generic [ref=f4e224]: Sexo
+              - generic [ref=f4e225]: M
+            - generic [ref=f4e227]:
+              - generic [ref=f4e228]: Cor/Raça
+              - generic [ref=f4e229]: Não Declarada
+            - generic [ref=f4e230]:
+              - generic [ref=f4e231]: Inclusão
+              - text: "-"
+            - generic [ref=f4e232]:
+              - generic [ref=f4e233]: Usuário
+              - generic [aria-hidden] [ref=f4e236]: 󰀈
+            - generic [ref=f4e237]:
+              - generic [ref=f4e238]: Matrículas
+              - generic [ref=f4e240]:
+                - generic [aria-hidden] [ref=f4e241]: 󱎭
+                - text: "1"
+            - button "Ações para Davi Santos Carvalho" [ref=f4e244]:
+              - generic [aria-hidden] [ref=f4e246]: 󰇙
+        - button "Ver detalhes de Danilo Val Araujo" [ref=f4e247] [cursor=pointer]:
+          - generic [ref=f4e249]:
+            - generic [ref=f4e250]:
+              - generic [ref=f4e251]: "#"
+              - generic [ref=f4e252]: "793"
+            - generic [ref=f4e253]: D
+            - generic [ref=f4e256]:
+              - generic [ref=f4e257]: Nome do Aluno
+              - generic [ref=f4e258]: Danilo Val Araujo
+            - generic [ref=f4e259]:
+              - generic [ref=f4e260]: CPF
+              - generic [ref=f4e261]: REF00000793
+            - generic [ref=f4e262]:
+              - generic [ref=f4e263]: Data Nasc.
+              - generic [ref=f4e264]: N/A
+            - generic [ref=f4e265]:
+              - generic [ref=f4e266]: Sexo
+              - generic [ref=f4e267]: "-"
+            - generic [ref=f4e269]:
+              - generic [ref=f4e270]: Cor/Raça
+              - generic [ref=f4e271]: N/A
+            - generic [ref=f4e272]:
+              - generic [ref=f4e273]: Inclusão
+              - text: "-"
+            - generic [ref=f4e274]:
+              - generic [ref=f4e275]: Usuário
+              - generic [aria-hidden] [ref=f4e278]: 󰀈
+            - generic [ref=f4e279]:
+              - generic [ref=f4e280]: Matrículas
+              - generic [ref=f4e282]:
+                - generic [aria-hidden] [ref=f4e283]: 󱎭
+                - text: "1"
+            - button "Ações para Danilo Val Araujo" [ref=f4e286]:
+              - generic [aria-hidden] [ref=f4e288]: 󰇙
+        - button "Ver detalhes de Daniel Terto de Lima" [ref=f4e289] [cursor=pointer]:
+          - generic [ref=f4e291]:
+            - generic [ref=f4e292]:
+              - generic [ref=f4e293]: "#"
+              - generic [ref=f4e294]: "792"
+            - generic [ref=f4e295]: D
+            - generic [ref=f4e298]:
+              - generic [ref=f4e299]: Nome do Aluno
+              - generic [ref=f4e300]: Daniel Terto de Lima
+            - generic [ref=f4e301]:
+              - generic [ref=f4e302]: CPF
+              - generic [ref=f4e303]: REF00000792
+            - generic [ref=f4e304]:
+              - generic [ref=f4e305]: Data Nasc.
+              - generic [ref=f4e306]: N/A
+            - generic [ref=f4e307]:
+              - generic [ref=f4e308]: Sexo
+              - generic [ref=f4e309]: "-"
+            - generic [ref=f4e311]:
+              - generic [ref=f4e312]: Cor/Raça
+              - generic [ref=f4e313]: N/A
+            - generic [ref=f4e314]:
+              - generic [ref=f4e315]: Inclusão
+              - text: "-"
+            - generic [ref=f4e316]:
+              - generic [ref=f4e317]: Usuário
+              - generic [aria-hidden] [ref=f4e320]: 󰀈
+            - generic [ref=f4e321]:
+              - generic [ref=f4e322]: Matrículas
+              - generic [ref=f4e324]:
+                - generic [aria-hidden] [ref=f4e325]: 󱎭
+                - text: "1"
+            - button "Ações para Daniel Terto de Lima" [ref=f4e328]:
+              - generic [aria-hidden] [ref=f4e330]: 󰇙
+        - button "Ver detalhes de Carolina Ramos Marinho" [ref=f4e331] [cursor=pointer]:
+          - generic [ref=f4e333]:
+            - generic [ref=f4e334]:
+              - generic [ref=f4e335]: "#"
+              - generic [ref=f4e336]: "791"
+            - generic [ref=f4e337]: C
+            - generic [ref=f4e340]:
+              - generic [ref=f4e341]: Nome do Aluno
+              - generic [ref=f4e342]: Carolina Ramos Marinho
+            - generic [ref=f4e343]:
+              - generic [ref=f4e344]: CPF
+              - generic [ref=f4e345]: 073.***.***-07
+            - generic [ref=f4e346]:
+              - generic [ref=f4e347]: Data Nasc.
+              - generic [ref=f4e348]: 18/07/2013
+            - generic [ref=f4e349]:
+              - generic [ref=f4e350]: Sexo
+              - generic [ref=f4e351]: F
+            - generic [ref=f4e353]:
+              - generic [ref=f4e354]: Cor/Raça
+              - generic [ref=f4e355]: Não Declarada
+            - generic [ref=f4e356]:
+              - generic [ref=f4e357]: Inclusão
+              - text: "-"
+            - generic [ref=f4e358]:
+              - generic [ref=f4e359]: Usuário
+              - generic [aria-hidden] [ref=f4e362]: 󰀈
+            - generic [ref=f4e363]:
+              - generic [ref=f4e364]: Matrículas
+              - generic [ref=f4e366]:
+                - generic [aria-hidden] [ref=f4e367]: 󱎭
+                - text: "1"
+            - button "Ações para Carolina Ramos Marinho" [ref=f4e370]:
+              - generic [aria-hidden] [ref=f4e372]: 󰇙
+        - button "Ver detalhes de Arthur Leal da Silva" [ref=f4e373] [cursor=pointer]:
+          - generic [ref=f4e375]:
+            - generic [ref=f4e376]:
+              - generic [ref=f4e377]: "#"
+              - generic [ref=f4e378]: "790"
+            - generic [ref=f4e379]: A
+            - generic [ref=f4e382]:
+              - generic [ref=f4e383]: Nome do Aluno
+              - generic [ref=f4e384]: Arthur Leal da Silva
+            - generic [ref=f4e385]:
+              - generic [ref=f4e386]: CPF
+              - generic [ref=f4e387]: 187.***.***-97
+            - generic [ref=f4e388]:
+              - generic [ref=f4e389]: Data Nasc.
+              - generic [ref=f4e390]: 26/07/2013
+            - generic [ref=f4e391]:
+              - generic [ref=f4e392]: Sexo
+              - generic [ref=f4e393]: M
+            - generic [ref=f4e395]:
+              - generic [ref=f4e396]: Cor/Raça
+              - generic [ref=f4e397]: Não Declarada
+            - generic [ref=f4e398]:
+              - generic [ref=f4e399]: Inclusão
+              - text: "-"
+            - generic [ref=f4e400]:
+              - generic [ref=f4e401]: Usuário
+              - generic [aria-hidden] [ref=f4e404]: 󰀈
+            - generic [ref=f4e405]:
+              - generic [ref=f4e406]: Matrículas
+              - generic [ref=f4e408]:
+                - generic [aria-hidden] [ref=f4e409]: 󱎭
+                - text: "1"
+            - button "Ações para Arthur Leal da Silva" [ref=f4e412]:
+              - generic [aria-hidden] [ref=f4e414]: 󰇙
+        - button "Ver detalhes de Maria Vitória Carvalho Sousa Silva" [ref=f4e415] [cursor=pointer]:
+          - generic [ref=f4e417]:
+            - generic [ref=f4e418]:
+              - generic [ref=f4e419]: "#"
+              - generic [ref=f4e420]: "788"
+            - generic [ref=f4e421]: M
+            - generic [ref=f4e424]:
+              - generic [ref=f4e425]: Nome do Aluno
+              - generic [ref=f4e426]: Maria Vitória Carvalho Sousa Silva
+            - generic [ref=f4e427]:
+              - generic [ref=f4e428]: CPF
+              - generic [ref=f4e429]: 004.***.***-30
+            - generic [ref=f4e430]:
+              - generic [ref=f4e431]: Data Nasc.
+              - generic [ref=f4e432]: 02/08/2008
+            - generic [ref=f4e433]:
+              - generic [ref=f4e434]: Sexo
+              - generic [ref=f4e435]: F
+            - generic [ref=f4e437]:
+              - generic [ref=f4e438]: Cor/Raça
+              - generic [ref=f4e439]: Não Declarada
+            - generic [ref=f4e440]:
+              - generic [ref=f4e441]: Inclusão
+              - text: "-"
+            - generic [ref=f4e442]:
+              - generic [ref=f4e443]: Usuário
+              - generic [aria-hidden] [ref=f4e446]: 󰀈
+            - generic [ref=f4e447]:
+              - generic [ref=f4e448]: Matrículas
+              - generic [ref=f4e450]:
+                - generic [aria-hidden] [ref=f4e451]: 󱎭
+                - text: "1"
+            - button "Ações para Maria Vitória Carvalho Sousa Silva" [ref=f4e454]:
+              - generic [aria-hidden] [ref=f4e456]: 󰇙
+        - button "Ver detalhes de Luna Vitória Fontenele da Silva" [ref=f4e457] [cursor=pointer]:
+          - generic [ref=f4e459]:
+            - generic [ref=f4e460]:
+              - generic [ref=f4e461]: "#"
+              - generic [ref=f4e462]: "786"
+            - generic [ref=f4e463]: L
+            - generic [ref=f4e466]:
+              - generic [ref=f4e467]: Nome do Aluno
+              - generic [ref=f4e468]: Luna Vitória Fontenele da Silva
+            - generic [ref=f4e469]:
+              - generic [ref=f4e470]: CPF
+              - generic [ref=f4e471]: REF00000786
+            - generic [ref=f4e472]:
+              - generic [ref=f4e473]: Data Nasc.
+              - generic [ref=f4e474]: N/A
+            - generic [ref=f4e475]:
+              - generic [ref=f4e476]: Sexo
+              - generic [ref=f4e477]: "-"
+            - generic [ref=f4e479]:
+              - generic [ref=f4e480]: Cor/Raça
+              - generic [ref=f4e481]: N/A
+            - generic [ref=f4e482]:
+              - generic [ref=f4e483]: Inclusão
+              - text: "-"
+            - generic [ref=f4e484]:
+              - generic [ref=f4e485]: Usuário
+              - generic [aria-hidden] [ref=f4e488]: 󰀈
+            - generic [ref=f4e489]:
+              - generic [ref=f4e490]: Matrículas
+              - generic [ref=f4e492]:
+                - generic [aria-hidden] [ref=f4e493]: 󱎭
+                - text: "1"
+            - button "Ações para Luna Vitória Fontenele da Silva" [ref=f4e496]:
+              - generic [aria-hidden] [ref=f4e498]: 󰇙
+        - button "Ver detalhes de Florenço Ferreira da Silva Junior" [ref=f4e499] [cursor=pointer]:
+          - generic [ref=f4e501]:
+            - generic [ref=f4e502]:
+              - generic [ref=f4e503]: "#"
+              - generic [ref=f4e504]: "772"
+            - generic [ref=f4e505]: F
+            - generic [ref=f4e508]:
+              - generic [ref=f4e509]: Nome do Aluno
+              - generic [ref=f4e510]: Florenço Ferreira da Silva Junior
+            - generic [ref=f4e511]:
+              - generic [ref=f4e512]: CPF
+              - generic [ref=f4e513]: 087.***.***-35
+            - generic [ref=f4e514]:
+              - generic [ref=f4e515]: Data Nasc.
+              - generic [ref=f4e516]: 13/07/2008
+            - generic [ref=f4e517]:
+              - generic [ref=f4e518]: Sexo
+              - generic [ref=f4e519]: M
+            - generic [ref=f4e521]:
+              - generic [ref=f4e522]: Cor/Raça
+              - generic [ref=f4e523]: Não Declarada
+            - generic [ref=f4e524]:
+              - generic [ref=f4e525]: Inclusão
+              - text: "-"
+            - generic [ref=f4e526]:
+              - generic [ref=f4e527]: Usuário
+              - generic [aria-hidden] [ref=f4e530]: 󰀈
+            - generic [ref=f4e531]:
+              - generic [ref=f4e532]: Matrículas
+              - generic [ref=f4e534]:
+                - generic [aria-hidden] [ref=f4e535]: 󱎭
+                - text: "1"
+            - button "Ações para Florenço Ferreira da Silva Junior" [ref=f4e538]:
+              - generic [aria-hidden] [ref=f4e540]: 󰇙
+        - button "Ver detalhes de Victor Candeira Alencar Costa" [ref=f4e541] [cursor=pointer]:
+          - generic [ref=f4e543]:
+            - generic [ref=f4e544]:
+              - generic [ref=f4e545]: "#"
+              - generic [ref=f4e546]: "764"
+            - generic [ref=f4e547]: V
+            - generic [ref=f4e550]:
+              - generic [ref=f4e551]: Nome do Aluno
+              - generic [ref=f4e552]: Victor Candeira Alencar Costa
+            - generic [ref=f4e553]:
+              - generic [ref=f4e554]: CPF
+              - generic [ref=f4e555]: 083.***.***-93
+            - generic [ref=f4e556]:
+              - generic [ref=f4e557]: Data Nasc.
+              - generic [ref=f4e558]: 23/06/2009
+            - generic [ref=f4e559]:
+              - generic [ref=f4e560]: Sexo
+              - generic [ref=f4e561]: M
+            - generic [ref=f4e563]:
+              - generic [ref=f4e564]: Cor/Raça
+              - generic [ref=f4e565]: Não Declarada
+            - generic [ref=f4e566]:
+              - generic [ref=f4e567]: Inclusão
+              - text: "-"
+            - generic [ref=f4e568]:
+              - generic [ref=f4e569]: Usuário
+              - generic [aria-hidden] [ref=f4e572]: 󰀈
+            - generic [ref=f4e573]:
+              - generic [ref=f4e574]: Matrículas
+              - generic [ref=f4e576]:
+                - generic [aria-hidden] [ref=f4e577]: 󱎭
+                - text: "1"
+            - button "Ações para Victor Candeira Alencar Costa" [ref=f4e580]:
+              - generic [aria-hidden] [ref=f4e582]: 󰇙
+        - button "Ver detalhes de Carlos Henrique Cirqueira Costa" [ref=f4e583] [cursor=pointer]:
+          - generic [ref=f4e585]:
+            - generic [ref=f4e586]:
+              - generic [ref=f4e587]: "#"
+              - generic [ref=f4e588]: "769"
+            - generic [ref=f4e589]: C
+            - generic [ref=f4e592]:
+              - generic [ref=f4e593]: Nome do Aluno
+              - generic [ref=f4e594]: Carlos Henrique Cirqueira Costa
+            - generic [ref=f4e595]:
+              - generic [ref=f4e596]: CPF
+              - generic [ref=f4e597]: 082.***.***-56
+            - generic [ref=f4e598]:
+              - generic [ref=f4e599]: Data Nasc.
+              - generic [ref=f4e600]: 12/05/2008
+            - generic [ref=f4e601]:
+              - generic [ref=f4e602]: Sexo
+              - generic [ref=f4e603]: M
+            - generic [ref=f4e605]:
+              - generic [ref=f4e606]: Cor/Raça
+              - generic [ref=f4e607]: Não Declarada
+            - generic [ref=f4e608]:
+              - generic [ref=f4e609]: Inclusão
+              - text: "-"
+            - generic [ref=f4e610]:
+              - generic [ref=f4e611]: Usuário
+              - generic [aria-hidden] [ref=f4e614]: 󰀈
+            - generic [ref=f4e615]:
+              - generic [ref=f4e616]: Matrículas
+              - generic [ref=f4e618]:
+                - generic [aria-hidden] [ref=f4e619]: 󱎭
+                - text: "1"
+            - button "Ações para Carlos Henrique Cirqueira Costa" [ref=f4e622]:
+              - generic [aria-hidden] [ref=f4e624]: 󰇙
+        - button "Ver detalhes de Carlos Vinícius Bezerra de Araujo" [ref=f4e625] [cursor=pointer]:
+          - generic [ref=f4e627]:
+            - generic [ref=f4e628]:
+              - generic [ref=f4e629]: "#"
+              - generic [ref=f4e630]: "770"
+            - generic [ref=f4e631]: C
+            - generic [ref=f4e634]:
+              - generic [ref=f4e635]: Nome do Aluno
+              - generic [ref=f4e636]: Carlos Vinícius Bezerra de Araujo
+            - generic [ref=f4e637]:
+              - generic [ref=f4e638]: CPF
+              - generic [ref=f4e639]: 074.***.***-96
+            - generic [ref=f4e640]:
+              - generic [ref=f4e641]: Data Nasc.
+              - generic [ref=f4e642]: 05/03/2008
+            - generic [ref=f4e643]:
+              - generic [ref=f4e644]: Sexo
+              - generic [ref=f4e645]: M
+            - generic [ref=f4e647]:
+              - generic [ref=f4e648]: Cor/Raça
+              - generic [ref=f4e649]: Não Declarada
+            - generic [ref=f4e650]:
+              - generic [ref=f4e651]: Inclusão
+              - text: "-"
+            - generic [ref=f4e652]:
+              - generic [ref=f4e653]: Usuário
+              - generic [aria-hidden] [ref=f4e656]: 󰀈
+            - generic [ref=f4e657]:
+              - generic [ref=f4e658]: Matrículas
+              - generic [ref=f4e660]:
+                - generic [aria-hidden] [ref=f4e661]: 󱎭
+                - text: "1"
+            - button "Ações para Carlos Vinícius Bezerra de Araujo" [ref=f4e664]:
+              - generic [aria-hidden] [ref=f4e666]: 󰇙
+        - button "Ver detalhes de Hemilly Sousa Araujo" [ref=f4e667] [cursor=pointer]:
+          - generic [ref=f4e669]:
+            - generic [ref=f4e670]:
+              - generic [ref=f4e671]: "#"
+              - generic [ref=f4e672]: "774"
+            - generic [ref=f4e673]: H
+            - generic [ref=f4e676]:
+              - generic [ref=f4e677]: Nome do Aluno
+              - generic [ref=f4e678]: Hemilly Sousa Araujo
+            - generic [ref=f4e679]:
+              - generic [ref=f4e680]: CPF
+              - generic [ref=f4e681]: 093.***.***-29
+            - generic [ref=f4e682]:
+              - generic [ref=f4e683]: Data Nasc.
+              - generic [ref=f4e684]: 15/03/2009
+            - generic [ref=f4e685]:
+              - generic [ref=f4e686]: Sexo
+              - generic [ref=f4e687]: F
+            - generic [ref=f4e689]:
+              - generic [ref=f4e690]: Cor/Raça
+              - generic [ref=f4e691]: Não Declarada
+            - generic [ref=f4e692]:
+              - generic [ref=f4e693]: Inclusão
+              - text: "-"
+            - generic [ref=f4e694]:
+              - generic [ref=f4e695]: Usuário
+              - generic [aria-hidden] [ref=f4e698]: 󰀈
+            - generic [ref=f4e699]:
+              - generic [ref=f4e700]: Matrículas
+              - generic [ref=f4e702]:
+                - generic [aria-hidden] [ref=f4e703]: 󱎭
+                - text: "1"
+            - button "Ações para Hemilly Sousa Araujo" [ref=f4e706]:
+              - generic [aria-hidden] [ref=f4e708]: 󰇙
+        - button "Ver detalhes de Marcus Vinicius Rocha dos Santos" [ref=f4e709] [cursor=pointer]:
+          - generic [ref=f4e711]:
+            - generic [ref=f4e712]:
+              - generic [ref=f4e713]: "#"
+              - generic [ref=f4e714]: "776"
+            - generic [ref=f4e715]: M
+            - generic [ref=f4e718]:
+              - generic [ref=f4e719]: Nome do Aluno
+              - generic [ref=f4e720]: Marcus Vinicius Rocha dos Santos
+            - generic [ref=f4e721]:
+              - generic [ref=f4e722]: CPF
+              - generic [ref=f4e723]: REF00000776
+            - generic [ref=f4e724]:
+              - generic [ref=f4e725]: Data Nasc.
+              - generic [ref=f4e726]: N/A
+            - generic [ref=f4e727]:
+              - generic [ref=f4e728]: Sexo
+              - generic [ref=f4e729]: "-"
+            - generic [ref=f4e731]:
+              - generic [ref=f4e732]: Cor/Raça
+              - generic [ref=f4e733]: N/A
+            - generic [ref=f4e734]:
+              - generic [ref=f4e735]: Inclusão
+              - text: "-"
+            - generic [ref=f4e736]:
+              - generic [ref=f4e737]: Usuário
+              - generic [aria-hidden] [ref=f4e740]: 󰀈
+            - generic [ref=f4e741]:
+              - generic [ref=f4e742]: Matrículas
+              - generic [ref=f4e744]:
+                - generic [aria-hidden] [ref=f4e745]: 󱎭
+                - text: "1"
+            - button "Ações para Marcus Vinicius Rocha dos Santos" [ref=f4e748]:
+              - generic [aria-hidden] [ref=f4e750]: 󰇙
+        - button "Ver detalhes de Guilherme de Oliveira Cunha" [ref=f4e751] [cursor=pointer]:
+          - generic [ref=f4e753]:
+            - generic [ref=f4e754]:
+              - generic [ref=f4e755]: "#"
+              - generic [ref=f4e756]: "795"
+            - generic [ref=f4e757]: G
+            - generic [ref=f4e760]:
+              - generic [ref=f4e761]: Nome do Aluno
+              - generic [ref=f4e762]: Guilherme de Oliveira Cunha
+            - generic [ref=f4e763]:
+              - generic [ref=f4e764]: CPF
+              - generic [ref=f4e765]: 083.***.***-20
+            - generic [ref=f4e766]:
+              - generic [ref=f4e767]: Data Nasc.
+              - generic [ref=f4e768]: 24/07/2013
+            - generic [ref=f4e769]:
+              - generic [ref=f4e770]: Sexo
+              - generic [ref=f4e771]: M
+            - generic [ref=f4e773]:
+              - generic [ref=f4e774]: Cor/Raça
+              - generic [ref=f4e775]: Não Declarada
+            - generic [ref=f4e776]:
+              - generic [ref=f4e777]: Inclusão
+              - text: "-"
+            - generic [ref=f4e778]:
+              - generic [ref=f4e779]: Usuário
+              - generic [aria-hidden] [ref=f4e782]: 󰀈
+            - generic [ref=f4e783]:
+              - generic [ref=f4e784]: Matrículas
+              - generic [ref=f4e786]:
+                - generic [aria-hidden] [ref=f4e787]: 󱎭
+                - text: "1"
+            - button "Ações para Guilherme de Oliveira Cunha" [ref=f4e790]:
+              - generic [aria-hidden] [ref=f4e792]: 󰇙
+      - button "Carregar mais alunos" [ref=f4e794] [cursor=pointer]:
+        - generic [ref=f4e795]: Carregar mais Alunos

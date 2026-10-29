@@ -1,0 +1,505 @@
+- generic [ref=f5e3]:
+  - navigation [ref=f5e4]:
+    - generic [ref=f5e5]:
+      - img "Logomarca de Apoio" [ref=f5e7]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f5e9] [cursor=pointer]':
+        - generic [ref=f5e10]:
+          - generic [aria-hidden] [ref=f5e11]: 󰙹
+          - generic [ref=f5e12]: "2026"
+          - generic [aria-hidden] [ref=f5e13]: 󰅀
+      - separator [ref=f5e14]
+      - list [ref=f5e16]:
+        - generic [ref=f5e18]:
+          - generic [aria-hidden] [ref=f5e19]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f5e20] [cursor=pointer]
+        - separator [ref=f5e23]
+        - generic [ref=f5e25]:
+          - generic [aria-hidden] [ref=f5e26]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f5e27] [cursor=pointer]
+        - option "Profissionais" [ref=f5e30] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f5e33] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f5e36] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f5e40] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f5e44]: 󰅀
+        - separator [ref=f5e45]
+        - generic [ref=f5e47]:
+          - generic [aria-hidden] [ref=f5e48]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f5e49] [cursor=pointer]
+        - option "Matrículas" [selected] [ref=f5e52] [cursor=pointer]
+        - option "Turmas" [ref=f5e55] [cursor=pointer]
+        - option "Prorrogações" [ref=f5e58] [cursor=pointer]
+        - option "Diários" [ref=f5e61] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f5e64] [cursor=pointer]
+        - option "Feriados" [ref=f5e67] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f5e70] [cursor=pointer]
+        - separator [ref=f5e73]
+        - generic [ref=f5e75]:
+          - generic [aria-hidden] [ref=f5e76]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f5e77] [cursor=pointer]
+        - separator [ref=f5e80]
+        - generic [ref=f5e82]:
+          - generic [aria-hidden] [ref=f5e83]: 󰨒
+          - text: Administração do Sistema
+        - option "ACL" [ref=f5e85] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f5e89]: 󰅀
+        - option "Configurações Acadêmicas" [ref=f5e90] [cursor=pointer]
+        - option "Auditoria" [ref=f5e93] [cursor=pointer]
+    - generic [ref=f5e96]:
+      - button "Editar perfil de playwright" [ref=f5e97] [cursor=pointer]:
+        - generic [ref=f5e98]: p
+        - generic [ref=f5e101]:
+          - generic [ref=f5e102]: playwright
+          - generic [ref=f5e103]: Super Administrador
+      - separator [ref=f5e104]
+      - generic [ref=f5e105]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f5e106] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f5e107]: 󰓼
+          - generic [ref=f5e108]: versão 0.1.0
+        - button "Sair da conta" [ref=f5e109] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f5e111]: 󰍃
+  - banner [ref=f5e112]:
+    - generic [ref=f5e113]:
+      - button "Fechar menu" [ref=f5e114] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f5e116]: 󰍜
+      - generic [ref=f5e117]: Colégio Apoio
+      - button "Notificações" [ref=f5e119] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f5e123]: 󰂜
+      - button "Menu do usuário" [ref=f5e124] [cursor=pointer]:
+        - generic [ref=f5e125]: P
+  - main [ref=f5e127]:
+    - list [ref=f5e129]:
+      - listitem [ref=f5e130]:
+        - link "Dashboard" [ref=f5e131] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f5e132]: ">"
+      - listitem [ref=f5e133]:
+        - link "Matrículas" [ref=f5e134] [cursor=pointer]:
+          - /url: http://veramendes.local/matriculas
+      - listitem [aria-hidden] [ref=f5e135]: ">"
+      - listitem:
+        - generic: Listar
+    - generic [ref=f5e136]:
+      - heading "Matrículas" [level=5] [ref=f5e137]
+      - generic [ref=f5e138]:
+        - generic [ref=f5e140]:
+          - button "Criar nova matrícula" [ref=f5e141] [cursor=pointer]:
+            - generic [ref=f5e142]:
+              - generic [aria-hidden] [ref=f5e143]: 󰐕
+              - text: Nova Matrícula
+          - button "Ver lixeira de matrículas" [ref=f5e146] [cursor=pointer]:
+            - generic [ref=f5e147]:
+              - generic [aria-hidden] [ref=f5e148]: 󰧧
+              - text: Lixeira
+        - generic [ref=f5e149]:
+          - generic [ref=f5e150]: Pesquisar
+          - generic [ref=f5e151]:
+            - searchbox [ref=f5e153]:
+              - searchbox "Pesquisar matrículas" [ref=f5e155]
+              - text: 󰅙
+              - generic [aria-hidden] [ref=f5e157]: 󰍉
+            - alert [ref=f5e158]
+      - generic [ref=f5e160]:
+        - generic [ref=f5e161]:
+          - generic [ref=f5e162]: Turma
+          - generic [ref=f5e163]:
+            - combobox [ref=f5e165] [cursor=pointer]:
+              - generic [ref=f5e167]:
+                - combobox "Filtrar por turma"
+              - text: 󰅙
+              - generic [aria-hidden] [ref=f5e169]: 󰍝
+            - alert [ref=f5e170]
+        - generic [ref=f5e172]:
+          - generic [ref=f5e173]: Situação
+          - generic [ref=f5e174]:
+            - combobox [ref=f5e176] [cursor=pointer]:
+              - generic [ref=f5e178]:
+                - combobox "Filtrar por situação"
+              - text: 󰅙
+              - generic [aria-hidden] [ref=f5e180]: 󰍝
+            - alert [ref=f5e181]
+        - generic [ref=f5e183]:
+          - generic [ref=f5e184]: Transporte Escolar
+          - generic [ref=f5e185]:
+            - combobox [ref=f5e187] [cursor=pointer]:
+              - generic [ref=f5e189]:
+                - combobox "Filtrar por transporte escolar"
+              - text: 󰅙
+              - generic [aria-hidden] [ref=f5e191]: 󰍝
+            - alert [ref=f5e192]
+        - generic [ref=f5e194]:
+          - generic [ref=f5e195]: AEE
+          - generic [ref=f5e196]:
+            - combobox [ref=f5e198] [cursor=pointer]:
+              - generic [ref=f5e200]:
+                - combobox "Filtrar por atividades de AEE"
+              - text: 󰅙
+              - generic [aria-hidden] [ref=f5e202]: 󰍝
+            - alert [ref=f5e203]
+      - generic [ref=f5e205]:
+        - generic [ref=f5e206]: Exibindo de 1 até 15 de 187
+        - button "Ver detalhes da matrícula 127" [ref=f5e207] [cursor=pointer]:
+          - generic [ref=f5e209]:
+            - generic [ref=f5e210]:
+              - generic [ref=f5e211]: "#"
+              - generic [ref=f5e212]: "127"
+            - generic [ref=f5e213]: B
+            - generic [ref=f5e216]:
+              - generic [ref=f5e217]: Aluno
+              - generic [ref=f5e218]: Bárbara Galeno Melo
+              - generic [ref=f5e219]: REF00000530
+            - generic [ref=f5e220]:
+              - generic [ref=f5e221]: Turma
+              - generic [ref=f5e222]: 2º Série
+            - generic [ref=f5e223]:
+              - generic [ref=f5e224]: Cód. INEP
+              - generic [ref=f5e225]: N/A
+            - generic [ref=f5e226]:
+              - generic [ref=f5e227]: Situação
+              - generic [ref=f5e228]: Cursando
+            - generic [ref=f5e230]:
+              - generic [ref=f5e231]: Info
+              - generic [ref=f5e232]: "-"
+            - button "Ações para matrícula 127" [ref=f5e236]:
+              - generic [aria-hidden] [ref=f5e238]: 󰇙
+        - button "Ver detalhes da matrícula 117" [ref=f5e239] [cursor=pointer]:
+          - generic [ref=f5e241]:
+            - generic [ref=f5e242]:
+              - generic [ref=f5e243]: "#"
+              - generic [ref=f5e244]: "117"
+            - generic [ref=f5e245]: L
+            - generic [ref=f5e248]:
+              - generic [ref=f5e249]: Aluno
+              - generic [ref=f5e250]: Luana Vitória Pires Siqueira
+              - generic [ref=f5e251]: REF00000877
+            - generic [ref=f5e252]:
+              - generic [ref=f5e253]: Turma
+              - generic [ref=f5e254]: 1º Série
+            - generic [ref=f5e255]:
+              - generic [ref=f5e256]: Cód. INEP
+              - generic [ref=f5e257]: N/A
+            - generic [ref=f5e258]:
+              - generic [ref=f5e259]: Situação
+              - generic [ref=f5e260]: Cursando
+            - generic [ref=f5e262]:
+              - generic [ref=f5e263]: Info
+              - generic [ref=f5e264]: "-"
+            - button "Ações para matrícula 117" [ref=f5e268]:
+              - generic [aria-hidden] [ref=f5e270]: 󰇙
+        - button "Ver detalhes da matrícula 118" [ref=f5e271] [cursor=pointer]:
+          - generic [ref=f5e273]:
+            - generic [ref=f5e274]:
+              - generic [ref=f5e275]: "#"
+              - generic [ref=f5e276]: "118"
+            - generic [ref=f5e277]: M
+            - generic [ref=f5e280]:
+              - generic [ref=f5e281]: Aluno
+              - generic [ref=f5e282]: Maria Isabele Costa do Nascimento
+              - generic [ref=f5e283]: REF00000660
+            - generic [ref=f5e284]:
+              - generic [ref=f5e285]: Turma
+              - generic [ref=f5e286]: 1º Série
+            - generic [ref=f5e287]:
+              - generic [ref=f5e288]: Cód. INEP
+              - generic [ref=f5e289]: N/A
+            - generic [ref=f5e290]:
+              - generic [ref=f5e291]: Situação
+              - generic [ref=f5e292]: Cursando
+            - generic [ref=f5e294]:
+              - generic [ref=f5e295]: Info
+              - generic [ref=f5e296]: "-"
+            - button "Ações para matrícula 118" [ref=f5e300]:
+              - generic [aria-hidden] [ref=f5e302]: 󰇙
+        - button "Ver detalhes da matrícula 119" [ref=f5e303] [cursor=pointer]:
+          - generic [ref=f5e305]:
+            - generic [ref=f5e306]:
+              - generic [ref=f5e307]: "#"
+              - generic [ref=f5e308]: "119"
+            - generic [ref=f5e309]: M
+            - generic [ref=f5e312]:
+              - generic [ref=f5e313]: Aluno
+              - generic [ref=f5e314]: Maria Luiza Melo Maciel
+              - generic [ref=f5e315]: 070.683.403-85 - 15 anos
+            - generic [ref=f5e316]:
+              - generic [ref=f5e317]: Turma
+              - generic [ref=f5e318]: 1º Série
+            - generic [ref=f5e319]:
+              - generic [ref=f5e320]: Cód. INEP
+              - generic [ref=f5e321]: N/A
+            - generic [ref=f5e322]:
+              - generic [ref=f5e323]: Situação
+              - generic [ref=f5e324]: Cursando
+            - generic [ref=f5e326]:
+              - generic [ref=f5e327]: Info
+              - generic [ref=f5e328]: "-"
+            - button "Ações para matrícula 119" [ref=f5e332]:
+              - generic [aria-hidden] [ref=f5e334]: 󰇙
+        - button "Ver detalhes da matrícula 120" [ref=f5e335] [cursor=pointer]:
+          - generic [ref=f5e337]:
+            - generic [ref=f5e338]:
+              - generic [ref=f5e339]: "#"
+              - generic [ref=f5e340]: "120"
+            - generic [ref=f5e341]: M
+            - generic [ref=f5e344]:
+              - generic [ref=f5e345]: Aluno
+              - generic [ref=f5e346]: Mirela Reis dos Santos
+              - generic [ref=f5e347]: 104.770.993-78 - 15 anos
+            - generic [ref=f5e348]:
+              - generic [ref=f5e349]: Turma
+              - generic [ref=f5e350]: 1º Série
+            - generic [ref=f5e351]:
+              - generic [ref=f5e352]: Cód. INEP
+              - generic [ref=f5e353]: N/A
+            - generic [ref=f5e354]:
+              - generic [ref=f5e355]: Situação
+              - generic [ref=f5e356]: Cursando
+            - generic [ref=f5e358]:
+              - generic [ref=f5e359]: Info
+              - generic [ref=f5e360]: "-"
+            - button "Ações para matrícula 120" [ref=f5e364]:
+              - generic [aria-hidden] [ref=f5e366]: 󰇙
+        - button "Ver detalhes da matrícula 121" [ref=f5e367] [cursor=pointer]:
+          - generic [ref=f5e369]:
+            - generic [ref=f5e370]:
+              - generic [ref=f5e371]: "#"
+              - generic [ref=f5e372]: "121"
+            - generic [ref=f5e373]: R
+            - generic [ref=f5e376]:
+              - generic [ref=f5e377]: Aluno
+              - generic [ref=f5e378]: Rafaella Vieira Masullo
+              - generic [ref=f5e379]: REF00000649
+            - generic [ref=f5e380]:
+              - generic [ref=f5e381]: Turma
+              - generic [ref=f5e382]: 1º Série
+            - generic [ref=f5e383]:
+              - generic [ref=f5e384]: Cód. INEP
+              - generic [ref=f5e385]: N/A
+            - generic [ref=f5e386]:
+              - generic [ref=f5e387]: Situação
+              - generic [ref=f5e388]: Cursando
+            - generic [ref=f5e390]:
+              - generic [ref=f5e391]: Info
+              - generic [ref=f5e392]: "-"
+            - button "Ações para matrícula 121" [ref=f5e396]:
+              - generic [aria-hidden] [ref=f5e398]: 󰇙
+        - button "Ver detalhes da matrícula 122" [ref=f5e399] [cursor=pointer]:
+          - generic [ref=f5e401]:
+            - generic [ref=f5e402]:
+              - generic [ref=f5e403]: "#"
+              - generic [ref=f5e404]: "122"
+            - generic [ref=f5e405]: R
+            - generic [ref=f5e408]:
+              - generic [ref=f5e409]: Aluno
+              - generic [ref=f5e410]: Raissa Tomaz do Nascimento
+              - generic [ref=f5e411]: 075.595.453-00 - 16 anos
+            - generic [ref=f5e412]:
+              - generic [ref=f5e413]: Turma
+              - generic [ref=f5e414]: 1º Série
+            - generic [ref=f5e415]:
+              - generic [ref=f5e416]: Cód. INEP
+              - generic [ref=f5e417]: N/A
+            - generic [ref=f5e418]:
+              - generic [ref=f5e419]: Situação
+              - generic [ref=f5e420]: Cursando
+            - generic [ref=f5e422]:
+              - generic [ref=f5e423]: Info
+              - generic [ref=f5e424]: "-"
+            - button "Ações para matrícula 122" [ref=f5e428]:
+              - generic [aria-hidden] [ref=f5e430]: 󰇙
+        - button "Ver detalhes da matrícula 123" [ref=f5e431] [cursor=pointer]:
+          - generic [ref=f5e433]:
+            - generic [ref=f5e434]:
+              - generic [ref=f5e435]: "#"
+              - generic [ref=f5e436]: "123"
+            - generic [ref=f5e437]: S
+            - generic [ref=f5e440]:
+              - generic [ref=f5e441]: Aluno
+              - generic [ref=f5e442]: Silas da Silva Sales Junior
+              - generic [ref=f5e443]: 093.418.553-06 - 16 anos
+            - generic [ref=f5e444]:
+              - generic [ref=f5e445]: Turma
+              - generic [ref=f5e446]: 1º Série
+            - generic [ref=f5e447]:
+              - generic [ref=f5e448]: Cód. INEP
+              - generic [ref=f5e449]: N/A
+            - generic [ref=f5e450]:
+              - generic [ref=f5e451]: Situação
+              - generic [ref=f5e452]: Cursando
+            - generic [ref=f5e454]:
+              - generic [ref=f5e455]: Info
+              - generic [ref=f5e456]: "-"
+            - button "Ações para matrícula 123" [ref=f5e460]:
+              - generic [aria-hidden] [ref=f5e462]: 󰇙
+        - button "Ver detalhes da matrícula 186" [ref=f5e463] [cursor=pointer]:
+          - generic [ref=f5e465]:
+            - generic [ref=f5e466]:
+              - generic [ref=f5e467]: "#"
+              - generic [ref=f5e468]: "186"
+            - generic [ref=f5e469]: A
+            - generic [ref=f5e472]:
+              - generic [ref=f5e473]: Aluno
+              - generic [ref=f5e474]: ALUNO MOBILE 01
+              - generic [ref=f5e475]: 740.133.810-60 - 27 anos
+            - generic [ref=f5e476]:
+              - generic [ref=f5e477]: Turma
+              - generic [ref=f5e478]: 1º Série
+            - generic [ref=f5e479]:
+              - generic [ref=f5e480]: Cód. INEP
+              - generic [ref=f5e481]: N/A
+            - generic [ref=f5e482]:
+              - generic [ref=f5e483]: Situação
+              - generic [ref=f5e484]: Cursando
+            - generic [ref=f5e486]:
+              - generic [ref=f5e487]: Info
+              - generic [ref=f5e488]: "-"
+            - button "Ações para matrícula 186" [ref=f5e492]:
+              - generic [aria-hidden] [ref=f5e494]: 󰇙
+        - button "Ver detalhes da matrícula 124" [ref=f5e495] [cursor=pointer]:
+          - generic [ref=f5e497]:
+            - generic [ref=f5e498]:
+              - generic [ref=f5e499]: "#"
+              - generic [ref=f5e500]: "124"
+            - generic [ref=f5e501]: A
+            - generic [ref=f5e504]:
+              - generic [ref=f5e505]: Aluno
+              - generic [ref=f5e506]: Amanda Beatriz de Sousa Nunes
+              - generic [ref=f5e507]: REF00000527
+            - generic [ref=f5e508]:
+              - generic [ref=f5e509]: Turma
+              - generic [ref=f5e510]: 2º Série
+            - generic [ref=f5e511]:
+              - generic [ref=f5e512]: Cód. INEP
+              - generic [ref=f5e513]: N/A
+            - generic [ref=f5e514]:
+              - generic [ref=f5e515]: Situação
+              - generic [ref=f5e516]: Cursando
+            - generic [ref=f5e518]:
+              - generic [ref=f5e519]: Info
+              - generic [ref=f5e520]: "-"
+            - button "Ações para matrícula 124" [ref=f5e524]:
+              - generic [aria-hidden] [ref=f5e526]: 󰇙
+        - button "Ver detalhes da matrícula 125" [ref=f5e527] [cursor=pointer]:
+          - generic [ref=f5e529]:
+            - generic [ref=f5e530]:
+              - generic [ref=f5e531]: "#"
+              - generic [ref=f5e532]: "125"
+            - generic [ref=f5e533]: A
+            - generic [ref=f5e536]:
+              - generic [ref=f5e537]: Aluno
+              - generic [ref=f5e538]: Ana Luiza Seixas Gonçalves
+              - generic [ref=f5e539]: 095.891.373-00 - 17 anos
+            - generic [ref=f5e540]:
+              - generic [ref=f5e541]: Turma
+              - generic [ref=f5e542]: 2º Série
+            - generic [ref=f5e543]:
+              - generic [ref=f5e544]: Cód. INEP
+              - generic [ref=f5e545]: N/A
+            - generic [ref=f5e546]:
+              - generic [ref=f5e547]: Situação
+              - generic [ref=f5e548]: Cursando
+            - generic [ref=f5e550]:
+              - generic [ref=f5e551]: Info
+              - generic [ref=f5e552]: "-"
+            - button "Ações para matrícula 125" [ref=f5e556]:
+              - generic [aria-hidden] [ref=f5e558]: 󰇙
+        - button "Ver detalhes da matrícula 126" [ref=f5e559] [cursor=pointer]:
+          - generic [ref=f5e561]:
+            - generic [ref=f5e562]:
+              - generic [ref=f5e563]: "#"
+              - generic [ref=f5e564]: "126"
+            - generic [ref=f5e565]: A
+            - generic [ref=f5e568]:
+              - generic [ref=f5e569]: Aluno
+              - generic [ref=f5e570]: Andréia Silva Gomes do Nascimento
+              - generic [ref=f5e571]: 127.653.073-00 - 16 anos
+            - generic [ref=f5e572]:
+              - generic [ref=f5e573]: Turma
+              - generic [ref=f5e574]: 2º Série
+            - generic [ref=f5e575]:
+              - generic [ref=f5e576]: Cód. INEP
+              - generic [ref=f5e577]: N/A
+            - generic [ref=f5e578]:
+              - generic [ref=f5e579]: Situação
+              - generic [ref=f5e580]: Cursando
+            - generic [ref=f5e582]:
+              - generic [ref=f5e583]: Info
+              - generic [ref=f5e584]: "-"
+            - button "Ações para matrícula 126" [ref=f5e588]:
+              - generic [aria-hidden] [ref=f5e590]: 󰇙
+        - button "Ver detalhes da matrícula 136" [ref=f5e591] [cursor=pointer]:
+          - generic [ref=f5e593]:
+            - generic [ref=f5e594]:
+              - generic [ref=f5e595]: "#"
+              - generic [ref=f5e596]: "136"
+            - generic [ref=f5e597]: I
+            - generic [ref=f5e600]:
+              - generic [ref=f5e601]: Aluno
+              - generic [ref=f5e602]: Isabelly Cristine Gomes da Silva
+              - generic [ref=f5e603]: REF00000827
+            - generic [ref=f5e604]:
+              - generic [ref=f5e605]: Turma
+              - generic [ref=f5e606]: 2º Série
+            - generic [ref=f5e607]:
+              - generic [ref=f5e608]: Cód. INEP
+              - generic [ref=f5e609]: N/A
+            - generic [ref=f5e610]:
+              - generic [ref=f5e611]: Situação
+              - generic [ref=f5e612]: Cursando
+            - generic [ref=f5e614]:
+              - generic [ref=f5e615]: Info
+              - generic [ref=f5e616]: "-"
+            - button "Ações para matrícula 136" [ref=f5e620]:
+              - generic [aria-hidden] [ref=f5e622]: 󰇙
+        - button "Ver detalhes da matrícula 134" [ref=f5e623] [cursor=pointer]:
+          - generic [ref=f5e625]:
+            - generic [ref=f5e626]:
+              - generic [ref=f5e627]: "#"
+              - generic [ref=f5e628]: "134"
+            - generic [ref=f5e629]: G
+            - generic [ref=f5e632]:
+              - generic [ref=f5e633]: Aluno
+              - generic [ref=f5e634]: Geicianny Gabrielly Sousa Oliveira
+              - generic [ref=f5e635]: REF00000531
+            - generic [ref=f5e636]:
+              - generic [ref=f5e637]: Turma
+              - generic [ref=f5e638]: 2º Série
+            - generic [ref=f5e639]:
+              - generic [ref=f5e640]: Cód. INEP
+              - generic [ref=f5e641]: N/A
+            - generic [ref=f5e642]:
+              - generic [ref=f5e643]: Situação
+              - generic [ref=f5e644]: Cursando
+            - generic [ref=f5e646]:
+              - generic [ref=f5e647]: Info
+              - generic [ref=f5e648]: "-"
+            - button "Ações para matrícula 134" [ref=f5e652]:
+              - generic [aria-hidden] [ref=f5e654]: 󰇙
+        - button "Ver detalhes da matrícula 135" [ref=f5e655] [cursor=pointer]:
+          - generic [ref=f5e657]:
+            - generic [ref=f5e658]:
+              - generic [ref=f5e659]: "#"
+              - generic [ref=f5e660]: "135"
+            - generic [ref=f5e661]: G
+            - generic [ref=f5e664]:
+              - generic [ref=f5e665]: Aluno
+              - generic [ref=f5e666]: Guilherme de Oliveira Brito
+              - generic [ref=f5e667]: 103.750.653-77 - 17 anos
+            - generic [ref=f5e668]:
+              - generic [ref=f5e669]: Turma
+              - generic [ref=f5e670]: 2º Série
+            - generic [ref=f5e671]:
+              - generic [ref=f5e672]: Cód. INEP
+              - generic [ref=f5e673]: N/A
+            - generic [ref=f5e674]:
+              - generic [ref=f5e675]: Situação
+              - generic [ref=f5e676]: Cursando
+            - generic [ref=f5e678]:
+              - generic [ref=f5e679]: Info
+              - generic [ref=f5e680]: "-"
+            - button "Ações para matrícula 135" [ref=f5e684]:
+              - generic [aria-hidden] [ref=f5e686]: 󰇙
+      - button "Carregar mais matrículas" [ref=f5e688] [cursor=pointer]:
+        - generic [ref=f5e689]: Carregar mais Matrículas

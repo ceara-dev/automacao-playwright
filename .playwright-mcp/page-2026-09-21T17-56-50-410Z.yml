@@ -1,0 +1,124 @@
+- generic [ref=f15e3]:
+  - navigation [ref=f15e4]:
+    - generic [ref=f15e5]:
+      - img "Logomarca de Apoio" [ref=f15e7]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f15e9] [cursor=pointer]':
+        - generic [ref=f15e10]:
+          - generic [aria-hidden] [ref=f15e11]: 󰙹
+          - generic [ref=f15e12]: "2026"
+          - generic [aria-hidden] [ref=f15e13]: 󰅀
+      - separator [ref=f15e14]
+      - list [ref=f15e16]:
+        - generic [ref=f15e18]:
+          - generic [aria-hidden] [ref=f15e19]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f15e20] [cursor=pointer]
+        - separator [ref=f15e23]
+        - generic [ref=f15e25]:
+          - generic [aria-hidden] [ref=f15e26]: 󱔟
+          - text: Administração
+        - option "Escolas" [selected] [ref=f15e27] [cursor=pointer]
+        - option "Profissionais" [ref=f15e30] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f15e33] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f15e36] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f15e40] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f15e44]: 󰅀
+        - separator [ref=f15e45]
+        - generic [ref=f15e47]:
+          - generic [aria-hidden] [ref=f15e48]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f15e49] [cursor=pointer]
+        - option "Matrículas" [ref=f15e52] [cursor=pointer]
+        - option "Turmas" [ref=f15e55] [cursor=pointer]
+        - option "Prorrogações" [ref=f15e58] [cursor=pointer]
+        - option "Diários" [ref=f15e61] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f15e64] [cursor=pointer]
+        - option "Feriados" [ref=f15e67] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f15e70] [cursor=pointer]
+        - separator [ref=f15e73]
+        - generic [ref=f15e75]:
+          - generic [aria-hidden] [ref=f15e76]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f15e77] [cursor=pointer]
+        - separator [ref=f15e80]
+        - generic [ref=f15e82]:
+          - generic [aria-hidden] [ref=f15e83]: 󰨒
+          - text: Administração do Sistema
+        - option "ACL" [ref=f15e85] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f15e89]: 󰅀
+        - option "Configurações Acadêmicas" [ref=f15e90] [cursor=pointer]
+        - option "Auditoria" [ref=f15e93] [cursor=pointer]
+    - generic [ref=f15e96]:
+      - button "Editar perfil de Hilton" [ref=f15e97] [cursor=pointer]:
+        - generic [ref=f15e98]: H
+        - generic [ref=f15e101]:
+          - generic [ref=f15e102]: Hilton
+          - generic [ref=f15e103]: Super Administrador
+      - separator [ref=f15e104]
+      - generic [ref=f15e105]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f15e106] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f15e107]: 󰓼
+          - generic [ref=f15e108]: versão 0.1.0
+        - button "Sair da conta" [ref=f15e109] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f15e111]: 󰍃
+  - banner [ref=f15e113]:
+    - generic [ref=f15e114]:
+      - button "Fechar menu" [ref=f15e115] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f15e117]: 󰍜
+      - generic [ref=f15e118]: Apoio
+      - button "Notificações" [ref=f15e120] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f15e124]: 󰂜
+      - button "Menu do usuário" [ref=f15e125] [cursor=pointer]:
+        - generic [ref=f15e126]: H
+  - main [ref=f15e128]:
+    - list [ref=f15e130]:
+      - listitem [ref=f15e131]:
+        - link "Dashboard" [ref=f15e132] [cursor=pointer]:
+          - /url: https://apoio.servidorcaju.com.br/dashboard
+      - listitem [aria-hidden] [ref=f15e133]: ">"
+      - listitem [ref=f15e134]:
+        - link "Franquias" [ref=f15e135] [cursor=pointer]:
+          - /url: https://apoio.servidorcaju.com.br/franquias
+      - listitem [aria-hidden] [ref=f15e136]: ">"
+      - listitem:
+        - link "Listar":
+          - /url: https://apoio.servidorcaju.com.br/franquias
+    - generic [ref=f15e137]:
+      - heading "Franquias" [level=5] [ref=f15e138]
+      - generic [ref=f15e139]:
+        - button "Criar nova franquia" [ref=f15e141] [cursor=pointer]:
+          - generic [ref=f15e142]:
+            - generic [aria-hidden] [ref=f15e143]: 󰐕
+            - text: Nova Franquia
+        - generic [ref=f15e144]:
+          - generic [ref=f15e145]: Pesquisar
+          - generic [ref=f15e146]:
+            - searchbox [ref=f15e148]:
+              - searchbox "Pesquisar franquias" [ref=f15e150]
+              - text: 󰅙
+              - generic [aria-hidden] [ref=f15e152]: 󰍉
+            - alert [ref=f15e153]
+      - generic [ref=f15e155]:
+        - generic [ref=f15e156]: Exibindo de 1 até 1 de 1
+        - button "Ver detalhes de Colégio Apoio" [ref=f15e157] [cursor=pointer]:
+          - generic [ref=f15e159]:
+            - generic [ref=f15e160]:
+              - generic [ref=f15e161]: "#"
+              - generic [ref=f15e162]: "1"
+            - generic [ref=f15e163]:
+              - generic [ref=f15e164]: Descrição da Franquia
+              - generic [ref=f15e165]: Colégio Apoio
+            - generic [ref=f15e166]:
+              - generic [ref=f15e167]: Código INEP
+              - generic [ref=f15e168]: "22135790"
+            - generic [ref=f15e169]:
+              - generic [ref=f15e170]: Município/UF
+              - generic [ref=f15e171]: Parnaíba/PI
+            - generic [ref=f15e172]:
+              - generic [ref=f15e173]: Contato
+              - generic [ref=f15e174]: "33238604"
+              - generic [ref=f15e175]: contato@colegioapoiophb.com.br
+            - button "Ações para Colégio Apoio" [ref=f15e178]:
+              - generic [aria-hidden] [ref=f15e180]: 󰇙
+      - button "Carregar mais franquias" [ref=f15e182] [cursor=pointer]:
+        - generic [ref=f15e183]: Carregar mais Franquias

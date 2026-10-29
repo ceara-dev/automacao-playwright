@@ -1,0 +1,284 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e204]:
+    - navigation [ref=e205]:
+      - generic [ref=e206]:
+        - img "Logomarca de Apoio" [ref=e208]
+        - 'button "Ano letivo: 2026. Clique para alterar." [ref=e210] [cursor=pointer]':
+          - generic [ref=e211]:
+            - generic [aria-hidden] [ref=e212]: 󰙹
+            - generic [ref=e213]: "2026"
+            - generic [aria-hidden] [ref=e214]: 󰅀
+        - separator [ref=e215]
+        - list [ref=e217]:
+          - generic [ref=e219]:
+            - generic [aria-hidden] [ref=e220]: 󰚡
+            - text: Início
+          - option "Dashboard" [ref=e221] [cursor=pointer]
+          - separator [ref=e224]
+          - generic [ref=e226]:
+            - generic [aria-hidden] [ref=e227]: 󱔟
+            - text: Administração
+          - option "Escolas" [ref=e228] [cursor=pointer]
+          - option "Profissionais" [ref=e231] [cursor=pointer]
+          - option "Circuito de Notas" [ref=e234] [cursor=pointer]
+          - option "Componentes Curriculares" [ref=e237] [cursor=pointer]
+          - option "Processos/Documentos" [ref=e241] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e245]: 󰅀
+          - separator [ref=e246]
+          - generic [ref=e248]:
+            - generic [aria-hidden] [ref=e249]: 󱆀
+            - text: Acadêmico
+          - option "Alunos" [ref=e250] [cursor=pointer]
+          - option "Matrículas" [ref=e253] [cursor=pointer]
+          - option "Turmas" [ref=e256] [cursor=pointer]
+          - option "Prorrogações" [ref=e259] [cursor=pointer]
+          - option "Diários" [ref=e262] [cursor=pointer]
+          - option "Presença Notifiq" [ref=e265] [cursor=pointer]
+          - option "Feriados" [ref=e268] [cursor=pointer]
+          - option "Justificativa de Falta" [ref=e271] [cursor=pointer]
+          - separator [ref=e274]
+          - generic [ref=e276]:
+            - generic [aria-hidden] [ref=e277]: 󱕎
+            - text: Relatórios
+          - option "Relatórios" [selected] [ref=e278] [cursor=pointer]
+          - separator [ref=e281]
+          - generic [ref=e283]:
+            - generic [aria-hidden] [ref=e284]: 󰨒
+            - text: Administração do Sistema
+          - option "ACL" [ref=e286] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e290]: 󰅀
+          - option "Configurações Acadêmicas" [ref=e291] [cursor=pointer]
+          - option "Auditoria" [ref=e294] [cursor=pointer]
+      - generic [ref=e297]:
+        - button "Editar perfil de playwright" [ref=e298] [cursor=pointer]:
+          - generic [ref=e299]: p
+          - generic [ref=e302]:
+            - generic [ref=e303]: playwright
+            - generic [ref=e304]: Super Administrador
+        - separator [ref=e305]
+        - generic [ref=e306]:
+          - button "Versão 0.1.0. Clique para ver o changelog." [ref=e307] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e308]: 󰓼
+            - generic [ref=e309]: versão 0.1.0
+          - button "Sair da conta" [ref=e310] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e312]: 󰍃
+    - banner [ref=e313]:
+      - generic [ref=e314]:
+        - button "Fechar menu" [ref=e315] [cursor=pointer]:
+          - generic [aria-hidden] [ref=e317]: 󰍜
+        - generic [ref=e318]: Colégio Apoio
+        - button "Notificações" [ref=e320] [cursor=pointer]:
+          - generic [aria-hidden] [ref=e324]: 󰂜
+        - button "Menu do usuário" [ref=e325] [cursor=pointer]:
+          - generic [ref=e326]: P
+    - main [ref=e328]:
+      - list [ref=e330]:
+        - listitem [ref=e331]:
+          - link "Dashboard" [ref=e332] [cursor=pointer]:
+            - /url: http://veramendes.local/dashboard
+        - listitem [aria-hidden] [ref=e333]: ">"
+        - listitem:
+          - generic: Relatórios
+      - generic [ref=e334]:
+        - heading "Relatórios" [level=5] [ref=e335]
+        - generic [ref=e336]: Consulte e gere relatórios personalizados do sistema
+        - tablist [ref=e338]:
+          - generic [ref=e340]:
+            - tab "Todos os relatórios" [selected] [ref=e341] [cursor=pointer]
+            - tab "Notifiq" [ref=e343] [cursor=pointer]
+        - generic [ref=e346]:
+          - generic [ref=e347]: Relatórios disponíveis
+          - generic [ref=e348]: Selecione o relatório desejado para gerar ou visualizar.
+        - generic [ref=e352]:
+          - generic [ref=e353]:
+            - generic [aria-hidden] [ref=e355]: 󰶫
+            - generic [ref=e356]:
+              - generic [ref=e357]: Notifiq
+              - generic [ref=e358]: 5 relatórios
+          - paragraph [ref=e359]: Relatórios de registros e presenças coletadas pelo sistema Notifiq.
+          - generic [ref=e360]:
+            - button "Ver relatório Registros por Período" [ref=e361] [cursor=pointer]:
+              - generic [ref=e362]:
+                - generic [ref=e363]:
+                  - generic [aria-hidden] [ref=e364]: 󰭨
+                  - generic [ref=e365]: Registros por Período
+                - generic [ref=e366]: Registros de presença por período
+            - button "Ver relatório Presença por Escola" [ref=e367] [cursor=pointer]:
+              - generic [ref=e368]:
+                - generic [ref=e369]:
+                  - generic [aria-hidden] [ref=e370]: 󱆀
+                  - generic [ref=e371]: Presença por Escola
+                - generic [ref=e372]: Taxa de presença por escola
+            - button "Ver relatório Presença por Turma" [ref=e373] [cursor=pointer]:
+              - generic [ref=e374]:
+                - generic [ref=e375]:
+                  - generic [aria-hidden] [ref=e376]: 󰋀
+                  - generic [ref=e377]: Presença por Turma
+                - generic [ref=e378]: Taxa de presença por turma
+            - button "Ver relatório Registros por Aluno" [ref=e379] [cursor=pointer]:
+              - generic [ref=e380]:
+                - generic [ref=e381]:
+                  - generic [aria-hidden] [ref=e382]: 󱍲
+                  - generic [ref=e383]: Registros por Aluno
+                - generic [ref=e384]: Histórico de registros por aluno
+            - button "Ver relatório Registro de Entrada e Saída" [ref=e385] [cursor=pointer]:
+              - generic [ref=e386]:
+                - generic [ref=e387]:
+                  - generic [aria-hidden] [ref=e388]: 󱛡
+                  - generic [ref=e389]: Registro de Entrada e Saída
+                - generic [ref=e390]: Entrada e saída diária dos alunos, consolidada por matrícula
+          - button "Ver todos os relatórios de Notifiq" [ref=e392] [cursor=pointer]:
+            - generic [ref=e393]: Ver todos
+        - region [ref=e394]:
+          - heading "Relatórios recentes" [level=2] [ref=e395]
+          - text: 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏 󰛐 󰮏
+          - table [ref=e400]:
+            - rowgroup [ref=e401]:
+              - row [ref=e402]:
+                - columnheader "Relatório" [ref=e403]
+                - columnheader "Tipo" [ref=e404]
+                - columnheader "Gerado por" [ref=e405]
+                - columnheader "Data/Hora" [ref=e406]
+                - columnheader "Ações" [ref=e407]
+            - rowgroup [ref=e408]:
+              - row [ref=e409]:
+                - 'cell "Registro de Entrada e Saída 15/09/2026 · Escola: Colégio Apoio · Turma: 6º Ano" [ref=e410]':
+                  - generic [ref=e411]: Registro de Entrada e Saída
+                  - generic [ref=e412]: "15/09/2026 · Escola: Colégio Apoio · Turma: 6º Ano"
+                - cell "PDF" [ref=e413]
+                - cell "Antonio - CajuTec" [ref=e416]
+                - cell "15/09/2026 09:47" [ref=e417]
+                - cell [ref=e418]:
+                  - button "Visualizar relatório Registro de Entrada e Saída" [ref=e419] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e421]: 󰛐
+                  - button "Baixar relatório Registro de Entrada e Saída" [ref=e422] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e424]: 󰮏
+              - row [ref=e425]:
+                - 'cell "Registro de Entrada e Saída 16/08/2026 · Escola: Colégio Apoio · Turma: 6º Ano" [ref=e426]':
+                  - generic [ref=e427]: Registro de Entrada e Saída
+                  - generic [ref=e428]: "16/08/2026 · Escola: Colégio Apoio · Turma: 6º Ano"
+                - cell "PDF" [ref=e429]
+                - cell "Antonio - CajuTec" [ref=e432]
+                - cell "15/09/2026 09:46" [ref=e433]
+                - cell [ref=e434]:
+                  - button "Visualizar relatório Registro de Entrada e Saída" [ref=e435] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e437]: 󰛐
+                  - button "Baixar relatório Registro de Entrada e Saída" [ref=e438] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e440]: 󰮏
+              - row [ref=e441]:
+                - 'cell "Registro de Entrada e Saída 16/08/2026 · Escola: Colégio Apoio · Turma: 6º Ano" [ref=e442]':
+                  - generic [ref=e443]: Registro de Entrada e Saída
+                  - generic [ref=e444]: "16/08/2026 · Escola: Colégio Apoio · Turma: 6º Ano"
+                - cell "PDF" [ref=e445]
+                - cell "Antonio - CajuTec" [ref=e448]
+                - cell "15/09/2026 09:46" [ref=e449]
+                - cell [ref=e450]:
+                  - button "Visualizar relatório Registro de Entrada e Saída" [ref=e451] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e453]: 󰛐
+                  - button "Baixar relatório Registro de Entrada e Saída" [ref=e454] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e456]: 󰮏
+              - row [ref=e457]:
+                - 'cell "Registros por Período 16/08/2026 a 15/09/2026 · Escola: Colégio Apoio · Turma: 6º Ano" [ref=e458]':
+                  - generic [ref=e459]: Registros por Período
+                  - generic [ref=e460]: "16/08/2026 a 15/09/2026 · Escola: Colégio Apoio · Turma: 6º Ano"
+                - cell "CSV" [ref=e461]
+                - cell "Jueslen Carlos Ferreira da Silva" [ref=e464]
+                - cell "15/09/2026 07:26" [ref=e465]
+                - cell [ref=e466]:
+                  - button "Visualizar relatório Registros por Período" [ref=e467] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e469]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=e470] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e472]: 󰮏
+              - row [ref=e473]:
+                - 'cell "Registros por Período 16/08/2026 a 15/09/2026 · Escola: Colégio Apoio" [ref=e474]':
+                  - generic [ref=e475]: Registros por Período
+                  - generic [ref=e476]: "16/08/2026 a 15/09/2026 · Escola: Colégio Apoio"
+                - cell "CSV" [ref=e477]
+                - cell "Jueslen Carlos Ferreira da Silva" [ref=e480]
+                - cell "15/09/2026 07:23" [ref=e481]
+                - cell [ref=e482]:
+                  - button "Visualizar relatório Registros por Período" [ref=e483] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e485]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=e486] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e488]: 󰮏
+              - row [ref=e489]:
+                - 'cell "Registros por Período 12/08/2026 a 11/09/2026 · Escola: Colégio Apoio · Turma: 6º Ano" [ref=e490]':
+                  - generic [ref=e491]: Registros por Período
+                  - generic [ref=e492]: "12/08/2026 a 11/09/2026 · Escola: Colégio Apoio · Turma: 6º Ano"
+                - cell "CSV" [ref=e493]
+                - cell "Dyelson Silva" [ref=e496]
+                - cell "11/09/2026 14:37" [ref=e497]
+                - cell [ref=e498]:
+                  - button "Visualizar relatório Registros por Período" [ref=e499] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e501]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=e502] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e504]: 󰮏
+              - row [ref=e505]:
+                - cell "Registros por Período 12/08/2026 a 11/09/2026" [ref=e506]:
+                  - generic [ref=e507]: Registros por Período
+                  - generic [ref=e508]: 12/08/2026 a 11/09/2026
+                - cell "CSV" [ref=e509]
+                - cell "Dyelson Silva" [ref=e512]
+                - cell "11/09/2026 14:36" [ref=e513]
+                - cell [ref=e514]:
+                  - button "Visualizar relatório Registros por Período" [ref=e515] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e517]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=e518] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e520]: 󰮏
+              - row [ref=e521]:
+                - 'cell "Registros por Período 11/09/2026 a 11/09/2026 · Escola: Colégio Apoio · Turma: 6º Ano" [ref=e522]':
+                  - generic [ref=e523]: Registros por Período
+                  - generic [ref=e524]: "11/09/2026 a 11/09/2026 · Escola: Colégio Apoio · Turma: 6º Ano"
+                - cell "CSV" [ref=e525]
+                - cell "Dyelson Silva" [ref=e528]
+                - cell "11/09/2026 14:09" [ref=e529]
+                - cell [ref=e530]:
+                  - button "Visualizar relatório Registros por Período" [ref=e531] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e533]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=e534] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e536]: 󰮏
+              - row [ref=e537]:
+                - 'cell "Registros por Período 11/09/2026 a 11/09/2026 · Escola: Colégio Apoio · Turma: 6º Ano" [ref=e538]':
+                  - generic [ref=e539]: Registros por Período
+                  - generic [ref=e540]: "11/09/2026 a 11/09/2026 · Escola: Colégio Apoio · Turma: 6º Ano"
+                - cell "CSV" [ref=e541]
+                - cell "Dyelson Silva" [ref=e544]
+                - cell "11/09/2026 08:26" [ref=e545]
+                - cell [ref=e546]:
+                  - button "Visualizar relatório Registros por Período" [ref=e547] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e549]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=e550] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e552]: 󰮏
+              - row [ref=e553]:
+                - 'cell "Registros por Período 12/08/2026 a 12/08/2026 · Escola: Colégio Apoio · Turma: 6º Ano" [ref=e554]':
+                  - generic [ref=e555]: Registros por Período
+                  - generic [ref=e556]: "12/08/2026 a 12/08/2026 · Escola: Colégio Apoio · Turma: 6º Ano"
+                - cell "CSV" [ref=e557]
+                - cell "Dyelson Silva" [ref=e560]
+                - cell "11/09/2026 08:25" [ref=e561]
+                - cell [ref=e562]:
+                  - button "Visualizar relatório Registros por Período" [ref=e563] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e565]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=e566] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e568]: 󰮏
+  - generic:
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip

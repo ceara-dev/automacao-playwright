@@ -1,0 +1,32 @@
+- generic:
+  - generic [ref=f1e1935]:
+    - generic [ref=f1e1937]:
+      - generic [ref=f1e1938]: Alterar senha
+      - generic [ref=f1e1939]: Por segurança, você precisa alterar sua senha antes de acessar o sistema.
+    - generic [ref=f1e1941]:
+      - generic [ref=f1e1943]:
+        - generic [ref=f1e1945]:
+          - generic [aria-hidden] [ref=f1e1947]: 󰍁
+          - generic [ref=f1e1948]:
+            - generic: Senha atual
+            - textbox "Senha atual" [active] [ref=f1e1949]
+        - alert [ref=f1e1950]
+      - generic [ref=f1e1953]:
+        - generic [ref=f1e1955]:
+          - generic [aria-hidden] [ref=f1e1957]: 󰗻
+          - generic [ref=f1e1958]:
+            - generic: Nova senha
+            - textbox "Nova senha" [ref=f1e1959]
+          - button "󰈉" [ref=f1e1961] [cursor=pointer]
+        - alert [ref=f1e1962]
+      - generic [ref=f1e1965]:
+        - generic [ref=f1e1967]:
+          - generic [aria-hidden] [ref=f1e1969]: 󱎚
+          - generic [ref=f1e1970]:
+            - generic: Confirmar nova senha
+            - textbox "Confirmar nova senha" [ref=f1e1971]
+        - alert [ref=f1e1972]
+      - button "Alterar senha" [ref=f1e1975] [cursor=pointer]
+  - generic [ref=f1e1977]:
+    - alert [ref=f1e1980]: Login efetuado com sucesso!
+    - button "close" [ref=f1e1981] [cursor=pointer]: ×

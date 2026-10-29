@@ -1,0 +1,514 @@
+- generic [ref=f1e592]:
+  - navigation [ref=f1e593]:
+    - generic [ref=f1e594]:
+      - img "Logomarca de Apoio" [ref=f1e596]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f1e598] [cursor=pointer]':
+        - generic [ref=f1e599]:
+          - generic [aria-hidden] [ref=f1e600]: 󰙹
+          - generic [ref=f1e601]: "2026"
+          - generic [aria-hidden] [ref=f1e602]: 󰅀
+      - separator [ref=f1e603]
+      - list [ref=f1e605]:
+        - generic [ref=f1e607]:
+          - generic [aria-hidden] [ref=f1e608]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f1e609] [cursor=pointer]
+        - separator [ref=f1e612]
+        - generic [ref=f1e614]:
+          - generic [aria-hidden] [ref=f1e615]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f1e616] [cursor=pointer]
+        - option "Profissionais" [ref=f1e619] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f1e622] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f1e625] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f1e629] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e633]: 󰅀
+        - separator [ref=f1e634]
+        - generic [ref=f1e636]:
+          - generic [aria-hidden] [ref=f1e637]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f1e638] [cursor=pointer]
+        - option "Matrículas" [ref=f1e641] [cursor=pointer]
+        - option "Turmas" [ref=f1e644] [cursor=pointer]
+        - option "Prorrogações" [ref=f1e647] [cursor=pointer]
+        - option "Diários" [ref=f1e650] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f1e653] [cursor=pointer]
+        - option "Feriados" [ref=f1e656] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f1e659] [cursor=pointer]
+        - separator [ref=f1e662]
+        - generic [ref=f1e664]:
+          - generic [aria-hidden] [ref=f1e665]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f1e666] [cursor=pointer]
+        - separator [ref=f1e669]
+        - generic [ref=f1e671]:
+          - generic [aria-hidden] [ref=f1e672]: 󰨒
+          - text: Administração do Sistema
+        - generic [ref=f1e673]:
+          - option "ACL" [ref=f1e674] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e678]: 󰅃
+          - group "ACL" [ref=f1e679]:
+            - option "Cargos" [ref=f1e680] [cursor=pointer]
+            - option "Permissões" [ref=f1e683] [cursor=pointer]
+            - option "Usuários" [selected] [ref=f1e686] [cursor=pointer]
+        - option "Configurações Acadêmicas" [ref=f1e689] [cursor=pointer]
+        - option "Auditoria" [ref=f1e692] [cursor=pointer]
+    - generic [ref=f1e695]:
+      - button "Editar perfil de playwright" [ref=f1e696] [cursor=pointer]:
+        - generic [ref=f1e697]: p
+        - generic [ref=f1e700]:
+          - generic [ref=f1e701]: playwright
+          - generic [ref=f1e702]: Super Administrador
+      - separator [ref=f1e703]
+      - generic [ref=f1e704]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f1e705] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e706]: 󰓼
+          - generic [ref=f1e707]: versão 0.1.0
+        - button "Sair da conta" [ref=f1e708] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e710]: 󰍃
+  - banner [ref=f1e711]:
+    - generic [ref=f1e712]:
+      - button "Fechar menu" [ref=f1e713] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f1e715]: 󰍜
+      - generic [ref=f1e716]: Colégio Apoio
+      - button "Notificações" [ref=f1e718] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f1e722]: 󰂜
+      - button "Menu do usuário" [ref=f1e723] [cursor=pointer]:
+        - generic [ref=f1e724]: P
+  - main [ref=f1e726]:
+    - list [ref=f1e728]:
+      - listitem [ref=f1e729]:
+        - link "Dashboard" [ref=f1e730] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f1e731]: ">"
+      - listitem [ref=f1e732]:
+        - link "ACL" [ref=f1e733] [cursor=pointer]:
+          - /url: http://veramendes.local/usuarios
+      - listitem [aria-hidden] [ref=f1e734]: ">"
+      - listitem [ref=f1e735]:
+        - link "Usuários" [ref=f1e736] [cursor=pointer]:
+          - /url: http://veramendes.local/usuarios
+      - listitem [aria-hidden] [ref=f1e737]: ">"
+      - listitem:
+        - generic: Criar
+    - generic [ref=f1e738]:
+      - heading [level=5] [ref=f1e739]:
+        - generic [aria-hidden] [ref=f1e741] [cursor=pointer]: 󰁍
+        - text: Usuários
+      - generic [ref=f1e743]:
+        - generic [ref=f1e746]:
+          - tablist [ref=f1e747]:
+            - tab "Dados" [selected] [ref=f1e750] [cursor=pointer]
+          - generic [ref=f1e755]:
+            - generic [ref=f1e756]:
+              - generic [ref=f1e758]:
+                - generic [ref=f1e760]:
+                  - textbox "Nome do Usuário" [ref=f1e762]: QA Restrito Playwright
+                  - generic: Nome do Usuário
+                - alert [ref=f1e763]
+              - generic [ref=f1e766]:
+                - generic [ref=f1e768]:
+                  - textbox "Login de acesso" [ref=f1e770]: qa.restrito@caju.com.br
+                  - generic: Login de acesso
+                - alert [ref=f1e771]
+            - generic [ref=f1e775]:
+              - generic [ref=f1e776]: Avatar do Usuário
+              - generic [ref=f1e777]:
+                - generic [aria-hidden] [ref=f1e779]: 󰀄
+                - generic [ref=f1e781]:
+                  - generic [ref=f1e783]:
+                    - generic [aria-hidden] [ref=f1e785]: 󰄀
+                    - generic [ref=f1e786]:
+                      - generic: Selecionar avatar
+                      - button "Selecionar avatar" [ref=f1e787]
+                    - text: 󰅙
+                  - alert [ref=f1e789]:
+                    - generic [ref=f1e790]: "Formatos aceitos: PNG, JPG, JPEG, WEBP (máx. 2MB)"
+            - generic [ref=f1e792]:
+              - generic [ref=f1e794]:
+                - generic [ref=f1e796]:
+                  - textbox "Cor" [ref=f1e798]: "#000000"
+                  - generic: Cor
+                - button "󰌁" [ref=f1e800] [cursor=pointer]
+                - alert [ref=f1e801]
+              - generic [ref=f1e804]:
+                - combobox [ref=f1e806] [cursor=pointer]:
+                  - generic [ref=f1e808]:
+                    - generic [ref=f1e1294]: Colégio Apoio
+                    - combobox "Escolas Permitidas": Colégio Apoio
+                  - generic [aria-hidden] [ref=f1e810]: 󰍝
+                  - generic: Escolas Permitidas
+                - alert [ref=f1e811]
+            - generic [ref=f1e813]:
+              - generic [ref=f1e815]:
+                - generic [ref=f1e817]:
+                  - textbox "Senha" [ref=f1e819]: passwordteste
+                  - button "Senha ação depois" [ref=f1e821] [cursor=pointer]: 󰈈
+                  - generic: Senha
+                - alert [ref=f1e822]
+              - generic [ref=f1e825]:
+                - generic [ref=f1e827]:
+                  - textbox "Confirmação de Senha" [ref=f1e829]: passwordteste
+                  - button "Confirmação de Senha ação depois" [ref=f1e831] [cursor=pointer]: 󰈈
+                  - generic: Confirmação de Senha
+                - alert [ref=f1e832]
+            - generic [ref=f1e834]:
+              - generic [ref=f1e835]:
+                - generic [ref=f1e836]: Cargos
+                - generic [ref=f1e837]:
+                  - button "Selecionar cargo Super Administrador" [ref=f1e840] [cursor=pointer]:
+                    - generic [ref=f1e845]:
+                      - generic [aria-hidden] [ref=f1e846]: 󰄱
+                      - checkbox [ref=f1e847]
+                    - generic [ref=f1e848]: Super Administrador
+                    - generic [ref=f1e850]: "183"
+                    - button "Expandir permissões de Super Administrador" [ref=f1e852]:
+                      - generic [aria-hidden] [ref=f1e854]: 󰅀
+                  - button "Selecionar cargo Profissional" [ref=f1e857] [cursor=pointer]:
+                    - generic [ref=f1e862]:
+                      - generic [aria-hidden] [ref=f1e863]: 󰄱
+                      - checkbox [ref=f1e864]
+                    - generic [ref=f1e865]: Profissional
+                    - generic [ref=f1e867]: "77"
+                    - button "Expandir permissões de Profissional" [ref=f1e869]:
+                      - generic [aria-hidden] [ref=f1e871]: 󰅀
+                  - button "Selecionar cargo Aluno" [ref=f1e874] [cursor=pointer]:
+                    - generic [ref=f1e879]:
+                      - generic [aria-hidden] [ref=f1e880]: 󰄱
+                      - checkbox [ref=f1e881]
+                    - generic [ref=f1e882]: Aluno
+                    - generic [ref=f1e884]: "15"
+                    - button "Expandir permissões de Aluno" [ref=f1e886]:
+                      - generic [aria-hidden] [ref=f1e888]: 󰅀
+                  - button "Desselecionar cargo Professor" [ref=f1e1296] [cursor=pointer]:
+                    - generic [ref=f1e896]:
+                      - generic [aria-hidden] [ref=f1e897]: 󰄲
+                      - checkbox [checked] [ref=f1e898]
+                    - generic [ref=f1e899]: Professor
+                    - generic [ref=f1e901]: "37"
+                    - button "Expandir permissões de Professor" [ref=f1e903]:
+                      - generic [aria-hidden] [ref=f1e905]: 󰅀
+                  - button "Selecionar cargo Gestor" [ref=f1e908] [cursor=pointer]:
+                    - generic [ref=f1e913]:
+                      - generic [aria-hidden] [ref=f1e914]: 󰄱
+                      - checkbox [ref=f1e915]
+                    - generic [ref=f1e916]: Gestor
+                    - generic [ref=f1e918]: "76"
+                    - button "Expandir permissões de Gestor" [ref=f1e920]:
+                      - generic [aria-hidden] [ref=f1e922]: 󰅀
+                  - button "Selecionar cargo T.I" [ref=f1e925] [cursor=pointer]:
+                    - generic [ref=f1e930]:
+                      - generic [aria-hidden] [ref=f1e931]: 󰄱
+                      - checkbox [ref=f1e932]
+                    - generic [ref=f1e933]: T.I
+                    - generic [ref=f1e935]: "181"
+                    - button "Expandir permissões de T.I" [ref=f1e937]:
+                      - generic [aria-hidden] [ref=f1e939]: 󰅀
+                  - generic [ref=f1e940]:
+                    - generic [ref=f1e941]: Visão geral — permissões por módulo
+                    - table [ref=f1e943]:
+                      - rowgroup [ref=f1e944]:
+                        - row [ref=f1e945]:
+                          - columnheader "Cargo" [ref=f1e946]
+                          - columnheader "alunos" [ref=f1e947]
+                          - columnheader "alunos.agenda" [ref=f1e948]
+                          - columnheader "auditoria" [ref=f1e949]
+                          - columnheader "cargos" [ref=f1e950]
+                          - columnheader "circuito-notas" [ref=f1e951]
+                          - columnheader "circuito-notas.importar" [ref=f1e952]
+                          - columnheader "circuito-notas.modelos-exportados" [ref=f1e953]
+                          - columnheader "componentes-curriculares" [ref=f1e954]
+                          - columnheader "configuracoes-academicas" [ref=f1e955]
+                          - columnheader "contratos" [ref=f1e956]
+                          - columnheader "declaracoes" [ref=f1e957]
+                          - columnheader "declaracoes-emitidas" [ref=f1e958]
+                          - columnheader "diarios" [ref=f1e959]
+                          - columnheader "feriados" [ref=f1e960]
+                          - columnheader "franquias" [ref=f1e961]
+                          - columnheader "justificativas" [ref=f1e962]
+                          - columnheader "justificativas.matriculas" [ref=f1e963]
+                          - columnheader "matriculas" [ref=f1e964]
+                          - columnheader "notifiq.presencas" [ref=f1e965]
+                          - columnheader "parcelas" [ref=f1e966]
+                          - columnheader "permissoes" [ref=f1e967]
+                          - columnheader "profissionais" [ref=f1e968]
+                          - columnheader "relatorios" [ref=f1e969]
+                          - columnheader "relatorios.notifiq" [ref=f1e970]
+                          - columnheader "responsaveis" [ref=f1e971]
+                          - columnheader "responsaveis_pedagogicos" [ref=f1e972]
+                          - columnheader "tipos-declaracao" [ref=f1e973]
+                          - columnheader "tipos-desconto" [ref=f1e974]
+                          - columnheader "turmas" [ref=f1e975]
+                          - columnheader "turmas.diario" [ref=f1e976]
+                          - columnheader "turmas.diario.agendas" [ref=f1e977]
+                          - columnheader "turmas.diario.agendas.arquivos" [ref=f1e978]
+                          - columnheader "turmas.diario.agendas.aulas" [ref=f1e979]
+                          - columnheader "turmas.diario.aulas" [ref=f1e980]
+                          - columnheader "turmas.diario.faltas" [ref=f1e981]
+                          - columnheader "turmas.diario.notas" [ref=f1e982]
+                          - columnheader "turmas.diario.posse" [ref=f1e983]
+                          - columnheader "turmas.diario.print" [ref=f1e984]
+                          - columnheader "usuarios" [ref=f1e985]
+                          - columnheader "Total" [ref=f1e986]
+                      - rowgroup [ref=f1e987]:
+                        - row [ref=f1e988]:
+                          - cell "Super Administrador" [ref=f1e989]
+                          - cell "8" [ref=f1e993]
+                          - cell "2" [ref=f1e994]
+                          - cell "1" [ref=f1e995]
+                          - cell "6" [ref=f1e996]
+                          - cell "11" [ref=f1e997]
+                          - cell "1" [ref=f1e998]
+                          - cell "1" [ref=f1e999]
+                          - cell "8" [ref=f1e1000]
+                          - cell "2" [ref=f1e1001]
+                          - cell "9" [ref=f1e1002]
+                          - cell "7" [ref=f1e1003]
+                          - cell "2" [ref=f1e1004]
+                          - cell "1" [ref=f1e1005]
+                          - cell "3" [ref=f1e1006]
+                          - cell "6" [ref=f1e1007]
+                          - cell "11" [ref=f1e1008]
+                          - cell "1" [ref=f1e1009]
+                          - cell "11" [ref=f1e1010]
+                          - cell "3" [ref=f1e1011]
+                          - cell "7" [ref=f1e1012]
+                          - cell "6" [ref=f1e1013]
+                          - cell "7" [ref=f1e1014]
+                          - cell "1" [ref=f1e1015]
+                          - cell "4" [ref=f1e1016]
+                          - cell "3" [ref=f1e1017]
+                          - cell "3" [ref=f1e1018]
+                          - cell "6" [ref=f1e1019]
+                          - cell "6" [ref=f1e1020]
+                          - cell "11" [ref=f1e1021]
+                          - cell "5" [ref=f1e1022]
+                          - cell "7" [ref=f1e1023]
+                          - cell "2" [ref=f1e1024]
+                          - cell "2" [ref=f1e1025]
+                          - cell "3" [ref=f1e1026]
+                          - cell "1" [ref=f1e1027]
+                          - cell "2" [ref=f1e1028]
+                          - cell "4" [ref=f1e1029]
+                          - cell "2" [ref=f1e1030]
+                          - cell "7" [ref=f1e1031]
+                          - cell "183" [ref=f1e1032]
+                        - row [ref=f1e1035]:
+                          - cell "Profissional" [ref=f1e1036]
+                          - cell "2" [ref=f1e1040]
+                          - cell "—" [ref=f1e1041]
+                          - cell "—" [ref=f1e1042]
+                          - cell "—" [ref=f1e1043]
+                          - cell "—" [ref=f1e1044]
+                          - cell "—" [ref=f1e1045]
+                          - cell "—" [ref=f1e1046]
+                          - cell "—" [ref=f1e1047]
+                          - cell "—" [ref=f1e1048]
+                          - cell "3" [ref=f1e1049]
+                          - cell "2" [ref=f1e1050]
+                          - cell "2" [ref=f1e1051]
+                          - cell "—" [ref=f1e1052]
+                          - cell "3" [ref=f1e1053]
+                          - cell "—" [ref=f1e1054]
+                          - cell "11" [ref=f1e1055]
+                          - cell "1" [ref=f1e1056]
+                          - cell "6" [ref=f1e1057]
+                          - cell "3" [ref=f1e1058]
+                          - cell "7" [ref=f1e1059]
+                          - cell "—" [ref=f1e1060]
+                          - cell "—" [ref=f1e1061]
+                          - cell "1" [ref=f1e1062]
+                          - cell "4" [ref=f1e1063]
+                          - cell "1" [ref=f1e1064]
+                          - cell "1" [ref=f1e1065]
+                          - cell "—" [ref=f1e1066]
+                          - cell "—" [ref=f1e1067]
+                          - cell "5" [ref=f1e1068]
+                          - cell "5" [ref=f1e1069]
+                          - cell "7" [ref=f1e1070]
+                          - cell "2" [ref=f1e1071]
+                          - cell "2" [ref=f1e1072]
+                          - cell "3" [ref=f1e1073]
+                          - cell "1" [ref=f1e1074]
+                          - cell "2" [ref=f1e1075]
+                          - cell "1" [ref=f1e1076]
+                          - cell "2" [ref=f1e1077]
+                          - cell "—" [ref=f1e1078]
+                          - cell "77" [ref=f1e1079]
+                        - row [ref=f1e1082]:
+                          - cell "Aluno" [ref=f1e1083]
+                          - cell "1" [ref=f1e1087]
+                          - cell "2" [ref=f1e1088]
+                          - cell "—" [ref=f1e1089]
+                          - cell "—" [ref=f1e1090]
+                          - cell "—" [ref=f1e1091]
+                          - cell "—" [ref=f1e1092]
+                          - cell "—" [ref=f1e1093]
+                          - cell "—" [ref=f1e1094]
+                          - cell "—" [ref=f1e1095]
+                          - cell "—" [ref=f1e1096]
+                          - cell "—" [ref=f1e1097]
+                          - cell "2" [ref=f1e1098]
+                          - cell "—" [ref=f1e1099]
+                          - cell "—" [ref=f1e1100]
+                          - cell "—" [ref=f1e1101]
+                          - cell "9" [ref=f1e1102]
+                          - cell "—" [ref=f1e1103]
+                          - cell "1" [ref=f1e1104]
+                          - cell "—" [ref=f1e1105]
+                          - cell "—" [ref=f1e1106]
+                          - cell "—" [ref=f1e1107]
+                          - cell "—" [ref=f1e1108]
+                          - cell "—" [ref=f1e1109]
+                          - cell "—" [ref=f1e1110]
+                          - cell "—" [ref=f1e1111]
+                          - cell "—" [ref=f1e1112]
+                          - cell "—" [ref=f1e1113]
+                          - cell "—" [ref=f1e1114]
+                          - cell "—" [ref=f1e1115]
+                          - cell "—" [ref=f1e1116]
+                          - cell "—" [ref=f1e1117]
+                          - cell "—" [ref=f1e1118]
+                          - cell "—" [ref=f1e1119]
+                          - cell "—" [ref=f1e1120]
+                          - cell "—" [ref=f1e1121]
+                          - cell "—" [ref=f1e1122]
+                          - cell "—" [ref=f1e1123]
+                          - cell "—" [ref=f1e1124]
+                          - cell "—" [ref=f1e1125]
+                          - cell "15" [ref=f1e1126]
+                        - row [ref=f1e1129]:
+                          - cell "Professor" [ref=f1e1130]
+                          - cell "—" [ref=f1e1134]
+                          - cell "—" [ref=f1e1135]
+                          - cell "—" [ref=f1e1136]
+                          - cell "—" [ref=f1e1137]
+                          - cell "—" [ref=f1e1138]
+                          - cell "—" [ref=f1e1139]
+                          - cell "—" [ref=f1e1140]
+                          - cell "—" [ref=f1e1141]
+                          - cell "—" [ref=f1e1142]
+                          - cell "—" [ref=f1e1143]
+                          - cell "—" [ref=f1e1144]
+                          - cell "—" [ref=f1e1145]
+                          - cell "1" [ref=f1e1146]
+                          - cell "—" [ref=f1e1147]
+                          - cell "—" [ref=f1e1148]
+                          - cell "—" [ref=f1e1149]
+                          - cell "—" [ref=f1e1150]
+                          - cell "—" [ref=f1e1151]
+                          - cell "3" [ref=f1e1152]
+                          - cell "—" [ref=f1e1153]
+                          - cell "—" [ref=f1e1154]
+                          - cell "—" [ref=f1e1155]
+                          - cell "1" [ref=f1e1156]
+                          - cell "4" [ref=f1e1157]
+                          - cell "—" [ref=f1e1158]
+                          - cell "—" [ref=f1e1159]
+                          - cell "—" [ref=f1e1160]
+                          - cell "—" [ref=f1e1161]
+                          - cell "3" [ref=f1e1162]
+                          - cell "5" [ref=f1e1163]
+                          - cell "7" [ref=f1e1164]
+                          - cell "2" [ref=f1e1165]
+                          - cell "2" [ref=f1e1166]
+                          - cell "3" [ref=f1e1167]
+                          - cell "1" [ref=f1e1168]
+                          - cell "2" [ref=f1e1169]
+                          - cell "1" [ref=f1e1170]
+                          - cell "2" [ref=f1e1171]
+                          - cell "—" [ref=f1e1172]
+                          - cell "37" [ref=f1e1173]
+                        - row [ref=f1e1176]:
+                          - cell "Gestor" [ref=f1e1177]
+                          - cell "—" [ref=f1e1181]
+                          - cell "—" [ref=f1e1182]
+                          - cell "—" [ref=f1e1183]
+                          - cell "—" [ref=f1e1184]
+                          - cell "11" [ref=f1e1185]
+                          - cell "1" [ref=f1e1186]
+                          - cell "1" [ref=f1e1187]
+                          - cell "—" [ref=f1e1188]
+                          - cell "—" [ref=f1e1189]
+                          - cell "—" [ref=f1e1190]
+                          - cell "—" [ref=f1e1191]
+                          - cell "—" [ref=f1e1192]
+                          - cell "1" [ref=f1e1193]
+                          - cell "3" [ref=f1e1194]
+                          - cell "—" [ref=f1e1195]
+                          - cell "11" [ref=f1e1196]
+                          - cell "1" [ref=f1e1197]
+                          - cell "—" [ref=f1e1198]
+                          - cell "3" [ref=f1e1199]
+                          - cell "—" [ref=f1e1200]
+                          - cell "—" [ref=f1e1201]
+                          - cell "—" [ref=f1e1202]
+                          - cell "1" [ref=f1e1203]
+                          - cell "4" [ref=f1e1204]
+                          - cell "—" [ref=f1e1205]
+                          - cell "—" [ref=f1e1206]
+                          - cell "—" [ref=f1e1207]
+                          - cell "—" [ref=f1e1208]
+                          - cell "11" [ref=f1e1209]
+                          - cell "5" [ref=f1e1210]
+                          - cell "7" [ref=f1e1211]
+                          - cell "2" [ref=f1e1212]
+                          - cell "2" [ref=f1e1213]
+                          - cell "3" [ref=f1e1214]
+                          - cell "1" [ref=f1e1215]
+                          - cell "2" [ref=f1e1216]
+                          - cell "4" [ref=f1e1217]
+                          - cell "2" [ref=f1e1218]
+                          - cell "—" [ref=f1e1219]
+                          - cell "76" [ref=f1e1220]
+                        - row [ref=f1e1223]:
+                          - cell "T.I" [ref=f1e1224]
+                          - cell "8" [ref=f1e1228]
+                          - cell "2" [ref=f1e1229]
+                          - cell "1" [ref=f1e1230]
+                          - cell "6" [ref=f1e1231]
+                          - cell "11" [ref=f1e1232]
+                          - cell "1" [ref=f1e1233]
+                          - cell "1" [ref=f1e1234]
+                          - cell "8" [ref=f1e1235]
+                          - cell "—" [ref=f1e1236]
+                          - cell "9" [ref=f1e1237]
+                          - cell "7" [ref=f1e1238]
+                          - cell "2" [ref=f1e1239]
+                          - cell "1" [ref=f1e1240]
+                          - cell "3" [ref=f1e1241]
+                          - cell "6" [ref=f1e1242]
+                          - cell "11" [ref=f1e1243]
+                          - cell "1" [ref=f1e1244]
+                          - cell "11" [ref=f1e1245]
+                          - cell "3" [ref=f1e1246]
+                          - cell "7" [ref=f1e1247]
+                          - cell "6" [ref=f1e1248]
+                          - cell "7" [ref=f1e1249]
+                          - cell "1" [ref=f1e1250]
+                          - cell "4" [ref=f1e1251]
+                          - cell "3" [ref=f1e1252]
+                          - cell "3" [ref=f1e1253]
+                          - cell "6" [ref=f1e1254]
+                          - cell "6" [ref=f1e1255]
+                          - cell "11" [ref=f1e1256]
+                          - cell "5" [ref=f1e1257]
+                          - cell "7" [ref=f1e1258]
+                          - cell "2" [ref=f1e1259]
+                          - cell "2" [ref=f1e1260]
+                          - cell "3" [ref=f1e1261]
+                          - cell "1" [ref=f1e1262]
+                          - cell "2" [ref=f1e1263]
+                          - cell "4" [ref=f1e1264]
+                          - cell "2" [ref=f1e1265]
+                          - cell "7" [ref=f1e1266]
+                          - cell "181" [ref=f1e1267]
+              - generic [ref=f1e1271]:
+                - combobox [ref=f1e1273] [cursor=pointer]:
+                  - generic [ref=f1e1275]:
+                    - generic [ref=f1e1303]: "2026"
+                    - combobox "Ano Escolar": "2026"
+                  - generic [aria-hidden] [ref=f1e1277]: 󰍝
+                  - generic: Ano Escolar
+                - alert [ref=f1e1278]
+        - button "Enviar" [active] [ref=f1e1280] [cursor=pointer]

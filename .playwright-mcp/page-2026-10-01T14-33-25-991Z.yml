@@ -1,0 +1,154 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e803]:
+    - navigation [ref=f7e804]:
+      - generic [ref=f7e805]:
+        - img "Logomarca de Apoio" [ref=f7e807]
+        - 'button "Ano letivo: 2026. Clique para alterar." [ref=f7e809] [cursor=pointer]':
+          - generic [ref=f7e810]:
+            - generic [aria-hidden] [ref=f7e811]: 󰙹
+            - generic [ref=f7e812]: "2026"
+            - generic [aria-hidden] [ref=f7e813]: 󰅀
+        - separator [ref=f7e814]
+        - list [ref=f7e816]:
+          - generic [ref=f7e818]:
+            - generic [aria-hidden] [ref=f7e819]: 󰚡
+            - text: Início
+          - option "Dashboard" [selected] [ref=f7e820] [cursor=pointer]
+          - separator [ref=f7e823]
+          - generic [ref=f7e825]:
+            - generic [aria-hidden] [ref=f7e826]: 󱔟
+            - text: Administração
+          - option "Escolas" [ref=f7e827] [cursor=pointer]
+          - option "Profissionais" [ref=f7e830] [cursor=pointer]
+          - option "Circuito de Notas" [ref=f7e833] [cursor=pointer]
+          - option "Componentes Curriculares" [ref=f7e836] [cursor=pointer]
+          - option "Processos/Documentos" [ref=f7e840] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f7e844]: 󰅀
+          - separator [ref=f7e845]
+          - generic [ref=f7e847]:
+            - generic [aria-hidden] [ref=f7e848]: 󱆀
+            - text: Acadêmico
+          - option "Alunos" [ref=f7e849] [cursor=pointer]
+          - option "Matrículas" [ref=f7e852] [cursor=pointer]
+          - option "Turmas" [ref=f7e855] [cursor=pointer]
+          - option "Prorrogações" [ref=f7e858] [cursor=pointer]
+          - option "Diários" [ref=f7e861] [cursor=pointer]
+          - option "Presença Notifiq" [ref=f7e864] [cursor=pointer]
+          - option "Feriados" [ref=f7e867] [cursor=pointer]
+          - option "Justificativa de Falta" [ref=f7e870] [cursor=pointer]
+          - separator [ref=f7e873]
+          - generic [ref=f7e875]:
+            - generic [aria-hidden] [ref=f7e876]: 󱕎
+            - text: Relatórios
+          - option "Relatórios" [ref=f7e877] [cursor=pointer]
+          - separator [ref=f7e880]
+          - generic [ref=f7e882]:
+            - generic [aria-hidden] [ref=f7e883]: 󰨒
+            - text: Administração do Sistema
+          - option "ACL" [ref=f7e885] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f7e889]: 󰅀
+          - option "Auditoria" [ref=f7e890] [cursor=pointer]
+      - generic [ref=f7e893]:
+        - button "Editar perfil de QA T.I 7614" [ref=f7e894] [cursor=pointer]:
+          - generic [ref=f7e895]: Q
+          - generic [ref=f7e898]:
+            - generic [ref=f7e899]: QA T.I 7614
+            - generic [ref=f7e900]: T.I
+        - separator [ref=f7e901]
+        - generic [ref=f7e902]:
+          - button "Versão 0.1.0. Clique para ver o changelog." [ref=f7e903] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f7e904]: 󰓼
+            - generic [ref=f7e905]: versão 0.1.0
+          - button "Sair da conta" [ref=f7e906] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f7e908]: 󰍃
+    - banner [ref=f7e909]:
+      - generic [ref=f7e910]:
+        - button "Fechar menu" [ref=f7e911] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e913]: 󰍜
+        - generic [ref=f7e914]: Colégio Apoio
+        - button "Notificações" [ref=f7e916] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e920]: 󰂜
+        - button "Menu do usuário" [ref=f7e921] [cursor=pointer]:
+          - generic [ref=f7e922]: Q
+    - main [ref=f7e924]:
+      - list [ref=f7e926]:
+        - listitem [ref=f7e927]:
+          - link "Dashboard" [ref=f7e928] [cursor=pointer]:
+            - /url: http://veramendes.local/dashboard
+        - listitem [aria-hidden] [ref=f7e929]: ">"
+        - listitem:
+          - generic: Início
+      - generic [ref=f7e931]:
+        - region [ref=f7e932]:
+          - generic [ref=f7e933]:
+            - heading "Bom dia, QA" [level=1] [ref=f7e934]
+            - paragraph [ref=f7e935]: Apoio · T.I
+        - region [ref=f7e936]:
+          - heading "Módulos principais" [level=2] [ref=f7e937]
+          - generic [ref=f7e938]:
+            - link "Alunos Gerencie matrículas, dados pessoais e acompanhamento dos estudantes. 245 aluno(s) cadastrado(s)" [ref=f7e939] [cursor=pointer]:
+              - /url: http://veramendes.local/alunos
+              - generic [aria-hidden] [ref=f7e941]: 󱆀
+              - generic [ref=f7e942]:
+                - heading "Alunos" [level=3] [ref=f7e943]
+                - paragraph [ref=f7e944]: Gerencie matrículas, dados pessoais e acompanhamento dos estudantes.
+                - generic [ref=f7e945]: 245 aluno(s) cadastrado(s)
+              - generic [aria-hidden] [ref=f7e946]: 󰅂
+            - link "Escolas Administre as unidades escolares, dados do Censo e logomarcas. 1 escola(s) cadastrada(s)" [ref=f7e947] [cursor=pointer]:
+              - /url: http://veramendes.local/franquias
+              - generic [aria-hidden] [ref=f7e949]: 󱔟
+              - generic [ref=f7e950]:
+                - heading "Escolas" [level=3] [ref=f7e951]
+                - paragraph [ref=f7e952]: Administre as unidades escolares, dados do Censo e logomarcas.
+                - generic [ref=f7e953]: 1 escola(s) cadastrada(s)
+              - generic [aria-hidden] [ref=f7e954]: 󰅂
+            - link "Usuários Controle quem acessa o sistema, cargos e permissões. 66 usuário(s) ativo(s)" [ref=f7e955] [cursor=pointer]:
+              - /url: http://veramendes.local/usuarios
+              - generic [aria-hidden] [ref=f7e957]: 󰨒
+              - generic [ref=f7e958]:
+                - heading "Usuários" [level=3] [ref=f7e959]
+                - paragraph [ref=f7e960]: Controle quem acessa o sistema, cargos e permissões.
+                - generic [ref=f7e961]: 66 usuário(s) ativo(s)
+              - generic [aria-hidden] [ref=f7e962]: 󰅂
+            - link "Turmas Organize as turmas por etapa de ensino, horários e dias da semana. 7 turma(s) cadastrada(s)" [ref=f7e963] [cursor=pointer]:
+              - /url: http://veramendes.local/turmas
+              - generic [aria-hidden] [ref=f7e965]: 󰋀
+              - generic [ref=f7e966]:
+                - heading "Turmas" [level=3] [ref=f7e967]
+                - paragraph [ref=f7e968]: Organize as turmas por etapa de ensino, horários e dias da semana.
+                - generic [ref=f7e969]: 7 turma(s) cadastrada(s)
+              - generic [aria-hidden] [ref=f7e970]: 󰅂
+            - link "Matrículas Vincule alunos às turmas e gerencie transporte escolar e AEE. 188 matrícula(s) ativa(s)" [ref=f7e971] [cursor=pointer]:
+              - /url: http://veramendes.local/matriculas
+              - generic [aria-hidden] [ref=f7e973]: 󰢨
+              - generic [ref=f7e974]:
+                - heading "Matrículas" [level=3] [ref=f7e975]
+                - paragraph [ref=f7e976]: Vincule alunos às turmas e gerencie transporte escolar e AEE.
+                - generic [ref=f7e977]: 188 matrícula(s) ativa(s)
+              - generic [aria-hidden] [ref=f7e978]: 󰅂
+            - link "Profissionais Cadastre gestores e professores com dados do Censo Escolar. 42 profissional(is) cadastrado(s)" [ref=f7e979] [cursor=pointer]:
+              - /url: http://veramendes.local/profissionais
+              - generic [aria-hidden] [ref=f7e981]: 󱃊
+              - generic [ref=f7e982]:
+                - heading "Profissionais" [level=3] [ref=f7e983]
+                - paragraph [ref=f7e984]: Cadastre gestores e professores com dados do Censo Escolar.
+                - generic [ref=f7e985]: 42 profissional(is) cadastrado(s)
+              - generic [aria-hidden] [ref=f7e986]: 󰅂
+        - region [ref=f7e987]:
+          - heading "Acesso rápido" [level=2] [ref=f7e988]
+          - generic [ref=f7e989]:
+            - link "Cargos Perfis de acesso" [ref=f7e990] [cursor=pointer]:
+              - /url: http://veramendes.local/cargos
+              - generic [aria-hidden] [ref=f7e991]: 󰶪
+              - generic [ref=f7e992]:
+                - generic [ref=f7e993]: Cargos
+                - generic [ref=f7e994]: Perfis de acesso
+            - link "Permissões Autorizações do sistema" [ref=f7e995] [cursor=pointer]:
+              - /url: http://veramendes.local/permissoes
+              - generic [aria-hidden] [ref=f7e996]: 󰍁
+              - generic [ref=f7e997]:
+                - generic [ref=f7e998]: Permissões
+                - generic [ref=f7e999]: Autorizações do sistema
+  - generic [ref=f7e1000]:
+    - alert [ref=f7e1003]: Login efetuado com sucesso!
+    - button "close" [ref=f7e1004] [cursor=pointer]: ×

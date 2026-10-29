@@ -1,0 +1,129 @@
+- generic [ref=f5e3]:
+  - navigation [ref=f5e4]:
+    - generic [ref=f5e5]:
+      - img "Logomarca de Apoio" [ref=f5e7]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f5e9] [cursor=pointer]':
+        - generic [ref=f5e10]:
+          - generic [aria-hidden] [ref=f5e11]: 󰙹
+          - generic [ref=f5e12]: "2026"
+          - generic [aria-hidden] [ref=f5e13]: 󰅀
+      - separator [ref=f5e14]
+      - list [ref=f5e16]:
+        - generic [ref=f5e18]:
+          - generic [aria-hidden] [ref=f5e19]: 󰚡
+          - text: Início
+        - option "Dashboard" [selected] [ref=f5e20] [cursor=pointer]
+        - separator [ref=f5e23]
+        - separator [ref=f5e24]
+        - generic [ref=f5e26]:
+          - generic [aria-hidden] [ref=f5e27]: 󱆀
+          - text: Acadêmico
+        - option "Diários" [ref=f5e28] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f5e31] [cursor=pointer]
+        - separator [ref=f5e34]
+        - generic [ref=f5e36]:
+          - generic [aria-hidden] [ref=f5e37]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f5e38] [cursor=pointer]
+        - separator [ref=f5e41]
+    - generic [ref=f5e42]:
+      - button "Editar perfil de QA Restrito Playwright" [ref=f5e43] [cursor=pointer]:
+        - generic [ref=f5e44]: Q
+        - generic [ref=f5e47]:
+          - generic [ref=f5e48]: QA Restrito Playwright
+          - generic [ref=f5e49]: Professor
+      - separator [ref=f5e50]
+      - generic [ref=f5e51]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f5e52] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f5e53]: 󰓼
+          - generic [ref=f5e54]: versão 0.1.0
+        - button "Sair da conta" [ref=f5e55] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f5e57]: 󰍃
+  - banner [ref=f5e58]:
+    - generic [ref=f5e59]:
+      - button "Fechar menu" [ref=f5e60] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f5e62]: 󰍜
+      - generic [ref=f5e63]: Colégio Apoio
+      - button "Notificações" [ref=f5e65] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f5e69]: 󰂜
+      - button "Menu do usuário" [ref=f5e70] [cursor=pointer]:
+        - generic [ref=f5e71]: Q
+  - main [ref=f5e73]:
+    - list [ref=f5e75]:
+      - listitem [ref=f5e76]:
+        - link "Dashboard" [ref=f5e77] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f5e78]: ">"
+      - listitem:
+        - generic: Início
+    - generic [ref=f5e80]:
+      - region [ref=f5e81]:
+        - generic [ref=f5e82]:
+          - heading "Boa tarde, QA" [level=1] [ref=f5e83]
+          - paragraph [ref=f5e84]: Apoio · Professor
+      - region [ref=f5e85]:
+        - heading "Módulos principais" [level=2] [ref=f5e86]
+        - generic [ref=f5e87]:
+          - link "Alunos Gerencie matrículas, dados pessoais e acompanhamento dos estudantes. 245 aluno(s) cadastrado(s)" [ref=f5e88] [cursor=pointer]:
+            - /url: http://veramendes.local/alunos
+            - generic [aria-hidden] [ref=f5e90]: 󱆀
+            - generic [ref=f5e91]:
+              - heading "Alunos" [level=3] [ref=f5e92]
+              - paragraph [ref=f5e93]: Gerencie matrículas, dados pessoais e acompanhamento dos estudantes.
+              - generic [ref=f5e94]: 245 aluno(s) cadastrado(s)
+            - generic [aria-hidden] [ref=f5e95]: 󰅂
+          - link "Escolas Administre as unidades escolares, dados do Censo e logomarcas. 1 escola(s) cadastrada(s)" [ref=f5e96] [cursor=pointer]:
+            - /url: http://veramendes.local/franquias
+            - generic [aria-hidden] [ref=f5e98]: 󱔟
+            - generic [ref=f5e99]:
+              - heading "Escolas" [level=3] [ref=f5e100]
+              - paragraph [ref=f5e101]: Administre as unidades escolares, dados do Censo e logomarcas.
+              - generic [ref=f5e102]: 1 escola(s) cadastrada(s)
+            - generic [aria-hidden] [ref=f5e103]: 󰅂
+          - link "Usuários Controle quem acessa o sistema, cargos e permissões. 61 usuário(s) ativo(s)" [ref=f5e104] [cursor=pointer]:
+            - /url: http://veramendes.local/usuarios
+            - generic [aria-hidden] [ref=f5e106]: 󰨒
+            - generic [ref=f5e107]:
+              - heading "Usuários" [level=3] [ref=f5e108]
+              - paragraph [ref=f5e109]: Controle quem acessa o sistema, cargos e permissões.
+              - generic [ref=f5e110]: 61 usuário(s) ativo(s)
+            - generic [aria-hidden] [ref=f5e111]: 󰅂
+          - link "Turmas Organize as turmas por etapa de ensino, horários e dias da semana. 7 turma(s) cadastrada(s)" [ref=f5e112] [cursor=pointer]:
+            - /url: http://veramendes.local/turmas
+            - generic [aria-hidden] [ref=f5e114]: 󰋀
+            - generic [ref=f5e115]:
+              - heading "Turmas" [level=3] [ref=f5e116]
+              - paragraph [ref=f5e117]: Organize as turmas por etapa de ensino, horários e dias da semana.
+              - generic [ref=f5e118]: 7 turma(s) cadastrada(s)
+            - generic [aria-hidden] [ref=f5e119]: 󰅂
+          - link "Matrículas Vincule alunos às turmas e gerencie transporte escolar e AEE. 188 matrícula(s) ativa(s)" [ref=f5e120] [cursor=pointer]:
+            - /url: http://veramendes.local/matriculas
+            - generic [aria-hidden] [ref=f5e122]: 󰢨
+            - generic [ref=f5e123]:
+              - heading "Matrículas" [level=3] [ref=f5e124]
+              - paragraph [ref=f5e125]: Vincule alunos às turmas e gerencie transporte escolar e AEE.
+              - generic [ref=f5e126]: 188 matrícula(s) ativa(s)
+            - generic [aria-hidden] [ref=f5e127]: 󰅂
+          - link "Profissionais Cadastre gestores e professores com dados do Censo Escolar. 42 profissional(is) cadastrado(s)" [ref=f5e128] [cursor=pointer]:
+            - /url: http://veramendes.local/profissionais
+            - generic [aria-hidden] [ref=f5e130]: 󱃊
+            - generic [ref=f5e131]:
+              - heading "Profissionais" [level=3] [ref=f5e132]
+              - paragraph [ref=f5e133]: Cadastre gestores e professores com dados do Censo Escolar.
+              - generic [ref=f5e134]: 42 profissional(is) cadastrado(s)
+            - generic [aria-hidden] [ref=f5e135]: 󰅂
+      - region [ref=f5e136]:
+        - heading "Acesso rápido" [level=2] [ref=f5e137]
+        - generic [ref=f5e138]:
+          - link "Cargos Perfis de acesso" [ref=f5e139] [cursor=pointer]:
+            - /url: http://veramendes.local/cargos
+            - generic [aria-hidden] [ref=f5e140]: 󰶪
+            - generic [ref=f5e141]:
+              - generic [ref=f5e142]: Cargos
+              - generic [ref=f5e143]: Perfis de acesso
+          - link "Permissões Autorizações do sistema" [ref=f5e144] [cursor=pointer]:
+            - /url: http://veramendes.local/permissoes
+            - generic [aria-hidden] [ref=f5e145]: 󰍁
+            - generic [ref=f5e146]:
+              - generic [ref=f5e147]: Permissões
+              - generic [ref=f5e148]: Autorizações do sistema

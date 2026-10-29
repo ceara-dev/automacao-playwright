@@ -1,0 +1,185 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e3]:
+    - navigation [ref=f18e4]:
+      - generic [ref=f18e5]:
+        - img "Logomarca de Apoio" [ref=f18e7]
+        - 'button "Ano letivo: 2026. Clique para alterar." [ref=f18e9] [cursor=pointer]':
+          - generic [ref=f18e10]:
+            - generic [aria-hidden] [ref=f18e11]: 󰙹
+            - generic [ref=f18e12]: "2026"
+            - generic [aria-hidden] [ref=f18e13]: 󰅀
+        - separator [ref=f18e14]
+        - list [ref=f18e16]:
+          - generic [ref=f18e18]:
+            - generic [aria-hidden] [ref=f18e19]: 󰚡
+            - text: Início
+          - option "Dashboard" [ref=f18e20] [cursor=pointer]
+          - separator [ref=f18e23]
+          - generic [ref=f18e25]:
+            - generic [aria-hidden] [ref=f18e26]: 󱔟
+            - text: Administração
+          - option "Escolas" [ref=f18e27] [cursor=pointer]
+          - option "Profissionais" [ref=f18e30] [cursor=pointer]
+          - option "Circuito de Notas" [ref=f18e33] [cursor=pointer]
+          - option "Componentes Curriculares" [ref=f18e36] [cursor=pointer]
+          - option "Processos/Documentos" [ref=f18e40] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f18e44]: 󰅀
+          - separator [ref=f18e45]
+          - generic [ref=f18e47]:
+            - generic [aria-hidden] [ref=f18e48]: 󱆀
+            - text: Acadêmico
+          - option "Alunos" [ref=f18e49] [cursor=pointer]
+          - option "Matrículas" [ref=f18e52] [cursor=pointer]
+          - option "Turmas" [ref=f18e55] [cursor=pointer]
+          - option "Prorrogações" [ref=f18e58] [cursor=pointer]
+          - option "Diários" [ref=f18e61] [cursor=pointer]
+          - option "Presença Notifiq" [ref=f18e64] [cursor=pointer]
+          - option "Feriados" [ref=f18e67] [cursor=pointer]
+          - option "Justificativa de Falta" [selected] [ref=f18e70] [cursor=pointer]
+          - separator [ref=f18e73]
+          - generic [ref=f18e75]:
+            - generic [aria-hidden] [ref=f18e76]: 󱕎
+            - text: Relatórios
+          - option "Relatórios" [ref=f18e77] [cursor=pointer]
+          - separator [ref=f18e80]
+          - generic [ref=f18e82]:
+            - generic [aria-hidden] [ref=f18e83]: 󰨒
+            - text: Administração do Sistema
+          - option "ACL" [ref=f18e85] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f18e89]: 󰅀
+          - option "Configurações Acadêmicas" [ref=f18e90] [cursor=pointer]
+          - option "Auditoria" [ref=f18e93] [cursor=pointer]
+      - generic [ref=f18e96]:
+        - button "Editar perfil de Hilton" [ref=f18e97] [cursor=pointer]:
+          - generic [ref=f18e98]: H
+          - generic [ref=f18e101]:
+            - generic [ref=f18e102]: Hilton
+            - generic [ref=f18e103]: Super Administrador
+        - separator [ref=f18e104]
+        - generic [ref=f18e105]:
+          - button "Versão 0.1.0. Clique para ver o changelog." [ref=f18e106] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f18e107]: 󰓼
+            - generic [ref=f18e108]: versão 0.1.0
+          - button "Sair da conta" [ref=f18e109] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f18e111]: 󰍃
+    - banner [ref=f18e113]:
+      - generic [ref=f18e114]:
+        - button "Fechar menu" [ref=f18e115] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f18e117]: 󰍜
+        - generic [ref=f18e118]: Colégio Apoio
+        - button "Notificações" [ref=f18e120] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f18e124]: 󰂜
+        - button "Menu do usuário" [ref=f18e125] [cursor=pointer]:
+          - generic [ref=f18e126]: H
+    - main [ref=f18e128]:
+      - list [ref=f18e130]:
+        - listitem [ref=f18e131]:
+          - link "Dashboard" [ref=f18e132] [cursor=pointer]:
+            - /url: https://apoio.servidorcaju.com.br/dashboard
+        - listitem [aria-hidden] [ref=f18e133]: ">"
+        - listitem: Justificativa de Falta
+      - generic [ref=f18e134]:
+        - generic [ref=f18e135]:
+          - generic [ref=f18e136]:
+            - heading "Justificativa de Falta" [level=5] [ref=f18e137]:
+              - text: Justificativa de Falta
+              - generic [aria-hidden] [ref=f18e138]: 󰋽
+            - generic [ref=f18e139]: Acompanhe os pedidos dos alunos, aprove ou recuse e veja o histórico de cada um.
+          - button "Justificar falta" [ref=f18e142] [cursor=pointer]:
+            - generic [ref=f18e143]:
+              - generic [aria-hidden] [ref=f18e144]: 󰐕
+              - text: Justificar Falta
+        - generic [ref=f18e145]:
+          - tablist [ref=f18e146]:
+            - generic [ref=f18e148]:
+              - tab "Todas as justificativas Todas as justificativas da escola" [selected] [ref=f18e149] [cursor=pointer]:
+                - generic [ref=f18e150]:
+                  - generic [aria-hidden] [ref=f18e151]: 󰀏
+                  - generic [ref=f18e152]:
+                    - generic [ref=f18e153]: Todas as justificativas
+                    - generic [ref=f18e154]: Todas as justificativas da escola
+              - tab "Minhas justificativas Justificativas criadas por mim" [ref=f18e155] [cursor=pointer]:
+                - generic [ref=f18e156]:
+                  - generic [aria-hidden] [ref=f18e157]: 󰀓
+                  - generic [ref=f18e158]:
+                    - generic [ref=f18e159]: Minhas justificativas
+                    - generic [ref=f18e160]: Justificativas criadas por mim
+          - generic [ref=f18e161]:
+            - generic [ref=f18e162]: Pesquisar
+            - searchbox [ref=f18e165]:
+              - searchbox "Pesquisar aluno pelo nome" [ref=f18e167]
+              - text: 󰅙
+              - generic [aria-hidden] [ref=f18e169]: 󰍉
+        - generic [ref=f18e170]:
+          - combobox [ref=f18e173] [cursor=pointer]:
+            - generic [ref=f18e175]:
+              - generic [ref=f18e176]: Colégio Apoio
+              - combobox "Franquia": Colégio Apoio
+            - button "Limpar Franquia" [ref=f18e179]: 󰅙
+            - generic [aria-hidden] [ref=f18e181]: 󰍝
+            - generic: Franquia
+          - combobox [ref=f18e184] [cursor=pointer]:
+            - generic [ref=f18e186]:
+              - generic [ref=f18e187]: "2026"
+              - combobox "Ano letivo": "2026"
+            - button "Limpar Ano letivo" [ref=f18e190]: 󰅙
+            - generic [aria-hidden] [ref=f18e192]: 󰍝
+            - generic: Ano letivo
+        - generic [ref=f18e193]:
+          - generic [ref=f18e194]: Exibindo de 1 até 2 de 2
+          - button "Ver detalhes da justificativa 2" [ref=f18e195] [cursor=pointer]:
+            - generic [ref=f18e197]:
+              - generic [ref=f18e198]:
+                - generic [ref=f18e199]: ID
+                - generic [ref=f18e200]: "2"
+              - generic [ref=f18e201]:
+                - generic [ref=f18e202]: Aluno
+                - generic [ref=f18e203]: ALUNO MOBILE 01
+              - generic [ref=f18e204]:
+                - generic [ref=f18e205]: Turma
+                - generic [ref=f18e206]: 1º Série
+              - generic [ref=f18e207]:
+                - generic [ref=f18e208]: Justificativa
+                - generic [ref=f18e209]: Atestado médico
+              - generic [ref=f18e210]:
+                - generic [ref=f18e211]: Data
+                - generic [ref=f18e212]: 15/09/2026
+              - generic [ref=f18e213]:
+                - generic [ref=f18e214]: Prazo de validade
+                - generic [ref=f18e215]: —
+              - generic [ref=f18e216]:
+                - generic [ref=f18e217]: Status
+                - generic [ref=f18e218]:
+                  - generic [aria-hidden] [ref=f18e220]: 󰅐
+                  - generic [ref=f18e221]: Aguardando
+              - button "Ações para justificativa 2" [ref=f18e224]:
+                - generic [aria-hidden] [ref=f18e226]: 󰇙
+          - button "Ver detalhes da justificativa 1" [ref=f18e227] [cursor=pointer]:
+            - generic [ref=f18e229]:
+              - generic [ref=f18e230]:
+                - generic [ref=f18e231]: ID
+                - generic [ref=f18e232]: "1"
+              - generic [ref=f18e233]:
+                - generic [ref=f18e234]: Aluno
+                - generic [ref=f18e235]: ALUNO MOBILE 01
+              - generic [ref=f18e236]:
+                - generic [ref=f18e237]: Turma
+                - generic [ref=f18e238]: 1º Série
+              - generic [ref=f18e239]:
+                - generic [ref=f18e240]: Justificativa
+                - generic [ref=f18e241]: Motivos de saúde
+              - generic [ref=f18e242]:
+                - generic [ref=f18e243]: Data
+                - generic [ref=f18e244]: 15/09/2026
+              - generic [ref=f18e245]:
+                - generic [ref=f18e246]: Prazo de validade
+                - generic [ref=f18e247]: —
+              - generic [ref=f18e248]:
+                - generic [ref=f18e249]: Status
+                - generic [ref=f18e250]:
+                  - generic [aria-hidden] [ref=f18e252]: 󰅐
+                  - generic [ref=f18e253]: Aguardando
+              - button "Ações para justificativa 1" [ref=f18e256]:
+                - generic [aria-hidden] [ref=f18e258]: 󰇙
+  - generic:
+    - tooltip

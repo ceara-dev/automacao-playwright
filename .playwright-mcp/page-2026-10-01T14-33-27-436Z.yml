@@ -1,0 +1,261 @@
+- generic [ref=f8e3]:
+  - navigation [ref=f8e4]:
+    - generic [ref=f8e5]:
+      - img "Logomarca de Apoio" [ref=f8e7]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f8e9] [cursor=pointer]':
+        - generic [ref=f8e10]:
+          - generic [aria-hidden] [ref=f8e11]: 󰙹
+          - generic [ref=f8e12]: "2026"
+          - generic [aria-hidden] [ref=f8e13]: 󰅀
+      - separator [ref=f8e14]
+      - list [ref=f8e16]:
+        - generic [ref=f8e18]:
+          - generic [aria-hidden] [ref=f8e19]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f8e20] [cursor=pointer]
+        - separator [ref=f8e23]
+        - generic [ref=f8e25]:
+          - generic [aria-hidden] [ref=f8e26]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f8e27] [cursor=pointer]
+        - option "Profissionais" [ref=f8e30] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f8e33] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f8e36] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f8e40] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e44]: 󰅀
+        - separator [ref=f8e45]
+        - generic [ref=f8e47]:
+          - generic [aria-hidden] [ref=f8e48]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f8e49] [cursor=pointer]
+        - option "Matrículas" [ref=f8e52] [cursor=pointer]
+        - option "Turmas" [ref=f8e55] [cursor=pointer]
+        - option "Prorrogações" [ref=f8e58] [cursor=pointer]
+        - option "Diários" [selected] [ref=f8e61] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f8e64] [cursor=pointer]
+        - option "Feriados" [ref=f8e67] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f8e70] [cursor=pointer]
+        - separator [ref=f8e73]
+        - generic [ref=f8e75]:
+          - generic [aria-hidden] [ref=f8e76]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f8e77] [cursor=pointer]
+        - separator [ref=f8e80]
+        - generic [ref=f8e82]:
+          - generic [aria-hidden] [ref=f8e83]: 󰨒
+          - text: Administração do Sistema
+        - option "ACL" [ref=f8e85] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e89]: 󰅀
+        - option "Auditoria" [ref=f8e90] [cursor=pointer]
+    - generic [ref=f8e93]:
+      - button "Editar perfil de QA T.I 7614" [ref=f8e94] [cursor=pointer]:
+        - generic [ref=f8e95]: Q
+        - generic [ref=f8e98]:
+          - generic [ref=f8e99]: QA T.I 7614
+          - generic [ref=f8e100]: T.I
+      - separator [ref=f8e101]
+      - generic [ref=f8e102]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f8e103] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e104]: 󰓼
+          - generic [ref=f8e105]: versão 0.1.0
+        - button "Sair da conta" [ref=f8e106] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e108]: 󰍃
+  - banner [ref=f8e109]:
+    - generic [ref=f8e110]:
+      - button "Fechar menu" [ref=f8e111] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f8e113]: 󰍜
+      - generic [ref=f8e114]: Colégio Apoio
+      - button "Notificações" [ref=f8e116] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f8e120]: 󰂜
+      - button "Menu do usuário" [ref=f8e121] [cursor=pointer]:
+        - generic [ref=f8e122]: Q
+  - main [ref=f8e124]:
+    - list [ref=f8e126]:
+      - listitem [ref=f8e127]:
+        - link "Dashboard" [ref=f8e128] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f8e129]: ">"
+      - listitem:
+        - generic: Diários
+    - generic [ref=f8e130]:
+      - heading "Diários" [level=5] [ref=f8e131]
+      - generic [ref=f8e132]:
+        - generic [ref=f8e133]: Um diário por turma, professor e componente curricular.
+        - generic [ref=f8e135]:
+          - generic [ref=f8e136]: Pesquisar
+          - generic [ref=f8e137]:
+            - searchbox [ref=f8e139]:
+              - searchbox "Pesquisar diários" [ref=f8e141]: 9ANO
+              - button "Limpar" [ref=f8e143] [cursor=pointer]: 󰅙
+              - generic [aria-hidden] [ref=f8e145]: 󰍉
+            - alert [ref=f8e146]
+      - generic [ref=f8e148]: Exibindo de 1 até 4 de 4
+      - generic [ref=f8e149]:
+        - generic [ref=f8e150]:
+          - generic [ref=f8e151]:
+            - generic [ref=f8e152]: Ensino religioso
+            - generic [ref=f8e154]: ER
+          - generic [ref=f8e155]: 9ANO-M-2026—9º Ano
+          - separator [ref=f8e156]
+          - generic [ref=f8e157]:
+            - generic [ref=f8e158]:
+              - generic [ref=f8e159]: Dados do diário
+              - generic [ref=f8e160]:
+                - generic [ref=f8e161]: "Titular:"
+                - generic [ref=f8e162]: Francisco Muniz Maranguape
+              - generic [ref=f8e163]:
+                - generic [ref=f8e164]: "Carga horária:"
+                - generic [ref=f8e165]: —
+              - generic [ref=f8e166]:
+                - generic [ref=f8e167]: "Ano letivo:"
+                - generic [ref=f8e168]: "2026"
+            - generic [ref=f8e169]:
+              - generic [ref=f8e170]: Lançamentos
+              - generic [ref=f8e171]:
+                - generic [ref=f8e172]: "Etapas:"
+                - generic [ref=f8e173]: "7"
+              - generic [ref=f8e174]:
+                - generic [ref=f8e175]: "Aulas:"
+                - generic [ref=f8e176]: "0"
+            - generic [ref=f8e178]:
+              - button "Abrir diário de Ensino religioso da turma 9º Ano" [ref=f8e179] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f8e181]: 󱗖
+                - generic [ref=f8e182]: Abrir
+              - button "Opções de impressão do diário de Ensino religioso da turma 9º Ano" [ref=f8e183] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f8e185]: 󱞆
+                - generic [ref=f8e186]: Imprimir
+                - generic [aria-hidden] [ref=f8e188]: 󰍝
+        - generic [ref=f8e189]:
+          - generic [ref=f8e190]:
+            - generic [ref=f8e191]: Geografia
+            - generic [ref=f8e193]: GEO
+          - generic [ref=f8e194]: 9ANO-M-2026—9º Ano
+          - separator [ref=f8e195]
+          - generic [ref=f8e196]:
+            - generic [ref=f8e197]:
+              - generic [ref=f8e198]: Dados do diário
+              - generic [ref=f8e199]:
+                - generic [ref=f8e200]: "Titular:"
+                - generic [ref=f8e201]: Giovani Silva Seixas
+              - generic [ref=f8e202]:
+                - generic [ref=f8e203]: "Carga horária:"
+                - generic [ref=f8e204]: 20.00h aula
+                - generic [ref=f8e205]: / 16.67h relógio
+              - generic [ref=f8e206]:
+                - generic [ref=f8e207]: "Ano letivo:"
+                - generic [ref=f8e208]: "2026"
+            - generic [ref=f8e209]:
+              - generic [ref=f8e210]: Lançamentos
+              - generic [ref=f8e211]:
+                - generic [ref=f8e212]: "Etapas:"
+                - generic [ref=f8e213]: "7"
+              - generic [ref=f8e214]:
+                - generic [ref=f8e215]: "Aulas:"
+                - generic [ref=f8e216]: "0"
+            - generic [ref=f8e218]:
+              - button "Abrir diário de Geografia da turma 9º Ano" [ref=f8e219] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f8e221]: 󱗖
+                - generic [ref=f8e222]: Abrir
+              - button "Opções de impressão do diário de Geografia da turma 9º Ano" [expanded] [active] [ref=f8e223] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f8e225]: 󱞆
+                - generic [ref=f8e226]: Imprimir
+                - generic [aria-hidden] [ref=f8e228]: 󰍝
+                - generic:
+                  - generic:
+                    - list:
+                      - link "Relação de alunos":
+                        - /url: http://veramendes.local/diarios/5/imprimir/alunos
+                      - link "Boletim de notas":
+                        - /url: http://veramendes.local/diarios/5/imprimir/boletim
+                      - link "Boletim individual Uma página por aluno":
+                        - /url: http://veramendes.local/diarios/5/imprimir/boletim-alunos
+                        - generic:
+                          - generic: Boletim individual
+                          - generic: Uma página por aluno
+                      - separator
+                      - link "Diário — 1º Bimestre":
+                        - /url: http://veramendes.local/diarios/5/imprimir/etapa?circuito_etapa_id=262
+                      - link "Diário — 2º Bimestre":
+                        - /url: http://veramendes.local/diarios/5/imprimir/etapa?circuito_etapa_id=263
+                      - link "Diário — 1º Semestre":
+                        - /url: http://veramendes.local/diarios/5/imprimir/etapa?circuito_etapa_id=264
+                      - link "Diário — 3º Bimestre":
+                        - /url: http://veramendes.local/diarios/5/imprimir/etapa?circuito_etapa_id=265
+                      - link "Diário — 4º Bimestre":
+                        - /url: http://veramendes.local/diarios/5/imprimir/etapa?circuito_etapa_id=266
+                      - link "Diário — 2º Semestre":
+                        - /url: http://veramendes.local/diarios/5/imprimir/etapa?circuito_etapa_id=267
+                      - link "Diário — Etapa Final":
+                        - /url: http://veramendes.local/diarios/5/imprimir/etapa?circuito_etapa_id=268
+        - generic [ref=f8e229]:
+          - generic [ref=f8e230]:
+            - generic [ref=f8e231]: Língua /Literatura estrangeira - Espanhol
+            - generic [ref=f8e233]: LLEE
+          - generic [ref=f8e234]: 9ANO-M-2026—9º Ano
+          - separator [ref=f8e235]
+          - generic [ref=f8e236]:
+            - generic [ref=f8e237]:
+              - generic [ref=f8e238]: Dados do diário
+              - generic [ref=f8e239]:
+                - generic [ref=f8e240]: "Titular:"
+                - generic [ref=f8e241]: Maria da Conceicao E Silva Ferrreira
+              - generic [ref=f8e242]:
+                - generic [ref=f8e243]: "Carga horária:"
+                - generic [ref=f8e244]: 20.00h aula
+                - generic [ref=f8e245]: / 16.67h relógio
+              - generic [ref=f8e246]:
+                - generic [ref=f8e247]: "Ano letivo:"
+                - generic [ref=f8e248]: "2026"
+            - generic [ref=f8e249]:
+              - generic [ref=f8e250]: Lançamentos
+              - generic [ref=f8e251]:
+                - generic [ref=f8e252]: "Etapas:"
+                - generic [ref=f8e253]: "7"
+              - generic [ref=f8e254]:
+                - generic [ref=f8e255]: "Aulas:"
+                - generic [ref=f8e256]: "0"
+            - generic [ref=f8e258]:
+              - button "Abrir diário de Língua /Literatura estrangeira - Espanhol da turma 9º Ano" [ref=f8e259] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f8e261]: 󱗖
+                - generic [ref=f8e262]: Abrir
+              - button "Opções de impressão do diário de Língua /Literatura estrangeira - Espanhol da turma 9º Ano" [ref=f8e263] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f8e265]: 󱞆
+                - generic [ref=f8e266]: Imprimir
+                - generic [aria-hidden] [ref=f8e268]: 󰍝
+        - generic [ref=f8e269]:
+          - generic [ref=f8e270]:
+            - generic [ref=f8e271]: Química
+            - generic [ref=f8e273]: QUÍ
+          - generic [ref=f8e274]: 9ANO-M-2026—9º Ano
+          - separator [ref=f8e275]
+          - generic [ref=f8e276]:
+            - generic [ref=f8e277]:
+              - generic [ref=f8e278]: Dados do diário
+              - generic [ref=f8e279]:
+                - generic [ref=f8e280]: "Titular:"
+                - generic [ref=f8e281]: Arquimedes Portinari de Sousa e Silva
+              - generic [ref=f8e282]:
+                - generic [ref=f8e283]: "Carga horária:"
+                - generic [ref=f8e284]: 20.00h aula
+                - generic [ref=f8e285]: / 16.67h relógio
+              - generic [ref=f8e286]:
+                - generic [ref=f8e287]: "Ano letivo:"
+                - generic [ref=f8e288]: "2026"
+            - generic [ref=f8e289]:
+              - generic [ref=f8e290]: Lançamentos
+              - generic [ref=f8e291]:
+                - generic [ref=f8e292]: "Etapas:"
+                - generic [ref=f8e293]: "7"
+              - generic [ref=f8e294]:
+                - generic [ref=f8e295]: "Aulas:"
+                - generic [ref=f8e296]: "0"
+            - generic [ref=f8e298]:
+              - button "Abrir diário de Química da turma 9º Ano" [ref=f8e299] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f8e301]: 󱗖
+                - generic [ref=f8e302]: Abrir
+              - button "Opções de impressão do diário de Química da turma 9º Ano" [ref=f8e303] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f8e305]: 󱞆
+                - generic [ref=f8e306]: Imprimir
+                - generic [aria-hidden] [ref=f8e308]: 󰍝
+      - button "Carregar mais diários" [ref=f8e310] [cursor=pointer]:
+        - generic [ref=f8e311]: Carregar mais Diários

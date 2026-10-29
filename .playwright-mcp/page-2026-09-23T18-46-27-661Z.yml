@@ -1,0 +1,135 @@
+- generic [ref=f8e320]:
+  - navigation [ref=f8e321]:
+    - generic [ref=f8e322]:
+      - img "Logomarca de Apoio" [ref=f8e324]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f8e326] [cursor=pointer]':
+        - generic [ref=f8e327]:
+          - generic [aria-hidden] [ref=f8e328]: 󰙹
+          - generic [ref=f8e329]: "2026"
+          - generic [aria-hidden] [ref=f8e330]: 󰅀
+      - separator [ref=f8e331]
+      - list [ref=f8e333]:
+        - generic [ref=f8e335]:
+          - generic [aria-hidden] [ref=f8e336]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f8e337] [cursor=pointer]
+        - separator [ref=f8e340]
+        - generic [ref=f8e342]:
+          - generic [aria-hidden] [ref=f8e343]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f8e344] [cursor=pointer]
+        - option "Profissionais" [ref=f8e347] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f8e350] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f8e353] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f8e357] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e361]: 󰅀
+        - separator [ref=f8e362]
+        - generic [ref=f8e364]:
+          - generic [aria-hidden] [ref=f8e365]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f8e366] [cursor=pointer]
+        - option "Matrículas" [ref=f8e369] [cursor=pointer]
+        - option "Turmas" [ref=f8e372] [cursor=pointer]
+        - option "Prorrogações" [ref=f8e375] [cursor=pointer]
+        - option "Diários" [ref=f8e378] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f8e381] [cursor=pointer]
+        - option "Feriados" [ref=f8e384] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f8e387] [cursor=pointer]
+        - separator [ref=f8e390]
+        - generic [ref=f8e392]:
+          - generic [aria-hidden] [ref=f8e393]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f8e394] [cursor=pointer]
+        - separator [ref=f8e397]
+        - generic [ref=f8e399]:
+          - generic [aria-hidden] [ref=f8e400]: 󰨒
+          - text: Administração do Sistema
+        - generic [ref=f8e401]:
+          - option "ACL" [ref=f8e402] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f8e406]: 󰅃
+          - group "ACL" [ref=f8e407]:
+            - option "Cargos" [selected] [ref=f8e408] [cursor=pointer]
+            - option "Permissões" [ref=f8e411] [cursor=pointer]
+            - option "Usuários" [ref=f8e414] [cursor=pointer]
+        - option "Configurações Acadêmicas" [ref=f8e417] [cursor=pointer]
+        - option "Auditoria" [ref=f8e420] [cursor=pointer]
+    - generic [ref=f8e423]:
+      - button "Editar perfil de playwright" [ref=f8e424] [cursor=pointer]:
+        - generic [ref=f8e425]: p
+        - generic [ref=f8e428]:
+          - generic [ref=f8e429]: playwright
+          - generic [ref=f8e430]: Super Administrador
+      - separator [ref=f8e431]
+      - generic [ref=f8e432]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f8e433] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e434]: 󰓼
+          - generic [ref=f8e435]: versão 0.1.0
+        - button "Sair da conta" [ref=f8e436] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e438]: 󰍃
+  - banner [ref=f8e439]:
+    - generic [ref=f8e440]:
+      - button "Fechar menu" [ref=f8e441] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f8e443]: 󰍜
+      - generic [ref=f8e444]: Colégio Apoio
+      - button "Notificações" [ref=f8e446] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f8e450]: 󰂜
+      - button "Menu do usuário" [ref=f8e451] [cursor=pointer]:
+        - generic [ref=f8e452]: P
+  - main [ref=f8e454]:
+    - list [ref=f8e456]:
+      - listitem [ref=f8e457]:
+        - link "Dashboard" [ref=f8e458] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f8e459]: ">"
+      - listitem [ref=f8e460]:
+        - link "ACL" [ref=f8e461] [cursor=pointer]:
+          - /url: http://veramendes.local/cargos
+      - listitem [aria-hidden] [ref=f8e462]: ">"
+      - listitem [ref=f8e463]:
+        - link "Cargos" [ref=f8e464] [cursor=pointer]:
+          - /url: http://veramendes.local/cargos
+      - listitem [aria-hidden] [ref=f8e465]: ">"
+      - listitem:
+        - generic: Editar
+    - generic [ref=f8e466]:
+      - heading [level=5] [ref=f8e467]:
+        - generic [aria-hidden] [ref=f8e469] [cursor=pointer]: 󰁍
+        - text: Cargos
+      - generic [ref=f8e471]:
+        - generic [ref=f8e474]:
+          - tablist [ref=f8e475]:
+            - generic [ref=f8e477]:
+              - tab "Dados" [selected] [ref=f8e478] [cursor=pointer]
+              - tab "Permissões 37" [ref=f8e480] [cursor=pointer]:
+                - generic [ref=f8e481]:
+                  - generic [aria-hidden] [ref=f8e482]: 󰍁
+                  - text: Permissões
+                  - generic [ref=f8e483]: "37"
+          - generic [ref=f8e488]:
+            - generic [ref=f8e489]:
+              - generic [ref=f8e491]:
+                - generic [ref=f8e494]:
+                  - generic [aria-hidden]: Cargo
+                  - textbox "Cargo" [ref=f8e495]: professor
+                - alert [ref=f8e496]
+              - generic [ref=f8e499]:
+                - generic [ref=f8e502]:
+                  - generic [aria-hidden]: Descrição
+                  - textbox "Descrição" [ref=f8e503]: Professor
+                - alert [ref=f8e504]
+            - generic [ref=f8e506]:
+              - generic [ref=f8e508]:
+                - generic [ref=f8e510]:
+                  - textbox "Cor" [ref=f8e512]: "#059669"
+                  - generic: Cor
+                - button "󰌁" [ref=f8e514] [cursor=pointer]
+                - alert [ref=f8e515]
+              - generic [ref=f8e518]:
+                - combobox [ref=f8e520] [cursor=pointer]:
+                  - generic [ref=f8e522]:
+                    - generic [ref=f8e523]: web
+                    - combobox "Tipo": web
+                  - generic [aria-hidden] [ref=f8e526]: 󰍝
+                  - generic: Tipo
+                - alert [ref=f8e527]
+        - button "Enviar" [ref=f8e529] [cursor=pointer]

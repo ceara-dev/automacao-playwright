@@ -1,0 +1,152 @@
+- generic [ref=f23e3]:
+  - navigation [ref=f23e4]:
+    - generic [ref=f23e5]:
+      - img "Logomarca de Apoio" [ref=f23e7]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f23e9] [cursor=pointer]':
+        - generic [ref=f23e10]:
+          - generic [aria-hidden] [ref=f23e11]: 󰙹
+          - generic [ref=f23e12]: "2026"
+          - generic [aria-hidden] [ref=f23e13]: 󰅀
+      - separator [ref=f23e14]
+      - list [ref=f23e16]:
+        - generic [ref=f23e18]:
+          - generic [aria-hidden] [ref=f23e19]: 󰚡
+          - text: Início
+        - option "Dashboard" [selected] [ref=f23e20] [cursor=pointer]
+        - separator [ref=f23e23]
+        - generic [ref=f23e25]:
+          - generic [aria-hidden] [ref=f23e26]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f23e27] [cursor=pointer]
+        - option "Profissionais" [ref=f23e30] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f23e33] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f23e36] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f23e40] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f23e44]: 󰅀
+        - separator [ref=f23e45]
+        - generic [ref=f23e47]:
+          - generic [aria-hidden] [ref=f23e48]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [ref=f23e49] [cursor=pointer]
+        - option "Matrículas" [ref=f23e52] [cursor=pointer]
+        - option "Turmas" [ref=f23e55] [cursor=pointer]
+        - option "Prorrogações" [ref=f23e58] [cursor=pointer]
+        - option "Diários" [ref=f23e61] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f23e64] [cursor=pointer]
+        - option "Feriados" [ref=f23e67] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f23e70] [cursor=pointer]
+        - separator [ref=f23e73]
+        - generic [ref=f23e75]:
+          - generic [aria-hidden] [ref=f23e76]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f23e77] [cursor=pointer]
+        - separator [ref=f23e80]
+        - generic [ref=f23e82]:
+          - generic [aria-hidden] [ref=f23e83]: 󰨒
+          - text: Administração do Sistema
+        - option "ACL" [ref=f23e85] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f23e89]: 󰅀
+        - option "Configurações Acadêmicas" [ref=f23e90] [cursor=pointer]
+        - option "Auditoria" [ref=f23e93] [cursor=pointer]
+    - generic [ref=f23e96]:
+      - button "Editar perfil de Hilton" [ref=f23e97] [cursor=pointer]:
+        - generic [ref=f23e98]: H
+        - generic [ref=f23e101]:
+          - generic [ref=f23e102]: Hilton
+          - generic [ref=f23e103]: Super Administrador
+      - separator [ref=f23e104]
+      - generic [ref=f23e105]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f23e106] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f23e107]: 󰓼
+          - generic [ref=f23e108]: versão 0.1.0
+        - button "Sair da conta" [ref=f23e109] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f23e111]: 󰍃
+  - banner [ref=f23e113]:
+    - generic [ref=f23e114]:
+      - button "Fechar menu" [ref=f23e115] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f23e117]: 󰍜
+      - generic [ref=f23e118]: Colégio Apoio
+      - button "Notificações" [ref=f23e120] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f23e124]: 󰂜
+      - button "Menu do usuário" [ref=f23e125] [cursor=pointer]:
+        - generic [ref=f23e126]: H
+  - main [ref=f23e128]:
+    - list [ref=f23e130]:
+      - listitem [ref=f23e131]:
+        - link "Dashboard" [ref=f23e132] [cursor=pointer]:
+          - /url: https://apoio.servidorcaju.com.br/dashboard
+      - listitem [aria-hidden] [ref=f23e133]: ">"
+      - listitem:
+        - link "Início":
+          - /url: https://apoio.servidorcaju.com.br/dashboard
+    - generic [ref=f23e135]:
+      - region [ref=f23e136]:
+        - generic [ref=f23e137]:
+          - heading "Boa tarde, Hilton" [level=1] [ref=f23e138]
+          - paragraph [ref=f23e139]: Apoio · Super Administrador
+      - region [ref=f23e140]:
+        - heading "Módulos principais" [level=2] [ref=f23e141]
+        - generic [ref=f23e142]:
+          - link "Alunos Gerencie matrículas, dados pessoais e acompanhamento dos estudantes. 244 aluno(s) cadastrado(s)" [ref=f23e143] [cursor=pointer]:
+            - /url: https://apoio.servidorcaju.com.br/alunos
+            - generic [aria-hidden] [ref=f23e145]: 󱆀
+            - generic [ref=f23e146]:
+              - heading "Alunos" [level=3] [ref=f23e147]
+              - paragraph [ref=f23e148]: Gerencie matrículas, dados pessoais e acompanhamento dos estudantes.
+              - generic [ref=f23e149]: 244 aluno(s) cadastrado(s)
+            - generic [aria-hidden] [ref=f23e150]: 󰅂
+          - link "Escolas Administre as unidades escolares, dados do Censo e logomarcas. 1 escola(s) cadastrada(s)" [ref=f23e151] [cursor=pointer]:
+            - /url: https://apoio.servidorcaju.com.br/franquias
+            - generic [aria-hidden] [ref=f23e153]: 󱔟
+            - generic [ref=f23e154]:
+              - heading "Escolas" [level=3] [ref=f23e155]
+              - paragraph [ref=f23e156]: Administre as unidades escolares, dados do Censo e logomarcas.
+              - generic [ref=f23e157]: 1 escola(s) cadastrada(s)
+            - generic [aria-hidden] [ref=f23e158]: 󰅂
+          - link "Usuários Controle quem acessa o sistema, cargos e permissões. 57 usuário(s) ativo(s)" [ref=f23e159] [cursor=pointer]:
+            - /url: https://apoio.servidorcaju.com.br/usuarios
+            - generic [aria-hidden] [ref=f23e161]: 󰨒
+            - generic [ref=f23e162]:
+              - heading "Usuários" [level=3] [ref=f23e163]
+              - paragraph [ref=f23e164]: Controle quem acessa o sistema, cargos e permissões.
+              - generic [ref=f23e165]: 57 usuário(s) ativo(s)
+            - generic [aria-hidden] [ref=f23e166]: 󰅂
+          - link "Turmas Organize as turmas por etapa de ensino, horários e dias da semana. 7 turma(s) cadastrada(s)" [ref=f23e167] [cursor=pointer]:
+            - /url: https://apoio.servidorcaju.com.br/turmas
+            - generic [aria-hidden] [ref=f23e169]: 󰋀
+            - generic [ref=f23e170]:
+              - heading "Turmas" [level=3] [ref=f23e171]
+              - paragraph [ref=f23e172]: Organize as turmas por etapa de ensino, horários e dias da semana.
+              - generic [ref=f23e173]: 7 turma(s) cadastrada(s)
+            - generic [aria-hidden] [ref=f23e174]: 󰅂
+          - link "Matrículas Vincule alunos às turmas e gerencie transporte escolar e AEE. 187 matrícula(s) ativa(s)" [ref=f23e175] [cursor=pointer]:
+            - /url: https://apoio.servidorcaju.com.br/matriculas
+            - generic [aria-hidden] [ref=f23e177]: 󰢨
+            - generic [ref=f23e178]:
+              - heading "Matrículas" [level=3] [ref=f23e179]
+              - paragraph [ref=f23e180]: Vincule alunos às turmas e gerencie transporte escolar e AEE.
+              - generic [ref=f23e181]: 187 matrícula(s) ativa(s)
+            - generic [aria-hidden] [ref=f23e182]: 󰅂
+          - link "Profissionais Cadastre gestores e professores com dados do Censo Escolar. 42 profissional(is) cadastrado(s)" [ref=f23e183] [cursor=pointer]:
+            - /url: https://apoio.servidorcaju.com.br/profissionais
+            - generic [aria-hidden] [ref=f23e185]: 󱃊
+            - generic [ref=f23e186]:
+              - heading "Profissionais" [level=3] [ref=f23e187]
+              - paragraph [ref=f23e188]: Cadastre gestores e professores com dados do Censo Escolar.
+              - generic [ref=f23e189]: 42 profissional(is) cadastrado(s)
+            - generic [aria-hidden] [ref=f23e190]: 󰅂
+      - region [ref=f23e191]:
+        - heading "Acesso rápido" [level=2] [ref=f23e192]
+        - generic [ref=f23e193]:
+          - link "Cargos Perfis de acesso" [ref=f23e194] [cursor=pointer]:
+            - /url: https://apoio.servidorcaju.com.br/cargos
+            - generic [aria-hidden] [ref=f23e195]: 󰶪
+            - generic [ref=f23e196]:
+              - generic [ref=f23e197]: Cargos
+              - generic [ref=f23e198]: Perfis de acesso
+          - link "Permissões Autorizações do sistema" [ref=f23e199] [cursor=pointer]:
+            - /url: https://apoio.servidorcaju.com.br/permissoes
+            - generic [aria-hidden] [ref=f23e200]: 󰍁
+            - generic [ref=f23e201]:
+              - generic [ref=f23e202]: Permissões
+              - generic [ref=f23e203]: Autorizações do sistema

@@ -1,0 +1,23 @@
+- generic [ref=f3e305]:
+  - generic [ref=f3e307]:
+    - generic [ref=f3e309]:
+      - generic [aria-hidden] [ref=f3e311]: 󰀓
+      - generic [ref=f3e312]:
+        - generic: Login de acesso
+        - textbox "Login de acesso" [ref=f3e313]: italomprof@gmail.com
+    - alert [ref=f3e314]:
+      - generic [ref=f3e315]: Usuario/senha inválidos.
+  - generic [ref=f3e316]:
+    - generic [ref=f3e317]:
+      - generic [ref=f3e319]:
+        - generic [aria-hidden] [ref=f3e321]: 󰍁
+        - generic [ref=f3e322]:
+          - generic: Senha
+          - textbox "Senha" [ref=f3e323]: 16/10/1999
+        - button "󰈉" [ref=f3e325] [cursor=pointer]
+      - alert [ref=f3e326]
+    - link "Esqueceu a senha?" [ref=f3e329] [cursor=pointer]:
+      - /url: "#"
+    - button "Entrar no sistema" [disabled]:
+      - generic:
+        - progressbar

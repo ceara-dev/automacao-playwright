@@ -1,0 +1,469 @@
+- generic [ref=e35]:
+  - generic [ref=e37]:
+    - navigation [ref=e38]:
+      - generic [ref=e39]:
+        - img "Logomarca de Apoio" [ref=e41]
+        - 'button "Ano letivo: 2026. Clique para alterar." [ref=e43] [cursor=pointer]':
+          - generic [ref=e44]:
+            - generic [aria-hidden] [ref=e45]: 󰙹
+            - generic [ref=e46]: "2026"
+            - generic [aria-hidden] [ref=e47]: 󰅀
+        - separator [ref=e48]
+        - list [ref=e50]:
+          - generic [ref=e52]:
+            - generic [aria-hidden] [ref=e53]: 󰚡
+            - text: Início
+          - option "Dashboard" [ref=e54] [cursor=pointer]
+          - separator [ref=e57]
+          - generic [ref=e59]:
+            - generic [aria-hidden] [ref=e60]: 󱔟
+            - text: Administração
+          - option "Escolas" [ref=e61] [cursor=pointer]
+          - option "Profissionais" [ref=e64] [cursor=pointer]
+          - option "Circuito de Notas" [ref=e67] [cursor=pointer]
+          - option "Componentes Curriculares" [ref=e70] [cursor=pointer]
+          - option "Processos/Documentos" [ref=e74] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e78]: 󰅀
+          - separator [ref=e79]
+          - generic [ref=e81]:
+            - generic [aria-hidden] [ref=e82]: 󱆀
+            - text: Acadêmico
+          - option "Alunos" [ref=e83] [cursor=pointer]
+          - option "Matrículas" [ref=e86] [cursor=pointer]
+          - option "Turmas" [ref=e89] [cursor=pointer]
+          - option "Prorrogações" [ref=e92] [cursor=pointer]
+          - option "Diários" [ref=e95] [cursor=pointer]
+          - option "Presença Notifiq" [ref=e98] [cursor=pointer]
+          - option "Feriados" [ref=e101] [cursor=pointer]
+          - option "Justificativa de Falta" [ref=e104] [cursor=pointer]
+          - separator [ref=e107]
+          - generic [ref=e109]:
+            - generic [aria-hidden] [ref=e110]: 󱕎
+            - text: Relatórios
+          - option "Relatórios" [selected] [ref=e111] [cursor=pointer]
+          - separator [ref=e114]
+          - generic [ref=e116]:
+            - generic [aria-hidden] [ref=e117]: 󰨒
+            - text: Administração do Sistema
+          - option "ACL" [ref=e119] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e123]: 󰅀
+          - option "Configurações Acadêmicas" [ref=e124] [cursor=pointer]
+          - option "Auditoria" [ref=e127] [cursor=pointer]
+      - generic [ref=e130]:
+        - button "Editar perfil de playwright" [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]: p
+          - generic [ref=e135]:
+            - generic [ref=e136]: playwright
+            - generic [ref=e137]: Super Administrador
+        - separator [ref=e138]
+        - generic [ref=e139]:
+          - button "Versão 0.1.0. Clique para ver o changelog." [ref=e140] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e141]: 󰓼
+            - generic [ref=e142]: versão 0.1.0
+          - button "Sair da conta" [ref=e143] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e145]: 󰍃
+    - banner [ref=e146]:
+      - generic [ref=e147]:
+        - button "Fechar menu" [ref=e148] [cursor=pointer]:
+          - generic [aria-hidden] [ref=e150]: 󰍜
+        - generic [ref=e151]: Colégio Apoio
+        - button "Notificações" [ref=e153] [cursor=pointer]:
+          - generic [aria-hidden] [ref=e157]: 󰂜
+        - button "Menu do usuário" [ref=e158] [cursor=pointer]:
+          - generic [ref=e159]: P
+    - main [ref=e161]:
+      - list [ref=e163]:
+        - listitem [ref=e164]:
+          - link "Dashboard" [ref=e165] [cursor=pointer]:
+            - /url: http://veramendes.local/dashboard
+        - listitem [aria-hidden] [ref=e166]: ">"
+        - listitem [ref=e167]:
+          - link "Relatórios" [ref=e168] [cursor=pointer]:
+            - /url: http://veramendes.local/relatorios
+        - listitem [aria-hidden] [ref=e169]: ">"
+        - listitem:
+          - generic: Relatórios Notifiq
+      - generic [ref=e170]:
+        - heading "Relatórios Notifiq" [level=5] [ref=e171]
+        - generic [ref=e172]: Registros e presenças coletadas pelos dispositivos Notifiq.
+        - tablist [ref=e174]:
+          - generic [ref=e176]:
+            - tab "Todos os relatórios" [ref=e177] [cursor=pointer]
+            - tab "Notifiq" [selected] [ref=e179] [cursor=pointer]
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - generic [ref=e186]:
+              - generic [aria-hidden] [ref=e188]: 󰃭
+              - textbox "Selecionar período..." [ref=e191]:
+                - /placeholder: dd/mm/yyyy
+                - text: 24/08/2026 - 23/09/2026
+              - generic: Selecionar período...
+            - combobox [ref=e195] [cursor=pointer]:
+              - generic [ref=e196]:
+                - generic: Escola
+                - generic [ref=e197]:
+                  - combobox "Escola"
+              - text: 󰅙
+              - generic [aria-hidden] [ref=e199]: 󰍝
+            - generic [ref=e200]:
+              - generic:
+                - generic:
+                  - combobox:
+                    - generic:
+                      - generic: Turma
+                      - generic:
+                        - combobox "Turma" [disabled]
+                    - generic:
+                      - generic [aria-hidden]: 󰍝
+            - generic [ref=e201]:
+              - generic:
+                - generic:
+                  - combobox:
+                    - generic:
+                      - generic: Aluno
+                      - generic:
+                        - combobox "Aluno" [disabled]
+                    - generic:
+                      - button [aria-hidden]: 󰍝
+            - combobox [ref=e205] [cursor=pointer]:
+              - generic [ref=e206]:
+                - generic: Dispositivos Notifiq
+                - generic [ref=e207]:
+                  - combobox "Dispositivos Notifiq"
+              - text: 󰅙
+              - generic [aria-hidden] [ref=e209]: 󰍝
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - button "Filtrar relatórios Notifiq" [ref=e212] [cursor=pointer]:
+                - generic [ref=e213]:
+                  - generic [aria-hidden] [ref=e214]: 󰈶
+                  - text: Filtrar
+              - button "Limpar filtros" [ref=e215] [cursor=pointer]:
+                - generic [ref=e216]:
+                  - generic [aria-hidden] [ref=e217]: 󱀿
+                  - text: Limpar
+            - button "Exportar relatórios Notifiq" [ref=e219] [cursor=pointer]:
+              - generic [ref=e220]:
+                - generic [aria-hidden] [ref=e221]: 󰇚
+                - text: Exportar
+        - generic [ref=e222]:
+          - generic [ref=e224]:
+            - generic [ref=e225]:
+              - generic [ref=e226]: Total de registros
+              - generic [aria-hidden] [ref=e227]: 󰨸
+            - generic [ref=e228]: "5.752"
+            - generic [ref=e229]: No período selecionado
+          - generic [ref=e231]:
+            - generic [ref=e232]:
+              - generic [ref=e233]: Presenças
+              - generic [aria-hidden] [ref=e234]: 󰍂
+            - generic [ref=e235]: "3.186"
+            - generic [ref=e236]: 55.4% do total
+          - generic [ref=e238]:
+            - generic [ref=e239]:
+              - generic [ref=e240]: Saídas
+              - generic [aria-hidden] [ref=e241]: 󰍃
+            - generic [ref=e242]: "2.566"
+            - generic [ref=e243]: 44.6% do total
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e247]: Dispositivos ativos
+              - generic [aria-hidden] [ref=e248]: 󰾰
+            - generic [ref=e249]: "2"
+            - generic [ref=e250]: Com registros no período
+        - region [ref=e251]:
+          - heading "Relatórios disponíveis" [level=2] [ref=e252]
+          - text: 󰭨 󰛐 󰮏 󱆀 󰛐 󰮏 󰋀 󰛐 󰮏 󱍲 󰛐 󰮏 󱛡 󰛐 󰮏 󰨝 󰛐 󰮏 󰞮 󰛐 󰮏
+          - table [ref=e257]:
+            - rowgroup [ref=e258]:
+              - row [ref=e259]:
+                - columnheader "Relatório" [ref=e260]
+                - columnheader "Descrição" [ref=e261]
+                - columnheader "Tipo" [ref=e262]
+                - columnheader "Ações" [ref=e263]
+            - rowgroup [ref=e264]:
+              - row [ref=e265]:
+                - cell [ref=e266]:
+                  - generic [ref=e267]:
+                    - generic [aria-hidden] [ref=e268]: 󰭨
+                    - text: Registros por Período
+                - cell "Lista todos os registros coletados no sistema Notifiq dentro do período selecionado." [ref=e269]
+                - cell "Geral" [ref=e270]
+                - cell [ref=e273]:
+                  - button "Visualizar relatório Registros por Período" [ref=e274] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e276]: 󰛐
+                  - button "Baixar relatório Registros por Período" [ref=e277] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e279]: 󰮏
+              - row [ref=e280]:
+                - cell [ref=e281]:
+                  - generic [ref=e282]:
+                    - generic [aria-hidden] [ref=e283]: 󱆀
+                    - text: Presença por Escola
+                - cell "Resumo de presenças por escola, com taxa de presença e saída." [ref=e284]
+                - cell "Escola" [ref=e285]
+                - cell [ref=e288]:
+                  - button "Visualizar relatório Presença por Escola" [ref=e289] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e291]: 󰛐
+                  - button "Baixar relatório Presença por Escola" [ref=e292] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e294]: 󰮏
+              - row [ref=e295]:
+                - cell [ref=e296]:
+                  - generic [ref=e297]:
+                    - generic [aria-hidden] [ref=e298]: 󰋀
+                    - text: Presença por Turma
+                - cell "Resumo de presenças por turma, com taxa de presença e saída." [ref=e299]
+                - cell "Turma" [ref=e300]
+                - cell [ref=e303]:
+                  - button "Visualizar relatório Presença por Turma" [ref=e304] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e306]: 󰛐
+                  - button "Baixar relatório Presença por Turma" [ref=e307] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e309]: 󰮏
+              - row [ref=e310]:
+                - cell [ref=e311]:
+                  - generic [ref=e312]:
+                    - generic [aria-hidden] [ref=e313]: 󱍲
+                    - text: Registros por Aluno
+                - cell "Histórico de registros de um aluno ou lista de alunos com seus registros." [ref=e314]
+                - cell "Aluno" [ref=e315]
+                - cell [ref=e318]:
+                  - button "Visualizar relatório Registros por Aluno" [ref=e319] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e321]: 󰛐
+                  - button "Baixar relatório Registros por Aluno" [ref=e322] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e324]: 󰮏
+              - row [ref=e325]:
+                - cell [ref=e326]:
+                  - generic [ref=e327]:
+                    - generic [aria-hidden] [ref=e328]: 󱛡
+                    - text: Registro de Entrada e Saída
+                - cell "Entrada e saída diária dos alunos, consolidada por matrícula, com dispositivo e situação." [ref=e329]
+                - cell "Turma" [ref=e330]
+                - cell [ref=e333]:
+                  - button "Visualizar relatório Registro de Entrada e Saída" [ref=e334] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e336]: 󰛐
+                  - button "Baixar relatório Registro de Entrada e Saída" [ref=e337] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e339]: 󰮏
+              - row [ref=e340]:
+                - cell [ref=e341]:
+                  - generic [ref=e342]:
+                    - generic [aria-hidden] [ref=e343]: 󰨝
+                    - text: Painel de Presença (Dashboard)
+                - cell "Visão consolidada de presenças em gráficos e indicadores." [ref=e344]
+                - cell "Dashboard" [ref=e345]
+                - cell [ref=e348]:
+                  - button "Visualizar relatório Painel de Presença (Dashboard)" [ref=e349] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e351]: 󰛐
+                  - button "Baixar relatório Painel de Presença (Dashboard)" [disabled]:
+                    - generic:
+                      - generic [aria-hidden]: 󰮏
+              - row [ref=e352]:
+                - cell [ref=e353]:
+                  - generic [ref=e354]:
+                    - generic [aria-hidden] [ref=e355]: 󰞮
+                    - text: Registros por Dispositivo
+                - cell "Relatório de registros coletados por dispositivo Notifiq." [ref=e356]
+                - cell "Dispositivo" [ref=e357]
+                - cell [ref=e360]:
+                  - button "Visualizar relatório Registros por Dispositivo" [ref=e361] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e363]: 󰛐
+                  - button "Baixar relatório Registros por Dispositivo" [ref=e364] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e366]: 󰮏
+        - region [ref=e367]:
+          - heading "Registros no período" [level=2] [ref=e368]
+          - generic [ref=e369]:
+            - text: 󰞮 󰞮 󰞮 󰞮 󰞮 󰞮 󰞮 󰞮 󰞮 󰞮 󰞮 󰞮 󰞮 󰞮 󰞮 󰅁 󰅂
+            - generic [ref=e370]:
+              - table [ref=e374]:
+                - rowgroup [ref=e375]:
+                  - row [ref=e376]:
+                    - columnheader "Aluno" [ref=e377]
+                    - columnheader "Matrícula" [ref=e378]
+                    - columnheader "Escola" [ref=e379]
+                    - columnheader "Turma" [ref=e380]
+                    - columnheader "Data/Hora" [ref=e381]
+                    - columnheader "Dispositivo" [ref=e382]
+                    - columnheader "Tipo" [ref=e383]
+                - rowgroup [ref=e384]:
+                  - row [ref=e385]:
+                    - cell "João Acelino Viana dos Santos Pereira" [ref=e386]
+                    - cell "33" [ref=e387]
+                    - cell "Colégio Apoio" [ref=e388]
+                    - cell "7º Ano" [ref=e389]
+                    - cell "17/09/2026 07:42:45" [ref=e390]
+                    - cell "APOIO-1-001" [ref=e391]
+                    - cell "Entrada" [ref=e392]
+                  - row [ref=e395]:
+                    - cell "Maya Coelho da Silva" [ref=e396]
+                    - cell "84" [ref=e397]
+                    - cell "Colégio Apoio" [ref=e398]
+                    - cell "9º Ano" [ref=e399]
+                    - cell "17/09/2026 07:42:10" [ref=e400]
+                    - cell "APOIO-1-001" [ref=e401]
+                    - cell "Entrada" [ref=e402]
+                  - row [ref=e405]:
+                    - cell "Bianca Mineiro Lima Souza" [ref=e406]
+                    - cell "50" [ref=e407]
+                    - cell "Colégio Apoio" [ref=e408]
+                    - cell "8º Ano" [ref=e409]
+                    - cell "17/09/2026 07:23:22" [ref=e410]
+                    - cell "APOIO-1-001" [ref=e411]
+                    - cell "Entrada" [ref=e412]
+                  - row [ref=e415]:
+                    - cell "Icaro Alves Silva da Costa" [ref=e416]
+                    - cell "29" [ref=e417]
+                    - cell "Colégio Apoio" [ref=e418]
+                    - cell "7º Ano" [ref=e419]
+                    - cell "17/09/2026 07:20:23" [ref=e420]
+                    - cell "APOIO-1-001" [ref=e421]
+                    - cell "Entrada" [ref=e422]
+                  - row [ref=e425]:
+                    - cell "José Ryan dos Santos Sousa" [ref=e426]
+                    - cell "112" [ref=e427]
+                    - cell "Colégio Apoio" [ref=e428]
+                    - cell "1º Série" [ref=e429]
+                    - cell "17/09/2026 07:17:19" [ref=e430]
+                    - cell "APOIO-1-001" [ref=e431]
+                    - cell "Entrada" [ref=e432]
+                  - row [ref=e435]:
+                    - cell "Giovanna da Silva Carvalho Teles" [ref=e436]
+                    - cell "104" [ref=e437]
+                    - cell "Colégio Apoio" [ref=e438]
+                    - cell "1º Série" [ref=e439]
+                    - cell "17/09/2026 07:16:58" [ref=e440]
+                    - cell "APOIO-1-001" [ref=e441]
+                    - cell "Entrada" [ref=e442]
+                  - row [ref=e445]:
+                    - cell "Carlos Alexandre Cardozo da Silva Fonseca" [ref=e446]
+                    - cell "168" [ref=e447]
+                    - cell "Colégio Apoio" [ref=e448]
+                    - cell "3º Série" [ref=e449]
+                    - cell "17/09/2026 07:16:10" [ref=e450]
+                    - cell "APOIO-1-001" [ref=e451]
+                    - cell "Entrada" [ref=e452]
+                  - row [ref=e455]:
+                    - cell "Alberto do Nascimento Ferreira Neto" [ref=e456]
+                    - cell "162" [ref=e457]
+                    - cell "Colégio Apoio" [ref=e458]
+                    - cell "3º Série" [ref=e459]
+                    - cell "17/09/2026 07:16:04" [ref=e460]
+                    - cell "APOIO-1-001" [ref=e461]
+                    - cell "Entrada" [ref=e462]
+                  - row [ref=e465]:
+                    - cell "Davi Silva Lima" [ref=e466]
+                    - cell "172" [ref=e467]
+                    - cell "Colégio Apoio" [ref=e468]
+                    - cell "3º Série" [ref=e469]
+                    - cell "17/09/2026 07:14:55" [ref=e470]
+                    - cell "APOIO-1-001" [ref=e471]
+                    - cell "Entrada" [ref=e472]
+                  - row [ref=e475]:
+                    - cell "João Pedro Gomes de Sousa" [ref=e476]
+                    - cell "142" [ref=e477]
+                    - cell "Colégio Apoio" [ref=e478]
+                    - cell "2º Série" [ref=e479]
+                    - cell "17/09/2026 07:14:25" [ref=e480]
+                    - cell "APOIO-1-001" [ref=e481]
+                    - cell "Entrada" [ref=e482]
+                  - row [ref=e485]:
+                    - cell "Caio Anjos Fontenele" [ref=e486]
+                    - cell "71" [ref=e487]
+                    - cell "Colégio Apoio" [ref=e488]
+                    - cell "9º Ano" [ref=e489]
+                    - cell "17/09/2026 07:13:56" [ref=e490]
+                    - cell "APOIO-1-001" [ref=e491]
+                    - cell "Entrada" [ref=e492]
+                  - row [ref=e495]:
+                    - cell "Marcus Vinicius Rocha dos Santos" [ref=e496]
+                    - cell "180" [ref=e497]
+                    - cell "Colégio Apoio" [ref=e498]
+                    - cell "3º Série" [ref=e499]
+                    - cell "17/09/2026 07:13:52" [ref=e500]
+                    - cell "APOIO-1-001" [ref=e501]
+                    - cell "Entrada" [ref=e502]
+                  - row [ref=e505]:
+                    - cell "Cassiano Liberalino Rodrigues Carvalho" [ref=e506]
+                    - cell "101" [ref=e507]
+                    - cell "Colégio Apoio" [ref=e508]
+                    - cell "1º Série" [ref=e509]
+                    - cell "17/09/2026 07:13:35" [ref=e510]
+                    - cell "APOIO-1-001" [ref=e511]
+                    - cell "Entrada" [ref=e512]
+                  - row [ref=e515]:
+                    - cell "Isaac dos Santos de Sousa Filho" [ref=e516]
+                    - cell "177" [ref=e517]
+                    - cell "Colégio Apoio" [ref=e518]
+                    - cell "3º Série" [ref=e519]
+                    - cell "17/09/2026 07:13:33" [ref=e520]
+                    - cell "PI-CJP-XX-14" [ref=e521]
+                    - cell "Entrada" [ref=e522]
+                  - row [ref=e525]:
+                    - cell "Lara Liberalina Rodrigues Carvalho" [ref=e526]
+                    - cell "178" [ref=e527]
+                    - cell "Colégio Apoio" [ref=e528]
+                    - cell "3º Série" [ref=e529]
+                    - cell "17/09/2026 07:13:33" [ref=e530]
+                    - cell "PI-CJP-XX-14" [ref=e531]
+                    - cell "Entrada" [ref=e532]
+              - navigation "Navegação de paginação" [ref=e536]:
+                - list [ref=e537]:
+                  - listitem [ref=e538]:
+                    - button "Página anterior" [disabled]:
+                      - generic:
+                        - generic [aria-hidden]: 󰅁
+                  - listitem [ref=e539]:
+                    - button "Página atual, página 1" [ref=e540] [cursor=pointer]:
+                      - generic [ref=e541]: "1"
+                  - listitem [ref=e542]:
+                    - button "Ir à página 2" [ref=e543] [cursor=pointer]:
+                      - generic [ref=e544]: "2"
+                  - listitem [ref=e545]:
+                    - button "Ir à página 3" [ref=e546] [cursor=pointer]:
+                      - generic [ref=e547]: "3"
+                  - listitem [ref=e548]:
+                    - button "Ir à página 4" [ref=e549] [cursor=pointer]:
+                      - generic [ref=e550]: "4"
+                  - listitem [ref=e551]:
+                    - button "..." [disabled]
+                  - listitem [ref=e552]:
+                    - button "Ir à página 384" [ref=e553] [cursor=pointer]:
+                      - generic [ref=e554]: "384"
+                  - listitem [ref=e555]:
+                    - button "Próxima página" [ref=e556] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e558]: 󰅂
+  - generic:
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - tooltip
+    - dialog:
+      - generic [ref=e567]:
+        - generic [ref=e568]:
+          - generic [ref=e569]:
+            - generic [ref=e570]: Presença por Escola
+            - generic [ref=e571]: Resumo de presenças por escola, com taxa de presença e saída.
+          - generic [ref=e572]: Escola
+        - table [ref=e578]:
+          - rowgroup [ref=e579]:
+            - row [ref=e580]:
+              - columnheader "Escola" [ref=e581]
+              - columnheader "Total" [ref=e582]
+              - columnheader "Presenças" [ref=e583]
+              - columnheader "Saídas" [ref=e584]
+              - columnheader "% Presença" [ref=e585]
+          - rowgroup [ref=e586]:
+            - row [ref=e587]:
+              - cell "Colégio Apoio" [ref=e588]
+              - cell "5.752" [ref=e589]
+              - cell "3.186" [ref=e590]
+              - cell "2.566" [ref=e591]
+              - cell "55.4%" [ref=e592]
+        - button "Fechar" [ref=e594] [cursor=pointer]

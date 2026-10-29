@@ -1,0 +1,99 @@
+- generic [ref=f4e797]:
+  - navigation [ref=f4e798]:
+    - generic [ref=f4e799]:
+      - img "Logomarca de Apoio" [ref=f4e801]
+      - 'button "Ano letivo: 2026. Clique para alterar." [ref=f4e803] [cursor=pointer]':
+        - generic [ref=f4e804]:
+          - generic [aria-hidden] [ref=f4e805]: 󰙹
+          - generic [ref=f4e806]: "2026"
+          - generic [aria-hidden] [ref=f4e807]: 󰅀
+      - separator [ref=f4e808]
+      - list [ref=f4e810]:
+        - generic [ref=f4e812]:
+          - generic [aria-hidden] [ref=f4e813]: 󰚡
+          - text: Início
+        - option "Dashboard" [ref=f4e814] [cursor=pointer]
+        - separator [ref=f4e817]
+        - generic [ref=f4e819]:
+          - generic [aria-hidden] [ref=f4e820]: 󱔟
+          - text: Administração
+        - option "Escolas" [ref=f4e821] [cursor=pointer]
+        - option "Profissionais" [ref=f4e824] [cursor=pointer]
+        - option "Circuito de Notas" [ref=f4e827] [cursor=pointer]
+        - option "Componentes Curriculares" [ref=f4e830] [cursor=pointer]
+        - option "Processos/Documentos" [ref=f4e834] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f4e838]: 󰅀
+        - separator [ref=f4e839]
+        - generic [ref=f4e841]:
+          - generic [aria-hidden] [ref=f4e842]: 󱆀
+          - text: Acadêmico
+        - option "Alunos" [selected] [ref=f4e843] [cursor=pointer]
+        - option "Matrículas" [ref=f4e846] [cursor=pointer]
+        - option "Turmas" [ref=f4e849] [cursor=pointer]
+        - option "Prorrogações" [ref=f4e852] [cursor=pointer]
+        - option "Diários" [ref=f4e855] [cursor=pointer]
+        - option "Presença Notifiq" [ref=f4e858] [cursor=pointer]
+        - option "Feriados" [ref=f4e861] [cursor=pointer]
+        - option "Justificativa de Falta" [ref=f4e864] [cursor=pointer]
+        - separator [ref=f4e867]
+        - generic [ref=f4e869]:
+          - generic [aria-hidden] [ref=f4e870]: 󱕎
+          - text: Relatórios
+        - option "Relatórios" [ref=f4e871] [cursor=pointer]
+        - separator [ref=f4e874]
+        - generic [ref=f4e876]:
+          - generic [aria-hidden] [ref=f4e877]: 󰨒
+          - text: Administração do Sistema
+        - option "ACL" [ref=f4e879] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f4e883]: 󰅀
+        - option "Configurações Acadêmicas" [ref=f4e884] [cursor=pointer]
+        - option "Auditoria" [ref=f4e887] [cursor=pointer]
+    - generic [ref=f4e890]:
+      - button "Editar perfil de playwright" [ref=f4e891] [cursor=pointer]:
+        - generic [ref=f4e892]: p
+        - generic [ref=f4e895]:
+          - generic [ref=f4e896]: playwright
+          - generic [ref=f4e897]: Super Administrador
+      - separator [ref=f4e898]
+      - generic [ref=f4e899]:
+        - button "Versão 0.1.0. Clique para ver o changelog." [ref=f4e900] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f4e901]: 󰓼
+          - generic [ref=f4e902]: versão 0.1.0
+        - button "Sair da conta" [ref=f4e903] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f4e905]: 󰍃
+  - banner [ref=f4e906]:
+    - generic [ref=f4e907]:
+      - button "Fechar menu" [ref=f4e908] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f4e910]: 󰍜
+      - generic [ref=f4e911]: Colégio Apoio
+      - button "Notificações" [ref=f4e913] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f4e917]: 󰂜
+      - button "Menu do usuário" [ref=f4e918] [cursor=pointer]:
+        - generic [ref=f4e919]: P
+  - main [ref=f4e921]:
+    - list [ref=f4e923]:
+      - listitem [ref=f4e924]:
+        - link "Dashboard" [ref=f4e925] [cursor=pointer]:
+          - /url: http://veramendes.local/dashboard
+      - listitem [aria-hidden] [ref=f4e926]: ">"
+      - listitem [ref=f4e927]:
+        - link "Alunos" [ref=f4e928] [cursor=pointer]:
+          - /url: http://veramendes.local/alunos
+      - listitem [aria-hidden] [ref=f4e929]: ">"
+      - listitem:
+        - generic: Criar
+    - generic [ref=f4e930]:
+      - heading [level=5] [ref=f4e931]:
+        - generic [aria-hidden] [ref=f4e933] [cursor=pointer]: 󰁍
+        - text: Alunos
+      - generic [ref=f4e935]:
+        - generic [ref=f4e936]: Verificar CPF do Aluno
+        - generic [ref=f4e937]:
+          - paragraph [ref=f4e938]: Informe o CPF do aluno para verificar se já está cadastrado no sistema.
+          - generic [ref=f4e939]:
+            - generic [ref=f4e942]:
+              - generic: CPF
+              - textbox "CPF" [ref=f4e943]:
+                - /placeholder: 000.000.000-00
+            - alert [ref=f4e944]
+          - button "Verificar CPF" [disabled]

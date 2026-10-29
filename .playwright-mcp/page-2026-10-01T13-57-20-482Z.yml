@@ -1,0 +1,22 @@
+- generic [ref=f4e8]:
+  - generic [ref=f4e10]:
+    - generic [ref=f4e12]:
+      - generic [aria-hidden] [ref=f4e14]: 󰀓
+      - generic [ref=f4e15]:
+        - generic: Login de acesso
+        - textbox "Login de acesso" [ref=f4e16]: qa.ti.7614@caju.com.br
+    - alert [ref=f4e17]
+  - generic [ref=f4e19]:
+    - generic [ref=f4e20]:
+      - generic [ref=f4e22]:
+        - generic [aria-hidden] [ref=f4e24]: 󰍁
+        - generic [ref=f4e25]:
+          - generic: Senha
+          - textbox "Senha" [ref=f4e26]: Qa@7614teste
+        - button "󰈉" [ref=f4e28] [cursor=pointer]
+      - alert [ref=f4e29]
+    - link "Esqueceu a senha?" [ref=f4e32] [cursor=pointer]:
+      - /url: "#"
+    - button "Entrar no sistema" [disabled]:
+      - generic:
+        - progressbar
